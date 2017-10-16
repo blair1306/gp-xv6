@@ -1,0 +1,5 @@
+<dec f='codebrowser/defs.h' l='78' type='void lapicstartap(uchar , uint )'/>
+<def f='codebrowser/lapic.c' l='137' ll='170' type='void lapicstartap(uchar apicid, uint addr)'/>
+<doc f='codebrowser/lapic.c' l='135'>// Start additional processor running entry code at addr.
+// See Appendix B of MultiProcessor Specification.</doc>
+<use f='codebrowser/main.c' l='94' u='c' c='startothers'/>

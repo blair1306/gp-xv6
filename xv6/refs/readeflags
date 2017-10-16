@@ -1,0 +1,5 @@
+<def f='codebrowser/x86.h' l='94' ll='100' type='uint readeflags()'/>
+<use f='codebrowser/lapic.c' l='106' u='c' c='cpunum'/>
+<use f='codebrowser/proc.c' l='303' u='c' c='sched'/>
+<use f='codebrowser/spinlock.c' l='101' u='c' c='pushcli'/>
+<use f='codebrowser/spinlock.c' l='110' u='c' c='popcli'/>

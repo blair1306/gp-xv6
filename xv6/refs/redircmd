@@ -1,0 +1,6 @@
+<def f='codebrowser/sh.c' l='26' ll='33'/>
+<def f='codebrowser/sh.c' l='207' ll='221' type='struct cmd * redircmd(struct cmd * subcmd, char * file, char * efile, int mode, int fd)'/>
+<use f='codebrowser/sh.c' l='387' u='c' c='parseredirs'/>
+<use f='codebrowser/sh.c' l='390' u='c' c='parseredirs'/>
+<use f='codebrowser/sh.c' l='393' u='c' c='parseredirs'/>
+<size>24</size>

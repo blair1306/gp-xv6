@@ -1,0 +1,9 @@
+<dec f='codebrowser/proc.h' l='15' type='struct cpu *'/>
+<offset>1440</offset>
+<doc f='codebrowser/proc.h' l='14'>// Cpu-local storage variables; see below</doc>
+<use f='codebrowser/vm.c' l='32' u='a' c='seginit'/>
+<use f='codebrowser/vm.c' l='32' u='a' c='seginit'/>
+<use f='codebrowser/vm.c' l='32' u='a' c='seginit'/>
+<use f='codebrowser/vm.c' l='32' u='a' c='seginit'/>
+<use f='codebrowser/vm.c' l='32' u='a' c='seginit'/>
+<use f='codebrowser/vm.c' l='32' u='a' c='seginit'/>

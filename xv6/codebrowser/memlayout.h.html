@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>memlayout.h source code [codebrowser/memlayout.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/memlayout.h'; var root_path = '..'; var data_path = '../../data';</script>
+<script src='../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='./'>codebrowser</a>/<a href='memlayout.h.html'>memlayout.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// Memory layout</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#define <dfn class="macro" id="_M/EXTMEM" data-ref="_M/EXTMEM">EXTMEM</dfn>  0x100000            // Start of extended memory</u></td></tr>
+<tr><th id="4">4</th><td><u>#define <dfn class="macro" id="_M/PHYSTOP" data-ref="_M/PHYSTOP">PHYSTOP</dfn> 0xE000000           // Top physical memory</u></td></tr>
+<tr><th id="5">5</th><td><u>#define <dfn class="macro" id="_M/DEVSPACE" data-ref="_M/DEVSPACE">DEVSPACE</dfn> 0xFE000000         // Other devices are at high addresses</u></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><i>// Key addresses for address space layout (see kmap in vm.c for layout)</i></td></tr>
+<tr><th id="8">8</th><td><u>#define <dfn class="macro" id="_M/KERNBASE" data-ref="_M/KERNBASE">KERNBASE</dfn> 0x80000000         // First kernel virtual address</u></td></tr>
+<tr><th id="9">9</th><td><u>#define <dfn class="macro" id="_M/KERNLINK" data-ref="_M/KERNLINK">KERNLINK</dfn> (KERNBASE+EXTMEM)  // Address where kernel is linked</u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><u>#<span data-ppcond="11">ifndef</span> <span class="macro" data-ref="_M/__ASSEMBLER__">__ASSEMBLER__</span></u></td></tr>
+<tr><th id="12">12</th><td></td></tr>
+<tr><th id="13">13</th><td><em>static</em> <b>inline</b> <a class="typedef" href="types.h.html#uint" title='uint' data-type='unsigned int' data-ref="uint">uint</a> <dfn class="decl def" id="v2p" title='v2p' data-ref="v2p">v2p</dfn>(<em>void</em> *<dfn class="local col3 decl" id="33a" title='a' data-type='void *' data-ref="33a">a</dfn>) { <b>return</b> ((<a class="typedef" href="types.h.html#uint" title='uint' data-type='unsigned int' data-ref="uint">uint</a>) (<a class="local col3 ref" href="#33a" title='a' data-ref="33a">a</a>))  - <a class="macro" href="#8" title="0x80000000" data-ref="_M/KERNBASE">KERNBASE</a>; }</td></tr>
+<tr><th id="14">14</th><td><em>static</em> <b>inline</b> <em>void</em> *<dfn class="decl def" id="p2v" title='p2v' data-ref="p2v">p2v</dfn>(<a class="typedef" href="types.h.html#uint" title='uint' data-type='unsigned int' data-ref="uint">uint</a> <dfn class="local col4 decl" id="34a" title='a' data-type='uint' data-ref="34a">a</dfn>) { <b>return</b> (<em>void</em> *) ((<a class="local col4 ref" href="#34a" title='a' data-ref="34a">a</a>) + <a class="macro" href="#8" title="0x80000000" data-ref="_M/KERNBASE">KERNBASE</a>); }</td></tr>
+<tr><th id="15">15</th><td></td></tr>
+<tr><th id="16">16</th><td><u>#<span data-ppcond="11">endif</span></u></td></tr>
+<tr><th id="17">17</th><td></td></tr>
+<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/V2P" data-ref="_M/V2P">V2P</dfn>(a) (((uint) (a)) - KERNBASE)</u></td></tr>
+<tr><th id="19">19</th><td><u>#define <dfn class="macro" id="_M/P2V" data-ref="_M/P2V">P2V</dfn>(a) (((void *) (a)) + KERNBASE)</u></td></tr>
+<tr><th id="20">20</th><td></td></tr>
+<tr><th id="21">21</th><td><u>#define <dfn class="macro" id="_M/V2P_WO" data-ref="_M/V2P_WO">V2P_WO</dfn>(x) ((x) - KERNBASE)    // same as V2P, but without casts</u></td></tr>
+<tr><th id="22">22</th><td><u>#define <dfn class="macro" id="_M/P2V_WO" data-ref="_M/P2V_WO">P2V_WO</dfn>(x) ((x) + KERNBASE)    // same as V2P, but without casts</u></td></tr>
+<tr><th id="23">23</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='bootmain.c.html'>codebrowser/bootmain.c</a><br/>Generated on <em>2017-Aug-31</em> from project codebrowser revision <em>xv6-rev7</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

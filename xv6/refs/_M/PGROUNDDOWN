@@ -1,0 +1,4 @@
+<dec f='codebrowser/mmu.h' l='130'/>
+<use f='codebrowser/vm.c' l='76' u='c'/>
+<use f='codebrowser/vm.c' l='77' u='c'/>
+<use f='codebrowser/vm.c' l='364' u='c'/>

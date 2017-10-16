@@ -1,0 +1,5 @@
+<dec f='codebrowser/defs.h' l='74' type='int cpunum()'/>
+<doc f='codebrowser/defs.h' l='73'>// lapic.c</doc>
+<def f='codebrowser/lapic.c' l='98' ll='116' type='int cpunum()'/>
+<use f='codebrowser/main.c' l='83' u='c' c='startothers'/>
+<use f='codebrowser/vm.c' l='25' u='c' c='seginit'/>

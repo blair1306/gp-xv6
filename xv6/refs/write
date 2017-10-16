@@ -1,0 +1,30 @@
+<dec f='codebrowser/user.h' l='8' type='int write(int , void * , int )'/>
+<use f='codebrowser/cat.c' l='13' u='c' c='cat'/>
+<use f='codebrowser/forktest.c' l='13' u='c' c='printf'/>
+<use f='codebrowser/grep.c' l='24' u='c' c='grep'/>
+<dec f='include/unistd.h' l='369' type='ssize_t write(int __fd, const void * __buf, size_t __n)'/>
+<use f='codebrowser/mkfs.c' l='162' u='c' c='wsect'/>
+<doc f='include/unistd.h' l='365'>/* Write N bytes of BUF to FD.  Return the number written, or -1.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<use f='codebrowser/printf.c' l='8' u='c' c='putc'/>
+<use f='codebrowser/stressfs.c' l='36' u='c' c='main'/>
+<use f='codebrowser/usertests.c' l='53' u='c' c='writetest'/>
+<use f='codebrowser/usertests.c' l='57' u='c' c='writetest'/>
+<use f='codebrowser/usertests.c' l='102' u='c' c='writetest1'/>
+<use f='codebrowser/usertests.c' l='222' u='c' c='pipe1'/>
+<use f='codebrowser/usertests.c' l='279' u='c' c='preempt'/>
+<use f='codebrowser/usertests.c' l='381' u='c' c='sharedfd'/>
+<use f='codebrowser/usertests.c' l='443' u='c' c='twofiles'/>
+<use f='codebrowser/usertests.c' l='569' u='c' c='unlinkread'/>
+<use f='codebrowser/usertests.c' l='583' u='c' c='unlinkread'/>
+<use f='codebrowser/usertests.c' l='594' u='c' c='unlinkread'/>
+<use f='codebrowser/usertests.c' l='618' u='c' c='linktest'/>
+<use f='codebrowser/usertests.c' l='854' u='c' c='subdir'/>
+<use f='codebrowser/usertests.c' l='872' u='c' c='subdir'/>
+<use f='codebrowser/usertests.c' l='1036' u='c' c='bigwrite'/>
+<use f='codebrowser/usertests.c' l='1064' u='c' c='bigfile'/>
+<use f='codebrowser/usertests.c' l='1235' u='c' c='dirfile'/>
+<use f='codebrowser/usertests.c' l='1424' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1573' u='c' c='fsfull'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/defs.h' l='40' type='struct inode * idup(struct inode * )'/>
+<def f='codebrowser/fs.c' l='257' ll='264' type='struct inode * idup(struct inode * ip)'/>
+<use f='codebrowser/fs.c' l='612' u='c' c='namex'/>
+<doc f='codebrowser/fs.c' l='255'>// Increment reference count for ip.
+// Returns ip to enable ip = idup(ip1) idiom.</doc>
+<use f='codebrowser/proc.c' l='155' u='c' c='fork'/>

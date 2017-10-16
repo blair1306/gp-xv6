@@ -1,0 +1,19 @@
+<def f='codebrowser/mkfs.c' l='46' ll='56' type='uint xint(uint x)'/>
+<use f='codebrowser/mkfs.c' l='81' u='c' c='main'/>
+<use f='codebrowser/mkfs.c' l='82' u='c' c='main'/>
+<use f='codebrowser/mkfs.c' l='83' u='c' c='main'/>
+<use f='codebrowser/mkfs.c' l='84' u='c' c='main'/>
+<use f='codebrowser/mkfs.c' l='145' u='c' c='main'/>
+<use f='codebrowser/mkfs.c' l='147' u='c' c='main'/>
+<use f='codebrowser/mkfs.c' l='223' u='c' c='ialloc'/>
+<use f='codebrowser/mkfs.c' l='258' u='c' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='263' u='c' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='264' u='c' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='267' u='c' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='269' u='c' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='271' u='c' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='275' u='c' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='277' u='c' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='279' u='c' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='281' u='c' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='291' u='c' c='iappend'/>

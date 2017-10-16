@@ -1,0 +1,5 @@
+<dec f='codebrowser/proc.h' l='7' type='struct context *'/>
+<offset>32</offset>
+<doc f='codebrowser/proc.h' l='7'>// swtch() here to enter scheduler</doc>
+<use f='codebrowser/proc.c' l='278' u='a' c='scheduler'/>
+<use f='codebrowser/proc.c' l='306' u='r' c='sched'/>

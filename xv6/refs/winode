@@ -1,0 +1,5 @@
+<dec f='codebrowser/mkfs.c' l='29' type='void winode(uint , struct dinode * )'/>
+<use f='codebrowser/mkfs.c' l='148' u='c' c='main'/>
+<def f='codebrowser/mkfs.c' l='174' ll='186' type='void winode(uint inum, struct dinode * ip)'/>
+<use f='codebrowser/mkfs.c' l='224' u='c' c='ialloc'/>
+<use f='codebrowser/mkfs.c' l='292' u='c' c='iappend'/>

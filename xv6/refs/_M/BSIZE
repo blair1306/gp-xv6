@@ -1,0 +1,16 @@
+<dec f='codebrowser/fs.h' l='12'/>
+<use f='codebrowser/fs.c' l='44' u='c'/>
+<use f='codebrowser/fs.c' l='452' u='c'/>
+<use f='codebrowser/fs.c' l='453' u='c'/>
+<use f='codebrowser/fs.c' l='453' u='c'/>
+<use f='codebrowser/fs.c' l='454' u='c'/>
+<use f='codebrowser/fs.c' l='476' u='c'/>
+<use f='codebrowser/fs.c' l='480' u='c'/>
+<use f='codebrowser/fs.c' l='481' u='c'/>
+<use f='codebrowser/fs.c' l='481' u='c'/>
+<use f='codebrowser/fs.c' l='482' u='c'/>
+<use f='codebrowser/log.c' l='56' u='c'/>
+<use f='codebrowser/log.c' l='77' u='c'/>
+<use f='codebrowser/log.c' l='175' u='c'/>
+<use f='codebrowser/mkfs.c' l='146' u='c'/>
+<use f='codebrowser/mkfs.c' l='146' u='c'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/spinlock.h' l='7' type='struct cpu *'/>
+<offset>64</offset>
+<doc f='codebrowser/spinlock.h' l='7'>// The cpu holding the lock.</doc>
+<use f='codebrowser/spinlock.c' l='17' u='w' c='initlock'/>
+<use f='codebrowser/spinlock.c' l='38' u='w' c='acquire'/>
+<use f='codebrowser/spinlock.c' l='50' u='w' c='release'/>
+<use f='codebrowser/spinlock.c' l='88' u='r' c='holding'/>

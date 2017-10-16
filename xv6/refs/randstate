@@ -1,0 +1,4 @@
+<def f='codebrowser/usertests.c' l='1600' type='unsigned long'/>
+<use f='codebrowser/usertests.c' l='1604' u='w' c='rand'/>
+<use f='codebrowser/usertests.c' l='1604' u='r' c='rand'/>
+<use f='codebrowser/usertests.c' l='1605' u='r' c='rand'/>

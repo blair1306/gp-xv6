@@ -1,0 +1,12 @@
+<dec f='codebrowser/mmu.h' l='133'/>
+<doc f='codebrowser/mmu.h' l='132'>// Page table/directory entry flags.</doc>
+<use f='codebrowser/main.c' l='109' u='c'/>
+<use f='codebrowser/main.c' l='111' u='c'/>
+<use f='codebrowser/vm.c' l='52' u='c'/>
+<use f='codebrowser/vm.c' l='62' u='c'/>
+<use f='codebrowser/vm.c' l='81' u='c'/>
+<use f='codebrowser/vm.c' l='83' u='c'/>
+<use f='codebrowser/vm.c' l='263' u='c'/>
+<use f='codebrowser/vm.c' l='286' u='c'/>
+<use f='codebrowser/vm.c' l='322' u='c'/>
+<use f='codebrowser/vm.c' l='346' u='c'/>

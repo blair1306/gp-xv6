@@ -1,0 +1,4 @@
+<dec f='codebrowser/param.h' l='8'/>
+<use f='codebrowser/file.c' l='12' u='c'/>
+<use f='codebrowser/fs.c' l='441' u='c'/>
+<use f='codebrowser/fs.c' l='469' u='c'/>

@@ -1,0 +1,16 @@
+<def f='codebrowser/x86.h' l='3' ll='10' type='uchar inb(ushort port)'/>
+<use f='codebrowser/bootmain.c' l='54' u='c' c='waitdisk'/>
+<doc f='codebrowser/x86.h' l='1'>// Routines to let C code use special x86 instructions.</doc>
+<use f='codebrowser/console.c' l='136' u='c' c='cgaputc'/>
+<use f='codebrowser/console.c' l='138' u='c' c='cgaputc'/>
+<use f='codebrowser/ide.c' l='38' u='c' c='idewait'/>
+<use f='codebrowser/ide.c' l='58' u='c' c='ideinit'/>
+<use f='codebrowser/kbd.c' l='15' u='c' c='kbdgetc'/>
+<use f='codebrowser/kbd.c' l='18' u='c' c='kbdgetc'/>
+<use f='codebrowser/mp.c' l='154' u='c' c='mpinit'/>
+<use f='codebrowser/uart.c' l='35' u='c' c='uartinit'/>
+<use f='codebrowser/uart.c' l='41' u='c' c='uartinit'/>
+<use f='codebrowser/uart.c' l='42' u='c' c='uartinit'/>
+<use f='codebrowser/uart.c' l='58' u='c' c='uartputc'/>
+<use f='codebrowser/uart.c' l='68' u='c' c='uartgetc'/>
+<use f='codebrowser/uart.c' l='70' u='c' c='uartgetc'/>

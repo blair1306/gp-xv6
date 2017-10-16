@@ -1,0 +1,17 @@
+<dec f='codebrowser/defs.h' l='83' type='void log_write(struct buf * )'/>
+<use f='codebrowser/fs.c' l='45' u='c' c='bzero'/>
+<use f='codebrowser/fs.c' l='67' u='c' c='balloc'/>
+<use f='codebrowser/fs.c' l='93' u='c' c='bfree'/>
+<use f='codebrowser/fs.c' l='191' u='c' c='ialloc'/>
+<use f='codebrowser/fs.c' l='215' u='c' c='iupdate'/>
+<use f='codebrowser/fs.c' l='377' u='c' c='bmap'/>
+<use f='codebrowser/fs.c' l='483' u='c' c='writei'/>
+<def f='codebrowser/log.c' l='159' ll='181' type='void log_write(struct buf * b)'/>
+<doc f='codebrowser/log.c' l='151'>// Caller has modified b-&gt;data and is done with the buffer.
+// Append the block to the log and record the block number, 
+// but don&apos;t write the log header (which would commit the write).
+// log_write() replaces bwrite(); a typical use is:
+//   bp = bread(...)
+//   modify bp-&gt;data[]
+//   log_write(bp)
+//   brelse(bp)</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/syscall.c' l='91' type='int sys_mknod()'/>
+<use f='codebrowser/syscall.c' l='119' u='r'/>
+<use f='codebrowser/syscall.c' l='119' u='r'/>
+<def f='codebrowser/sysfile.c' l='337' ll='356' type='int sys_mknod()'/>

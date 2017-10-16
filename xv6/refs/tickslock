@@ -1,0 +1,11 @@
+<dec f='codebrowser/defs.h' l='156' type='struct spinlock'/>
+<use f='codebrowser/sysproc.c' l='66' u='a' c='sys_sleep'/>
+<use f='codebrowser/sysproc.c' l='70' u='a' c='sys_sleep'/>
+<use f='codebrowser/sysproc.c' l='73' u='a' c='sys_sleep'/>
+<use f='codebrowser/sysproc.c' l='75' u='a' c='sys_sleep'/>
+<use f='codebrowser/sysproc.c' l='86' u='a' c='sys_uptime'/>
+<use f='codebrowser/sysproc.c' l='88' u='a' c='sys_uptime'/>
+<def f='codebrowser/trap.c' l='14' type='struct spinlock'/>
+<use f='codebrowser/trap.c' l='26' u='a' c='tvinit'/>
+<use f='codebrowser/trap.c' l='52' u='a' c='trap'/>
+<use f='codebrowser/trap.c' l='55' u='a' c='trap'/>

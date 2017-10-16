@@ -1,0 +1,5 @@
+<dec f='codebrowser/defs.h' l='138' type='int strncmp(const char * , const char * , uint )'/>
+<use f='codebrowser/fs.c' l='500' u='c' c='namecmp'/>
+<dec f='include/string.h' l='143' type='int strncmp(const char * __s1, const char * __s2, size_t __n)'/>
+<doc f='include/string.h' l='142'>/* Compare N characters of S1 and S2.  */</doc>
+<def f='codebrowser/string.c' l='58' ll='66' type='int strncmp(const char * p, const char * q, uint n)'/>

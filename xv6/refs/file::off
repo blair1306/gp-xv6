@@ -1,0 +1,7 @@
+<dec f='codebrowser/file.h' l='8' type='uint'/>
+<offset>160</offset>
+<use f='codebrowser/file.c' l='106' u='r' c='fileread'/>
+<use f='codebrowser/file.c' l='107' u='w' c='fileread'/>
+<use f='codebrowser/file.c' l='141' u='r' c='filewrite'/>
+<use f='codebrowser/file.c' l='142' u='w' c='filewrite'/>
+<use f='codebrowser/sysfile.c' l='315' u='w' c='sys_open'/>

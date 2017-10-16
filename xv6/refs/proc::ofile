@@ -1,0 +1,14 @@
+<dec f='codebrowser/proc.h' l='66' type='struct file *[16]'/>
+<offset>320</offset>
+<doc f='codebrowser/proc.h' l='66'>// Open files</doc>
+<use f='codebrowser/proc.c' l='153' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='154' u='w' c='fork'/>
+<use f='codebrowser/proc.c' l='154' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='177' u='r' c='exit'/>
+<use f='codebrowser/proc.c' l='178' u='r' c='exit'/>
+<use f='codebrowser/proc.c' l='179' u='w' c='exit'/>
+<use f='codebrowser/sysfile.c' l='27' u='r' c='argfd'/>
+<use f='codebrowser/sysfile.c' l='44' u='r' c='fdalloc'/>
+<use f='codebrowser/sysfile.c' l='45' u='w' c='fdalloc'/>
+<use f='codebrowser/sysfile.c' l='98' u='w' c='sys_close'/>
+<use f='codebrowser/sysfile.c' l='417' u='w' c='sys_pipe'/>

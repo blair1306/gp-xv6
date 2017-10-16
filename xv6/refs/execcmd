@@ -1,0 +1,6 @@
+<def f='codebrowser/sh.c' l='20' ll='24'/>
+<def f='codebrowser/sh.c' l='196' ll='205' type='struct cmd * execcmd()'/>
+<use f='codebrowser/sh.c' l='427' u='c' c='parseexec'/>
+<size>84</size>
+<doc f='codebrowser/sh.c' l='193'>//PAGEBREAK!
+// Constructors</doc>

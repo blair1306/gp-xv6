@@ -1,0 +1,4 @@
+<dec f='codebrowser/user.h' l='31' type='int strcmp(const char * , const char * )'/>
+<dec f='include/string.h' l='140' type='int strcmp(const char * __s1, const char * __s2)'/>
+<doc f='include/string.h' l='139'>/* Compare S1 and S2.  */</doc>
+<def f='codebrowser/ulib.c' l='18' ll='24' type='int strcmp(const char * p, const char * q)'/>

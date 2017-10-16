@@ -1,0 +1,4 @@
+<dec f='codebrowser/param.h' l='2'/>
+<use f='codebrowser/main.c' l='90' u='c'/>
+<use f='codebrowser/proc.c' l='57' u='c'/>
+<use f='codebrowser/vm.c' l='171' u='c'/>

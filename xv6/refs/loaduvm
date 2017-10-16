@@ -1,0 +1,5 @@
+<dec f='codebrowser/defs.h' l='173' type='int loaduvm(pde_t * , char * , struct inode * , uint , uint )'/>
+<use f='codebrowser/exec.c' l='46' u='c' c='exec'/>
+<def f='codebrowser/vm.c' l='196' ll='216' type='int loaduvm(pde_t * pgdir, char * addr, struct inode * ip, uint offset, uint sz)'/>
+<doc f='codebrowser/vm.c' l='194'>// Load a program segment into pgdir.  addr must be page-aligned
+// and the pages from addr to addr+sz must already be mapped.</doc>

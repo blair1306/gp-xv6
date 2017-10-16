@@ -1,0 +1,75 @@
+<dec f='codebrowser/user.h' l='10' type='int close(int )'/>
+<use f='codebrowser/cat.c' l='36' u='c' c='main'/>
+<use f='codebrowser/grep.c' l='60' u='c' c='main'/>
+<use f='codebrowser/ls.c' l='40' u='c' c='ls'/>
+<use f='codebrowser/ls.c' l='70' u='c' c='ls'/>
+<dec f='include/unistd.h' l='356' type='int close(int __fd)'/>
+<use f='codebrowser/mkfs.c' l='140' u='c' c='main'/>
+<doc f='include/unistd.h' l='352'>/* Close the file descriptor FD.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<use f='codebrowser/sh.c' l='84' u='c' c='runcmd'/>
+<use f='codebrowser/sh.c' l='105' u='c' c='runcmd'/>
+<use f='codebrowser/sh.c' l='107' u='c' c='runcmd'/>
+<use f='codebrowser/sh.c' l='108' u='c' c='runcmd'/>
+<use f='codebrowser/sh.c' l='112' u='c' c='runcmd'/>
+<use f='codebrowser/sh.c' l='114' u='c' c='runcmd'/>
+<use f='codebrowser/sh.c' l='115' u='c' c='runcmd'/>
+<use f='codebrowser/sh.c' l='118' u='c' c='runcmd'/>
+<use f='codebrowser/sh.c' l='119' u='c' c='runcmd'/>
+<use f='codebrowser/sh.c' l='153' u='c' c='main'/>
+<use f='codebrowser/stressfs.c' l='37' u='c' c='main'/>
+<use f='codebrowser/stressfs.c' l='44' u='c' c='main'/>
+<use f='codebrowser/ulib.c' l='80' u='c' c='stat'/>
+<use f='codebrowser/usertests.c' l='29' u='c' c='opentest'/>
+<use f='codebrowser/usertests.c' l='63' u='c' c='writetest'/>
+<use f='codebrowser/usertests.c' l='78' u='c' c='writetest'/>
+<use f='codebrowser/usertests.c' l='108' u='c' c='writetest1'/>
+<use f='codebrowser/usertests.c' l='136' u='c' c='writetest1'/>
+<use f='codebrowser/usertests.c' l='156' u='c' c='createtest'/>
+<use f='codebrowser/usertests.c' l='218' u='c' c='pipe1'/>
+<use f='codebrowser/usertests.c' l='229' u='c' c='pipe1'/>
+<use f='codebrowser/usertests.c' l='248' u='c' c='pipe1'/>
+<use f='codebrowser/usertests.c' l='278' u='c' c='preempt'/>
+<use f='codebrowser/usertests.c' l='281' u='c' c='preempt'/>
+<use f='codebrowser/usertests.c' l='286' u='c' c='preempt'/>
+<use f='codebrowser/usertests.c' l='291' u='c' c='preempt'/>
+<use f='codebrowser/usertests.c' l='390' u='c' c='sharedfd'/>
+<use f='codebrowser/usertests.c' l='405' u='c' c='sharedfd'/>
+<use f='codebrowser/usertests.c' l='448' u='c' c='twofiles'/>
+<use f='codebrowser/usertests.c' l='466' u='c' c='twofiles'/>
+<use f='codebrowser/usertests.c' l='503' u='c' c='createdelete'/>
+<use f='codebrowser/usertests.c' l='530' u='c' c='createdelete'/>
+<use f='codebrowser/usertests.c' l='543' u='c' c='createdelete'/>
+<use f='codebrowser/usertests.c' l='570' u='c' c='unlinkread'/>
+<use f='codebrowser/usertests.c' l='584' u='c' c='unlinkread'/>
+<use f='codebrowser/usertests.c' l='598' u='c' c='unlinkread'/>
+<use f='codebrowser/usertests.c' l='622' u='c' c='linktest'/>
+<use f='codebrowser/usertests.c' l='644' u='c' c='linktest'/>
+<use f='codebrowser/usertests.c' l='694' u='c' c='concreate'/>
+<use f='codebrowser/usertests.c' l='722' u='c' c='concreate'/>
+<use f='codebrowser/usertests.c' l='738' u='c' c='concreate'/>
+<use f='codebrowser/usertests.c' l='739' u='c' c='concreate'/>
+<use f='codebrowser/usertests.c' l='740' u='c' c='concreate'/>
+<use f='codebrowser/usertests.c' l='741' u='c' c='concreate'/>
+<use f='codebrowser/usertests.c' l='777' u='c' c='linkunlink'/>
+<use f='codebrowser/usertests.c' l='808' u='c' c='bigdir'/>
+<use f='codebrowser/usertests.c' l='855' u='c' c='subdir'/>
+<use f='codebrowser/usertests.c' l='873' u='c' c='subdir'/>
+<use f='codebrowser/usertests.c' l='885' u='c' c='subdir'/>
+<use f='codebrowser/usertests.c' l='927' u='c' c='subdir'/>
+<use f='codebrowser/usertests.c' l='1042' u='c' c='bigwrite'/>
+<use f='codebrowser/usertests.c' l='1069' u='c' c='bigfile'/>
+<use f='codebrowser/usertests.c' l='1095' u='c' c='bigfile'/>
+<use f='codebrowser/usertests.c' l='1126' u='c' c='fourteen'/>
+<use f='codebrowser/usertests.c' l='1132' u='c' c='fourteen'/>
+<use f='codebrowser/usertests.c' l='1197' u='c' c='dirfile'/>
+<use f='codebrowser/usertests.c' l='1239' u='c' c='dirfile'/>
+<use f='codebrowser/usertests.c' l='1267' u='c' c='iref'/>
+<use f='codebrowser/usertests.c' l='1270' u='c' c='iref'/>
+<use f='codebrowser/usertests.c' l='1531' u='c' c='bigargtest'/>
+<use f='codebrowser/usertests.c' l='1543' u='c' c='bigargtest'/>
+<use f='codebrowser/usertests.c' l='1580' u='c' c='fsfull'/>
+<use f='codebrowser/usertests.c' l='1617' u='c' c='main'/>
+<use f='codebrowser/wc.c' l='51' u='c' c='main'/>

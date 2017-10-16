@@ -1,0 +1,6 @@
+<dec f='codebrowser/proc.h' l='64' type='void *'/>
+<offset>256</offset>
+<doc f='codebrowser/proc.h' l='64'>// If non-zero, sleeping on chan</doc>
+<use f='codebrowser/proc.c' l='363' u='w' c='sleep'/>
+<use f='codebrowser/proc.c' l='368' u='w' c='sleep'/>
+<use f='codebrowser/proc.c' l='386' u='r' c='wakeup1'/>

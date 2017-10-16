@@ -1,0 +1,3 @@
+<def f='codebrowser/grep.c' l='10' ll='35' type='void grep(char * pattern, int fd)'/>
+<use f='codebrowser/grep.c' l='50' u='c' c='main'/>
+<use f='codebrowser/grep.c' l='59' u='c' c='main'/>

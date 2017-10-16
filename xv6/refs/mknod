@@ -1,0 +1,2 @@
+<dec f='codebrowser/user.h' l='14' type='int mknod(char * , short , short )'/>
+<use f='codebrowser/init.c' l='16' u='c' c='main'/>

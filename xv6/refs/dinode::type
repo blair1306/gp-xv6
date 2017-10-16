@@ -1,0 +1,8 @@
+<dec f='codebrowser/fs.h' l='28' type='short'/>
+<offset>0</offset>
+<doc f='codebrowser/fs.h' l='28'>// File type</doc>
+<use f='codebrowser/fs.c' l='188' u='r' c='ialloc'/>
+<use f='codebrowser/fs.c' l='190' u='w' c='ialloc'/>
+<use f='codebrowser/fs.c' l='209' u='w' c='iupdate'/>
+<use f='codebrowser/fs.c' l='286' u='r' c='ilock'/>
+<use f='codebrowser/mkfs.c' l='221' u='w' c='ialloc'/>

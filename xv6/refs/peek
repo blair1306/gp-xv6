@@ -1,0 +1,10 @@
+<def f='codebrowser/sh.c' l='311' ll='321' type='int peek(char ** ps, char * es, char * toks)'/>
+<use f='codebrowser/sh.c' l='336' u='c' c='parsecmd'/>
+<use f='codebrowser/sh.c' l='351' u='c' c='parseline'/>
+<use f='codebrowser/sh.c' l='355' u='c' c='parseline'/>
+<use f='codebrowser/sh.c' l='368' u='c' c='parsepipe'/>
+<use f='codebrowser/sh.c' l='381' u='c' c='parseredirs'/>
+<use f='codebrowser/sh.c' l='405' u='c' c='parseblock'/>
+<use f='codebrowser/sh.c' l='409' u='c' c='parseblock'/>
+<use f='codebrowser/sh.c' l='424' u='c' c='parseexec'/>
+<use f='codebrowser/sh.c' l='432' u='c' c='parseexec'/>

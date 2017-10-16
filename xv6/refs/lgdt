@@ -1,0 +1,2 @@
+<def f='codebrowser/x86.h' l='62' ll='72' type='void lgdt(struct segdesc * p, int size)'/>
+<use f='codebrowser/vm.c' l='34' u='c' c='seginit'/>

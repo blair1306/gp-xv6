@@ -1,0 +1,13 @@
+<def f='codebrowser/file.h' l='13' ll='25'/>
+<size>80</size>
+<doc f='codebrowser/file.h' l='12'>// in-memory copy of an inode</doc>
+<mbr r='inode::dev' o='0' t='uint'/>
+<mbr r='inode::inum' o='32' t='uint'/>
+<mbr r='inode::ref' o='64' t='int'/>
+<mbr r='inode::flags' o='96' t='int'/>
+<mbr r='inode::type' o='128' t='short'/>
+<mbr r='inode::major' o='144' t='short'/>
+<mbr r='inode::minor' o='160' t='short'/>
+<mbr r='inode::nlink' o='176' t='short'/>
+<mbr r='inode::size' o='192' t='uint'/>
+<mbr r='inode::addrs' o='224' t='uint [13]'/>

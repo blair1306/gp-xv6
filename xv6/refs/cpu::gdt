@@ -1,0 +1,12 @@
+<dec f='codebrowser/proc.h' l='9' type='struct segdesc [7]'/>
+<offset>896</offset>
+<doc f='codebrowser/proc.h' l='9'>// x86 global descriptor table</doc>
+<use f='codebrowser/vm.c' l='26' u='w' c='seginit'/>
+<use f='codebrowser/vm.c' l='27' u='w' c='seginit'/>
+<use f='codebrowser/vm.c' l='28' u='w' c='seginit'/>
+<use f='codebrowser/vm.c' l='29' u='w' c='seginit'/>
+<use f='codebrowser/vm.c' l='32' u='w' c='seginit'/>
+<use f='codebrowser/vm.c' l='34' u='r' c='seginit'/>
+<use f='codebrowser/vm.c' l='34' u='r' c='seginit'/>
+<use f='codebrowser/vm.c' l='168' u='w' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='169' u='m' c='switchuvm'/>

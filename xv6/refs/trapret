@@ -1,0 +1,2 @@
+<dec f='codebrowser/proc.c' l='19' type='void trapret()'/>
+<use f='codebrowser/proc.c' l='66' u='r' c='allocproc'/>

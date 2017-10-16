@@ -1,0 +1,7 @@
+<dec f='codebrowser/defs.h' l='169' type='int allocuvm(pde_t * , uint , uint )'/>
+<use f='codebrowser/exec.c' l='44' u='c' c='exec'/>
+<use f='codebrowser/exec.c' l='55' u='c' c='exec'/>
+<use f='codebrowser/proc.c' l='114' u='c' c='growproc'/>
+<def f='codebrowser/vm.c' l='220' ll='243' type='int allocuvm(pde_t * pgdir, uint oldsz, uint newsz)'/>
+<doc f='codebrowser/vm.c' l='218'>// Allocate page tables and physical memory to grow process from oldsz to
+// newsz, which need not be page aligned.  Returns new size or 0 on error.</doc>

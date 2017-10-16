@@ -1,0 +1,8 @@
+panic|panic
+panic|panic
+parseblock|parseblock
+parsecmd|parsecmd
+parseexec|parseexec
+parseline|parseline
+parsepipe|parsepipe
+parseredirs|parseredirs

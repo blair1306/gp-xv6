@@ -1,0 +1,57 @@
+<def f='codebrowser/proc.h' l='5' ll='17'/>
+<dec f='codebrowser/proc.h' l='30' type='struct cpu *'/>
+<use f='codebrowser/console.c' l='113' u='r' c='panic'/>
+<size>188</size>
+<doc f='codebrowser/proc.h' l='4'>// Per-CPU state</doc>
+<doc f='codebrowser/proc.h' l='22'>// Per-CPU variables, holding pointers to the
+// current cpu and to the current process.
+// The asm suffix tells gcc to use &quot;%gs:0&quot; to refer to cpu
+// and &quot;%gs:4&quot; to refer to proc.  seginit sets up the
+// %gs segment register so that %gs refers to the memory
+// holding those two variables in the local cpu&apos;s struct cpu.
+// This is similar to how thread-local variables are implemented
+// in thread libraries such as Linux pthreads.</doc>
+<doc f='codebrowser/proc.h' l='30'>// &amp;cpus[cpunum()]</doc>
+<mbr r='cpu::id' o='0' t='uchar'/>
+<mbr r='cpu::scheduler' o='32' t='struct context *'/>
+<mbr r='cpu::ts' o='64' t='struct taskstate'/>
+<mbr r='cpu::gdt' o='896' t='struct segdesc [7]'/>
+<mbr r='cpu::started' o='1344' t='volatile uint'/>
+<mbr r='cpu::ncli' o='1376' t='int'/>
+<mbr r='cpu::intena' o='1408' t='int'/>
+<mbr r='cpu::cpu' o='1440' t='struct cpu *'/>
+<mbr r='cpu::proc' o='1472' t='struct proc *'/>
+<use f='codebrowser/main.c' l='25' u='r' c='main'/>
+<use f='codebrowser/main.c' l='59' u='r' c='mpmain'/>
+<use f='codebrowser/main.c' l='61' u='r' c='mpmain'/>
+<use f='codebrowser/proc.c' l='278' u='r' c='scheduler'/>
+<use f='codebrowser/proc.c' l='299' u='r' c='sched'/>
+<use f='codebrowser/proc.c' l='305' u='r' c='sched'/>
+<use f='codebrowser/proc.c' l='306' u='r' c='sched'/>
+<use f='codebrowser/proc.c' l='307' u='r' c='sched'/>
+<use f='codebrowser/spinlock.c' l='38' u='r' c='acquire'/>
+<use f='codebrowser/spinlock.c' l='88' u='r' c='holding'/>
+<use f='codebrowser/spinlock.c' l='103' u='r' c='pushcli'/>
+<use f='codebrowser/spinlock.c' l='104' u='r' c='pushcli'/>
+<use f='codebrowser/spinlock.c' l='112' u='r' c='popcli'/>
+<use f='codebrowser/spinlock.c' l='114' u='r' c='popcli'/>
+<use f='codebrowser/spinlock.c' l='114' u='r' c='popcli'/>
+<use f='codebrowser/trap.c' l='51' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='77' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='86' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='92' u='r' c='trap'/>
+<use f='codebrowser/vm.c' l='38' u='w' c='seginit'/>
+<use f='codebrowser/vm.c' l='168' u='r' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='168' u='r' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='168' u='r' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='168' u='r' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='168' u='r' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='168' u='r' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='168' u='r' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='168' u='r' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='168' u='r' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='168' u='r' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='168' u='r' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='169' u='r' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='170' u='r' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='171' u='r' c='switchuvm'/>

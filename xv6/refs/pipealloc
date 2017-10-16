@@ -1,0 +1,4 @@
+<dec f='codebrowser/defs.h' l='98' type='int pipealloc(struct file ** , struct file ** )'/>
+<doc f='codebrowser/defs.h' l='97'>// pipe.c</doc>
+<def f='codebrowser/pipe.c' l='21' ll='56' type='int pipealloc(struct file ** f0, struct file ** f1)'/>
+<use f='codebrowser/sysfile.c' l='412' u='c' c='sys_pipe'/>

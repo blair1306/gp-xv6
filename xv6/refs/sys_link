@@ -1,0 +1,5 @@
+<dec f='codebrowser/syscall.c' l='89' type='int sys_link()'/>
+<use f='codebrowser/syscall.c' l='121' u='r'/>
+<use f='codebrowser/syscall.c' l='121' u='r'/>
+<def f='codebrowser/sysfile.c' l='115' ll='160' type='int sys_link()'/>
+<doc f='codebrowser/sysfile.c' l='114'>// Create the path new as a link to the same inode as old.</doc>

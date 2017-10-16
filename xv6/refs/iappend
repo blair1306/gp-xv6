@@ -1,0 +1,6 @@
+<dec f='codebrowser/mkfs.c' l='33' type='void iappend(uint inum, void * p, int n)'/>
+<use f='codebrowser/mkfs.c' l='108' u='c' c='main'/>
+<use f='codebrowser/mkfs.c' l='113' u='c' c='main'/>
+<use f='codebrowser/mkfs.c' l='135' u='c' c='main'/>
+<use f='codebrowser/mkfs.c' l='138' u='c' c='main'/>
+<def f='codebrowser/mkfs.c' l='246' ll='293' type='void iappend(uint inum, void * xp, int n)'/>

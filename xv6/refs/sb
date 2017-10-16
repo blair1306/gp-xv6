@@ -1,0 +1,7 @@
+<def f='codebrowser/mkfs.c' l='20' type='struct superblock'/>
+<use f='codebrowser/mkfs.c' l='81' u='m' c='main'/>
+<use f='codebrowser/mkfs.c' l='82' u='m' c='main'/>
+<use f='codebrowser/mkfs.c' l='83' u='m' c='main'/>
+<use f='codebrowser/mkfs.c' l='84' u='m' c='main'/>
+<use f='codebrowser/mkfs.c' l='99' u='a' c='main'/>
+<use f='codebrowser/mkfs.c' l='99' u='r' c='main'/>

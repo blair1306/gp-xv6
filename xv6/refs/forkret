@@ -1,0 +1,5 @@
+<dec f='codebrowser/proc.c' l='18' type='void forkret()'/>
+<use f='codebrowser/proc.c' l='71' u='r' c='allocproc'/>
+<def f='codebrowser/proc.c' l='322' ll='338' type='void forkret()'/>
+<doc f='codebrowser/proc.c' l='320'>// A fork child&apos;s very first scheduling by scheduler()
+// will swtch here.  &quot;Return&quot; to user space.</doc>

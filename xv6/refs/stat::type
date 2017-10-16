@@ -1,0 +1,7 @@
+<dec f='codebrowser/stat.h' l='6' type='short'/>
+<offset>0</offset>
+<doc f='codebrowser/stat.h' l='6'>// Type of file</doc>
+<use f='codebrowser/fs.c' l='427' u='w' c='stati'/>
+<use f='codebrowser/ls.c' l='44' u='r' c='ls'/>
+<use f='codebrowser/ls.c' l='46' u='r' c='ls'/>
+<use f='codebrowser/ls.c' l='66' u='r' c='ls'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/mmu.h' l='172' type='ushort'/>
+<offset>576</offset>
+<doc f='codebrowser/mmu.h' l='172'>// Even more saved state (segment selectors)</doc>

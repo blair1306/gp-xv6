@@ -1,0 +1,13 @@
+<dec f='codebrowser/file.h' l='20' type='short'/>
+<offset>144</offset>
+<use f='codebrowser/fs.c' l='210' u='r' c='iupdate'/>
+<use f='codebrowser/fs.c' l='287' u='w' c='ilock'/>
+<use f='codebrowser/fs.c' l='441' u='r' c='readi'/>
+<use f='codebrowser/fs.c' l='441' u='r' c='readi'/>
+<use f='codebrowser/fs.c' l='441' u='r' c='readi'/>
+<use f='codebrowser/fs.c' l='443' u='r' c='readi'/>
+<use f='codebrowser/fs.c' l='469' u='r' c='writei'/>
+<use f='codebrowser/fs.c' l='469' u='r' c='writei'/>
+<use f='codebrowser/fs.c' l='469' u='r' c='writei'/>
+<use f='codebrowser/fs.c' l='471' u='r' c='writei'/>
+<use f='codebrowser/sysfile.c' l='258' u='w' c='create'/>

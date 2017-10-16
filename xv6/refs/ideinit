@@ -1,0 +1,4 @@
+<dec f='codebrowser/defs.h' l='55' type='void ideinit()'/>
+<doc f='codebrowser/defs.h' l='54'>// ide.c</doc>
+<def f='codebrowser/ide.c' l='45' ll='66' type='void ideinit()'/>
+<use f='codebrowser/main.c' l='35' u='c' c='main'/>

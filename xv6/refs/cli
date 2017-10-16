@@ -1,0 +1,4 @@
+<def f='codebrowser/x86.h' l='108' ll='112' type='void cli()'/>
+<use f='codebrowser/console.c' l='111' u='c' c='panic'/>
+<use f='codebrowser/console.c' l='164' u='c' c='consputc'/>
+<use f='codebrowser/spinlock.c' l='102' u='c' c='pushcli'/>

@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>timer.c source code [codebrowser/timer.c] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/timer.c'; var root_path = '..'; var data_path = '../../data';</script>
+<script src='../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='./'>codebrowser</a>/<a href='timer.c.html'>timer.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// Intel 8253/8254/82C54 Programmable Interval Timer (PIT).</i></td></tr>
+<tr><th id="2">2</th><td><i>// Only used on uniprocessors;</i></td></tr>
+<tr><th id="3">3</th><td><i>// SMP machines use the local APIC timer.</i></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="types.h.html">"types.h"</a></u></td></tr>
+<tr><th id="6">6</th><td><u>#include <a href="defs.h.html">"defs.h"</a></u></td></tr>
+<tr><th id="7">7</th><td><u>#include <a href="traps.h.html">"traps.h"</a></u></td></tr>
+<tr><th id="8">8</th><td><u>#include <a href="x86.h.html">"x86.h"</a></u></td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><u>#define <dfn class="macro" id="_M/IO_TIMER1" data-ref="_M/IO_TIMER1">IO_TIMER1</dfn>       0x040           // 8253 Timer #1</u></td></tr>
+<tr><th id="11">11</th><td></td></tr>
+<tr><th id="12">12</th><td><i>// Frequency of all three count-down timers;</i></td></tr>
+<tr><th id="13">13</th><td><i>// (TIMER_FREQ/freq) is the appropriate count</i></td></tr>
+<tr><th id="14">14</th><td><i>// to generate a frequency of freq Hz.</i></td></tr>
+<tr><th id="15">15</th><td></td></tr>
+<tr><th id="16">16</th><td><u>#define <dfn class="macro" id="_M/TIMER_FREQ" data-ref="_M/TIMER_FREQ">TIMER_FREQ</dfn>      1193182</u></td></tr>
+<tr><th id="17">17</th><td><u>#define <dfn class="macro" id="_M/TIMER_DIV" data-ref="_M/TIMER_DIV">TIMER_DIV</dfn>(x)    ((TIMER_FREQ+(x)/2)/(x))</u></td></tr>
+<tr><th id="18">18</th><td></td></tr>
+<tr><th id="19">19</th><td><u>#define <dfn class="macro" id="_M/TIMER_MODE" data-ref="_M/TIMER_MODE">TIMER_MODE</dfn>      (IO_TIMER1 + 3) // timer mode port</u></td></tr>
+<tr><th id="20">20</th><td><u>#define <dfn class="macro" id="_M/TIMER_SEL0" data-ref="_M/TIMER_SEL0">TIMER_SEL0</dfn>      0x00    // select counter 0</u></td></tr>
+<tr><th id="21">21</th><td><u>#define <dfn class="macro" id="_M/TIMER_RATEGEN" data-ref="_M/TIMER_RATEGEN">TIMER_RATEGEN</dfn>   0x04    // mode 2, rate generator</u></td></tr>
+<tr><th id="22">22</th><td><u>#define <dfn class="macro" id="_M/TIMER_16BIT" data-ref="_M/TIMER_16BIT">TIMER_16BIT</dfn>     0x30    // r/w counter 16 bits, LSB first</u></td></tr>
+<tr><th id="23">23</th><td></td></tr>
+<tr><th id="24">24</th><td><em>void</em></td></tr>
+<tr><th id="25">25</th><td><dfn class="decl def" id="timerinit" title='timerinit' data-ref="timerinit">timerinit</dfn>(<em>void</em>)</td></tr>
+<tr><th id="26">26</th><td>{</td></tr>
+<tr><th id="27">27</th><td>  <i>// Interrupt 100 times/sec.</i></td></tr>
+<tr><th id="28">28</th><td>  <a class="ref" href="x86.h.html#outb" title='outb' data-ref="outb">outb</a>(<a class="macro" href="#19" title="(0x040 + 3)" data-ref="_M/TIMER_MODE">TIMER_MODE</a>, <a class="macro" href="#20" title="0x00" data-ref="_M/TIMER_SEL0">TIMER_SEL0</a> | <a class="macro" href="#21" title="0x04" data-ref="_M/TIMER_RATEGEN">TIMER_RATEGEN</a> | <a class="macro" href="#22" title="0x30" data-ref="_M/TIMER_16BIT">TIMER_16BIT</a>);</td></tr>
+<tr><th id="29">29</th><td>  <a class="ref" href="x86.h.html#outb" title='outb' data-ref="outb">outb</a>(<a class="macro" href="#10" title="0x040" data-ref="_M/IO_TIMER1">IO_TIMER1</a>, <a class="macro" href="#17" title="((1193182+(100)/2)/(100))" data-ref="_M/TIMER_DIV">TIMER_DIV</a>(<var>100</var>) % <var>256</var>);</td></tr>
+<tr><th id="30">30</th><td>  <a class="ref" href="x86.h.html#outb" title='outb' data-ref="outb">outb</a>(<a class="macro" href="#10" title="0x040" data-ref="_M/IO_TIMER1">IO_TIMER1</a>, <a class="macro" href="#17" title="((1193182+(100)/2)/(100))" data-ref="_M/TIMER_DIV">TIMER_DIV</a>(<var>100</var>) / <var>256</var>);</td></tr>
+<tr><th id="31">31</th><td>  <a class="ref" href="defs.h.html#picenable" title='picenable' data-ref="picenable">picenable</a>(<a class="macro" href="traps.h.html#32" title="0" data-ref="_M/IRQ_TIMER">IRQ_TIMER</a>);</td></tr>
+<tr><th id="32">32</th><td>}</td></tr>
+<tr><th id="33">33</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Aug-31</em> from project codebrowser revision <em>xv6-rev7</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

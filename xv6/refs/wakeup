@@ -1,0 +1,15 @@
+<dec f='codebrowser/defs.h' l='117' type='void wakeup(void * )'/>
+<use f='codebrowser/bio.c' l='135' u='c' c='brelse'/>
+<use f='codebrowser/console.c' l='218' u='c' c='consoleintr'/>
+<use f='codebrowser/fs.c' l='308' u='c' c='iunlock'/>
+<use f='codebrowser/fs.c' l='332' u='c' c='iput'/>
+<use f='codebrowser/ide.c' l='112' u='c' c='ideintr'/>
+<use f='codebrowser/log.c' l='147' u='c' c='commit_trans'/>
+<use f='codebrowser/pipe.c' l='64' u='c' c='pipeclose'/>
+<use f='codebrowser/pipe.c' l='67' u='c' c='pipeclose'/>
+<use f='codebrowser/pipe.c' l='89' u='c' c='pipewrite'/>
+<use f='codebrowser/pipe.c' l='94' u='c' c='pipewrite'/>
+<use f='codebrowser/pipe.c' l='117' u='c' c='piperead'/>
+<def f='codebrowser/proc.c' l='391' ll='397' type='void wakeup(void * chan)'/>
+<doc f='codebrowser/proc.c' l='390'>// Wake up all processes sleeping on chan.</doc>
+<use f='codebrowser/trap.c' l='54' u='c' c='trap'/>

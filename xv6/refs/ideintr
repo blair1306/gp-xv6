@@ -1,0 +1,4 @@
+<dec f='codebrowser/defs.h' l='56' type='void ideintr()'/>
+<def f='codebrowser/ide.c' l='91' ll='119' type='void ideintr()'/>
+<doc f='codebrowser/ide.c' l='90'>// Interrupt handler.</doc>
+<use f='codebrowser/trap.c' l='60' u='c' c='trap'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/spinlock.h' l='8' type='uint [10]'/>
+<offset>96</offset>
+<doc f='codebrowser/spinlock.h' l='8'>// The call stack (an array of program counters)</doc>
+<use f='codebrowser/spinlock.c' l='39' u='r' c='acquire'/>
+<use f='codebrowser/spinlock.c' l='49' u='w' c='release'/>

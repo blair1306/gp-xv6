@@ -1,0 +1,4 @@
+<dec f='codebrowser/elf.h' l='3'/>
+<use f='codebrowser/bootmain.c' l='31' u='c'/>
+<doc f='codebrowser/elf.h' l='1'>// Format of an ELF executable file</doc>
+<use f='codebrowser/exec.c' l='29' u='c'/>

@@ -1,0 +1,26 @@
+<dec f='codebrowser/proc.h' l='62' type='struct trapframe *'/>
+<offset>192</offset>
+<doc f='codebrowser/proc.h' l='62'>// Trap frame for current syscall</doc>
+<use f='codebrowser/exec.c' l='89' u='r' c='exec'/>
+<use f='codebrowser/exec.c' l='90' u='r' c='exec'/>
+<use f='codebrowser/proc.c' l='60' u='r' c='allocproc'/>
+<use f='codebrowser/proc.c' l='61' u='w' c='allocproc'/>
+<use f='codebrowser/proc.c' l='90' u='r' c='userinit'/>
+<use f='codebrowser/proc.c' l='90' u='r' c='userinit'/>
+<use f='codebrowser/proc.c' l='91' u='r' c='userinit'/>
+<use f='codebrowser/proc.c' l='92' u='r' c='userinit'/>
+<use f='codebrowser/proc.c' l='93' u='r' c='userinit'/>
+<use f='codebrowser/proc.c' l='93' u='r' c='userinit'/>
+<use f='codebrowser/proc.c' l='94' u='r' c='userinit'/>
+<use f='codebrowser/proc.c' l='94' u='r' c='userinit'/>
+<use f='codebrowser/proc.c' l='95' u='r' c='userinit'/>
+<use f='codebrowser/proc.c' l='96' u='r' c='userinit'/>
+<use f='codebrowser/proc.c' l='97' u='r' c='userinit'/>
+<use f='codebrowser/proc.c' l='147' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='147' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='150' u='r' c='fork'/>
+<use f='codebrowser/syscall.c' l='48' u='r' c='argint'/>
+<use f='codebrowser/syscall.c' l='131' u='r' c='syscall'/>
+<use f='codebrowser/syscall.c' l='133' u='r' c='syscall'/>
+<use f='codebrowser/syscall.c' l='137' u='r' c='syscall'/>
+<use f='codebrowser/trap.c' l='42' u='w' c='trap'/>

@@ -1,0 +1,19 @@
+<dec f='codebrowser/defs.h' l='13' type='struct buf * bread(uint , uint )'/>
+<def f='codebrowser/bio.c' l='96' ll='105' type='struct buf * bread(uint dev, uint sector)'/>
+<doc f='codebrowser/bio.c' l='95'>// Return a B_BUSY buf with the contents of the indicated disk sector.</doc>
+<use f='codebrowser/fs.c' l='32' u='c' c='readsb'/>
+<use f='codebrowser/fs.c' l='43' u='c' c='bzero'/>
+<use f='codebrowser/fs.c' l='62' u='c' c='balloc'/>
+<use f='codebrowser/fs.c' l='87' u='c' c='bfree'/>
+<use f='codebrowser/fs.c' l='186' u='c' c='ialloc'/>
+<use f='codebrowser/fs.c' l='207' u='c' c='iupdate'/>
+<use f='codebrowser/fs.c' l='284' u='c' c='ilock'/>
+<use f='codebrowser/fs.c' l='373' u='c' c='bmap'/>
+<use f='codebrowser/fs.c' l='406' u='c' c='itrunc'/>
+<use f='codebrowser/fs.c' l='452' u='c' c='readi'/>
+<use f='codebrowser/fs.c' l='480' u='c' c='writei'/>
+<use f='codebrowser/log.c' l='75' u='c' c='install_trans'/>
+<use f='codebrowser/log.c' l='76' u='c' c='install_trans'/>
+<use f='codebrowser/log.c' l='88' u='c' c='read_head'/>
+<use f='codebrowser/log.c' l='104' u='c' c='write_head'/>
+<use f='codebrowser/log.c' l='174' u='c' c='log_write'/>

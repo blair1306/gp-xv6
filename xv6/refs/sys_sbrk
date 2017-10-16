@@ -1,0 +1,4 @@
+<dec f='codebrowser/syscall.c' l='95' type='int sys_sbrk()'/>
+<use f='codebrowser/syscall.c' l='114' u='r'/>
+<use f='codebrowser/syscall.c' l='114' u='r'/>
+<def f='codebrowser/sysproc.c' l='44' ll='56' type='int sys_sbrk()'/>

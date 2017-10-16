@@ -1,0 +1,4 @@
+<dec f='codebrowser/syscall.c' l='96' type='int sys_sleep()'/>
+<use f='codebrowser/syscall.c' l='115' u='r'/>
+<use f='codebrowser/syscall.c' l='115' u='r'/>
+<def f='codebrowser/sysproc.c' l='58' ll='77' type='int sys_sleep()'/>

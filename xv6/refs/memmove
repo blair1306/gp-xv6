@@ -1,0 +1,26 @@
+<dec f='codebrowser/defs.h' l='134' type='void * memmove(void * , const void * , uint )'/>
+<dec f='codebrowser/user.h' l='29' type='void * memmove(void * , void * , int )'/>
+<use f='codebrowser/console.c' l='148' u='c' c='cgaputc'/>
+<use f='codebrowser/fs.c' l='33' u='c' c='readsb'/>
+<use f='codebrowser/fs.c' l='214' u='c' c='iupdate'/>
+<use f='codebrowser/fs.c' l='291' u='c' c='ilock'/>
+<use f='codebrowser/fs.c' l='454' u='c' c='readi'/>
+<use f='codebrowser/fs.c' l='482' u='c' c='writei'/>
+<use f='codebrowser/fs.c' l='591' u='c' c='skipelem'/>
+<use f='codebrowser/fs.c' l='593' u='c' c='skipelem'/>
+<use f='codebrowser/grep.c' l='32' u='c' c='grep'/>
+<use f='codebrowser/log.c' l='77' u='c' c='install_trans'/>
+<use f='codebrowser/log.c' l='175' u='c' c='log_write'/>
+<use f='codebrowser/ls.c' l='20' u='c' c='fmtname'/>
+<use f='codebrowser/ls.c' l='60' u='c' c='ls'/>
+<use f='codebrowser/main.c' l='80' u='c' c='startothers'/>
+<dec f='include/string.h' l='46' type='void * memmove(void * __dest, const void * __src, size_t __n)'/>
+<use f='codebrowser/mkfs.c' l='99' u='c' c='main'/>
+<doc f='include/string.h' l='44'>/* Copy N bytes of SRC to DEST, guaranteeing
+   correct behavior for overlapping strings.  */</doc>
+<def f='codebrowser/string.c' l='31' ll='49' type='void * memmove(void * dst, const void * src, uint n)'/>
+<use f='codebrowser/string.c' l='55' u='c' c='memcpy'/>
+<def f='codebrowser/ulib.c' l='95' ll='105' type='void * memmove(void * vdst, void * vsrc, int n)'/>
+<use f='codebrowser/vm.c' l='191' u='c' c='inituvm'/>
+<use f='codebrowser/vm.c' l='327' u='c' c='copyuvm'/>
+<use f='codebrowser/vm.c' l='371' u='c' c='copyout'/>

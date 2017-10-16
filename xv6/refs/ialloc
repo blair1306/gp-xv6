@@ -1,0 +1,10 @@
+<dec f='codebrowser/defs.h' l='39' type='struct inode * ialloc(uint , short )'/>
+<def f='codebrowser/fs.c' l='175' ll='198' type='struct inode * ialloc(uint dev, short type)'/>
+<doc f='codebrowser/fs.c' l='172'>//PAGEBREAK!
+// Allocate a new inode with the given type on device dev.
+// A free inode has a type of zero.</doc>
+<dec f='codebrowser/mkfs.c' l='32' type='uint ialloc(ushort type)'/>
+<use f='codebrowser/mkfs.c' l='102' u='c' c='main'/>
+<use f='codebrowser/mkfs.c' l='130' u='c' c='main'/>
+<def f='codebrowser/mkfs.c' l='214' ll='226' type='uint ialloc(ushort type)'/>
+<use f='codebrowser/sysfile.c' l='254' u='c' c='create'/>

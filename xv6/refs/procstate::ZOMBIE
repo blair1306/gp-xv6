@@ -1,0 +1,5 @@
+<dec f='codebrowser/proc.h' l='52' type='5'/>
+<use f='codebrowser/proc.c' l='195' u='r' c='exit'/>
+<use f='codebrowser/proc.c' l='201' u='r' c='exit'/>
+<use f='codebrowser/proc.c' l='222' u='r' c='wait'/>
+<use f='codebrowser/proc.c' l='435' u='r' c='procdump'/>

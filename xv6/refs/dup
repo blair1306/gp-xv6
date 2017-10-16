@@ -1,0 +1,7 @@
+<dec f='codebrowser/user.h' l='20' type='int dup(int )'/>
+<use f='codebrowser/init.c' l='19' u='c' c='main'/>
+<use f='codebrowser/init.c' l='20' u='c' c='main'/>
+<dec f='include/unistd.h' l='534' type='int dup(int __fd)'/>
+<doc f='include/unistd.h' l='533'>/* Duplicate FD, returning a new file descriptor on the same file.  */</doc>
+<use f='codebrowser/sh.c' l='106' u='c' c='runcmd'/>
+<use f='codebrowser/sh.c' l='113' u='c' c='runcmd'/>

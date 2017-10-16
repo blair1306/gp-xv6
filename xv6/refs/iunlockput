@@ -1,0 +1,24 @@
+<dec f='codebrowser/defs.h' l='45' type='void iunlockput(struct inode * )'/>
+<use f='codebrowser/exec.c' l='49' u='c' c='exec'/>
+<use f='codebrowser/exec.c' l='99' u='c' c='exec'/>
+<def f='codebrowser/fs.c' l='339' ll='344' type='void iunlockput(struct inode * ip)'/>
+<use f='codebrowser/fs.c' l='617' u='c' c='namex'/>
+<use f='codebrowser/fs.c' l='626' u='c' c='namex'/>
+<use f='codebrowser/fs.c' l='629' u='c' c='namex'/>
+<doc f='codebrowser/fs.c' l='338'>// Common idiom: unlock, then put.</doc>
+<use f='codebrowser/sysfile.c' l='130' u='c' c='sys_link'/>
+<use f='codebrowser/sysfile.c' l='143' u='c' c='sys_link'/>
+<use f='codebrowser/sysfile.c' l='146' u='c' c='sys_link'/>
+<use f='codebrowser/sysfile.c' l='157' u='c' c='sys_link'/>
+<use f='codebrowser/sysfile.c' l='207' u='c' c='sys_unlink'/>
+<use f='codebrowser/sysfile.c' l='218' u='c' c='sys_unlink'/>
+<use f='codebrowser/sysfile.c' l='222' u='c' c='sys_unlink'/>
+<use f='codebrowser/sysfile.c' l='229' u='c' c='sys_unlink'/>
+<use f='codebrowser/sysfile.c' l='246' u='c' c='create'/>
+<use f='codebrowser/sysfile.c' l='250' u='c' c='create'/>
+<use f='codebrowser/sysfile.c' l='274' u='c' c='create'/>
+<use f='codebrowser/sysfile.c' l='300' u='c' c='sys_open'/>
+<use f='codebrowser/sysfile.c' l='308' u='c' c='sys_open'/>
+<use f='codebrowser/sysfile.c' l='332' u='c' c='sys_mkdir'/>
+<use f='codebrowser/sysfile.c' l='353' u='c' c='sys_mknod'/>
+<use f='codebrowser/sysfile.c' l='368' u='c' c='sys_chdir'/>

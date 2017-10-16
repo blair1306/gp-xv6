@@ -1,0 +1,7 @@
+<dec f='codebrowser/fs.h' l='16' type='uint'/>
+<offset>0</offset>
+<doc f='codebrowser/fs.h' l='16'>// Size of file system image (blocks)</doc>
+<use f='codebrowser/fs.c' l='61' u='r' c='balloc'/>
+<use f='codebrowser/fs.c' l='63' u='r' c='balloc'/>
+<use f='codebrowser/log.c' l='62' u='r' c='initlog'/>
+<use f='codebrowser/mkfs.c' l='81' u='w' c='main'/>

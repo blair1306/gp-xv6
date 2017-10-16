@@ -1,0 +1,5 @@
+<dec f='codebrowser/main.c' l='11' type='pde_t *'/>
+<def f='codebrowser/vm.c' l='11' type='pde_t *'/>
+<use f='codebrowser/vm.c' l='151' u='w' c='kvmalloc'/>
+<use f='codebrowser/vm.c' l='160' u='r' c='switchkvm'/>
+<doc f='codebrowser/vm.c' l='11'>// for use in scheduler()</doc>

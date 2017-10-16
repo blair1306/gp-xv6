@@ -1,0 +1,4 @@
+<dec f='codebrowser/pipe.c' l='14' type='char [512]'/>
+<use f='codebrowser/pipe.c' l='92' u='w' c='pipewrite'/>
+<use f='codebrowser/pipe.c' l='115' u='r' c='piperead'/>
+<offset>416</offset>

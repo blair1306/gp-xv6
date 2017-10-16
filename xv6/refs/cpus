@@ -1,0 +1,10 @@
+<dec f='codebrowser/proc.h' l='19' type='struct cpu [8]'/>
+<use f='codebrowser/main.c' l='82' u='r' c='startothers'/>
+<use f='codebrowser/main.c' l='82' u='r' c='startothers'/>
+<use f='codebrowser/main.c' l='83' u='r' c='startothers'/>
+<def f='codebrowser/mp.c' l='14' type='struct cpu [8]'/>
+<use f='codebrowser/mp.c' l='23' u='r' c='mpbcpu'/>
+<use f='codebrowser/mp.c' l='108' u='a' c='mpinit'/>
+<use f='codebrowser/mp.c' l='122' u='a' c='mpinit'/>
+<use f='codebrowser/mp.c' l='123' u='m' c='mpinit'/>
+<use f='codebrowser/vm.c' l='25' u='a' c='seginit'/>

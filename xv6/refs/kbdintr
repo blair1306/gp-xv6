@@ -1,0 +1,4 @@
+<dec f='codebrowser/defs.h' l='71' type='void kbdintr()'/>
+<doc f='codebrowser/defs.h' l='70'>// kbd.c</doc>
+<def f='codebrowser/kbd.c' l='46' ll='50' type='void kbdintr()'/>
+<use f='codebrowser/trap.c' l='67' u='c' c='trap'/>

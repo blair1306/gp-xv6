@@ -1,0 +1,31 @@
+<dec f='codebrowser/defs.h' l='135' type='void * memset(void * , int , uint )'/>
+<dec f='codebrowser/user.h' l='35' type='void * memset(void * , int , uint )'/>
+<use f='codebrowser/console.c' l='150' u='c' c='cgaputc'/>
+<use f='codebrowser/fs.c' l='44' u='c' c='bzero'/>
+<use f='codebrowser/fs.c' l='189' u='c' c='ialloc'/>
+<use f='codebrowser/kalloc.c' l='68' u='c' c='kfree'/>
+<use f='codebrowser/ls.c' l='21' u='c' c='fmtname'/>
+<dec f='include/string.h' l='62' type='void * memset(void * __s, int __c, size_t __n)'/>
+<use f='codebrowser/mkfs.c' l='98' u='c' c='main'/>
+<doc f='include/string.h' l='61'>/* Set N bytes of S to C.  */</doc>
+<use f='codebrowser/proc.c' l='70' u='c' c='allocproc'/>
+<use f='codebrowser/proc.c' l='90' u='c' c='userinit'/>
+<use f='codebrowser/sh.c' l='137' u='c' c='getcmd'/>
+<use f='codebrowser/sh.c' l='202' u='c' c='execcmd'/>
+<use f='codebrowser/sh.c' l='213' u='c' c='redircmd'/>
+<use f='codebrowser/sh.c' l='229' u='c' c='pipecmd'/>
+<use f='codebrowser/sh.c' l='242' u='c' c='listcmd'/>
+<use f='codebrowser/sh.c' l='255' u='c' c='backcmd'/>
+<use f='codebrowser/stressfs.c' l='24' u='c' c='main'/>
+<def f='codebrowser/string.c' l='4' ll='13' type='void * memset(void * dst, int c, uint n)'/>
+<use f='codebrowser/sysfile.c' l='211' u='c' c='sys_unlink'/>
+<use f='codebrowser/sysfile.c' l='387' u='c' c='sys_exec'/>
+<def f='codebrowser/ulib.c' l='36' ll='41' type='void * memset(void * dst, int c, uint n)'/>
+<use f='codebrowser/usertests.c' l='379' u='c' c='sharedfd'/>
+<use f='codebrowser/usertests.c' l='441' u='c' c='twofiles'/>
+<use f='codebrowser/usertests.c' l='702' u='c' c='concreate'/>
+<use f='codebrowser/usertests.c' l='1063' u='c' c='bigfile'/>
+<use f='codebrowser/vm.c' l='58' u='c' c='walkpgdir'/>
+<use f='codebrowser/vm.c' l='136' u='c' c='setupkvm'/>
+<use f='codebrowser/vm.c' l='189' u='c' c='inituvm'/>
+<use f='codebrowser/vm.c' l='239' u='c' c='allocuvm'/>

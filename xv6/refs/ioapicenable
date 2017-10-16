@@ -1,0 +1,6 @@
+<dec f='codebrowser/defs.h' l='60' type='void ioapicenable(int irq, int cpu)'/>
+<doc f='codebrowser/defs.h' l='59'>// ioapic.c</doc>
+<use f='codebrowser/console.c' l='291' u='c' c='consoleinit'/>
+<use f='codebrowser/ide.c' l='52' u='c' c='ideinit'/>
+<def f='codebrowser/ioapic.c' l='70' ll='81' type='void ioapicenable(int irq, int cpunum)'/>
+<use f='codebrowser/uart.c' l='44' u='c' c='uartinit'/>

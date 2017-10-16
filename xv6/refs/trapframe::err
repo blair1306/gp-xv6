@@ -1,0 +1,4 @@
+<dec f='codebrowser/x86.h' l='173' type='uint'/>
+<offset>416</offset>
+<doc f='codebrowser/x86.h' l='172'>// below here defined by x86 hardware</doc>
+<use f='codebrowser/trap.c' l='92' u='r' c='trap'/>

@@ -1,0 +1,6 @@
+<def f='codebrowser/mkfs.c' l='16' type='int'/>
+<use f='codebrowser/mkfs.c' l='83' u='r' c='main'/>
+<use f='codebrowser/mkfs.c' l='87' u='r' c='main'/>
+<use f='codebrowser/mkfs.c' l='91' u='r' c='main'/>
+<use f='codebrowser/mkfs.c' l='240' u='r' c='balloc'/>
+<use f='codebrowser/mkfs.c' l='241' u='r' c='balloc'/>

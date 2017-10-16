@@ -1,0 +1,3 @@
+<dec f='codebrowser/proc.h' l='49' type='uint'/>
+<offset>128</offset>
+<use f='codebrowser/proc.c' l='71' u='w' c='allocproc'/>

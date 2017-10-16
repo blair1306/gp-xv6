@@ -1,0 +1,20 @@
+<dec f='codebrowser/buf.h' l='2' type='int'/>
+<use f='codebrowser/bio.c' l='72' u='r' c='bget'/>
+<use f='codebrowser/bio.c' l='73' u='w' c='bget'/>
+<use f='codebrowser/bio.c' l='84' u='r' c='bget'/>
+<use f='codebrowser/bio.c' l='84' u='r' c='bget'/>
+<use f='codebrowser/bio.c' l='87' u='w' c='bget'/>
+<use f='codebrowser/bio.c' l='102' u='r' c='bread'/>
+<use f='codebrowser/bio.c' l='111' u='r' c='bwrite'/>
+<use f='codebrowser/bio.c' l='113' u='w' c='bwrite'/>
+<use f='codebrowser/bio.c' l='122' u='r' c='brelse'/>
+<use f='codebrowser/bio.c' l='134' u='w' c='brelse'/>
+<offset>0</offset>
+<use f='codebrowser/ide.c' l='82' u='r' c='idestart'/>
+<use f='codebrowser/ide.c' l='106' u='r' c='ideintr'/>
+<use f='codebrowser/ide.c' l='110' u='w' c='ideintr'/>
+<use f='codebrowser/ide.c' l='111' u='w' c='ideintr'/>
+<use f='codebrowser/ide.c' l='130' u='r' c='iderw'/>
+<use f='codebrowser/ide.c' l='132' u='r' c='iderw'/>
+<use f='codebrowser/ide.c' l='150' u='r' c='iderw'/>
+<use f='codebrowser/log.c' l='180' u='w' c='log_write'/>

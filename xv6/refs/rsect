@@ -1,0 +1,6 @@
+<dec f='codebrowser/mkfs.c' l='31' type='void rsect(uint sec, void * buf)'/>
+<use f='codebrowser/mkfs.c' l='182' u='c' c='winode'/>
+<use f='codebrowser/mkfs.c' l='196' u='c' c='rinode'/>
+<def f='codebrowser/mkfs.c' l='201' ll='212' type='void rsect(uint sec, void * buf)'/>
+<use f='codebrowser/mkfs.c' l='275' u='c' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='284' u='c' c='iappend'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/stat.h' l='10' type='uint'/>
+<offset>128</offset>
+<doc f='codebrowser/stat.h' l='10'>// Size of file in bytes</doc>
+<use f='codebrowser/fs.c' l='429' u='w' c='stati'/>
+<use f='codebrowser/ls.c' l='46' u='r' c='ls'/>
+<use f='codebrowser/ls.c' l='66' u='r' c='ls'/>

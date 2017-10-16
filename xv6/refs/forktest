@@ -1,0 +1,7 @@
+<def f='codebrowser/forktest.c' l='16' ll='49' type='void forktest()'/>
+<use f='codebrowser/forktest.c' l='54' u='c' c='main'/>
+<def f='codebrowser/usertests.c' l='1281' ll='1314' type='void forktest()'/>
+<use f='codebrowser/usertests.c' l='1649' u='c' c='main'/>
+<doc f='codebrowser/usertests.c' l='1278'>// test that fork fails gracefully
+// the forktest binary also does this, but it runs out of proc entries first.
+// inside the bigger usertests binary, we run out of memory first.</doc>

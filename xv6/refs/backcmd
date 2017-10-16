@@ -1,0 +1,4 @@
+<def f='codebrowser/sh.c' l='47' ll='50'/>
+<def f='codebrowser/sh.c' l='249' ll='259' type='struct cmd * backcmd(struct cmd * subcmd)'/>
+<use f='codebrowser/sh.c' l='353' u='c' c='parseline'/>
+<size>8</size>

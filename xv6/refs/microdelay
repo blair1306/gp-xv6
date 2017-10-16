@@ -1,0 +1,8 @@
+<dec f='codebrowser/defs.h' l='79' type='void microdelay(int )'/>
+<def f='codebrowser/lapic.c' l='128' ll='131' type='void microdelay(int us)'/>
+<use f='codebrowser/lapic.c' l='156' u='c' c='lapicstartap'/>
+<use f='codebrowser/lapic.c' l='158' u='c' c='lapicstartap'/>
+<use f='codebrowser/lapic.c' l='168' u='c' c='lapicstartap'/>
+<doc f='codebrowser/lapic.c' l='126'>// Spin for a given number of microseconds.
+// On real hardware would want to tune this dynamically.</doc>
+<use f='codebrowser/uart.c' l='59' u='c' c='uartputc'/>

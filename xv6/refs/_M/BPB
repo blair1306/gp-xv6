@@ -1,0 +1,5 @@
+<dec f='codebrowser/fs.h' l='43'/>
+<doc f='codebrowser/fs.h' l='42'>// Bitmap bits per block</doc>
+<use f='codebrowser/fs.c' l='61' u='c'/>
+<use f='codebrowser/fs.c' l='63' u='c'/>
+<use f='codebrowser/fs.c' l='88' u='c'/>

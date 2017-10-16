@@ -1,0 +1,4 @@
+<dec f='codebrowser/mmu.h' l='82'/>
+<doc f='codebrowser/mmu.h' l='81'>// Application segment type bits</doc>
+<use f='codebrowser/vm.c' l='26' u='c'/>
+<use f='codebrowser/vm.c' l='28' u='c'/>

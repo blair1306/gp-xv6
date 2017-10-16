@@ -1,0 +1,4 @@
+<dec f='codebrowser/syscall.c' l='85' type='int sys_fork()'/>
+<use f='codebrowser/syscall.c' l='103' u='r'/>
+<use f='codebrowser/syscall.c' l='103' u='r'/>
+<def f='codebrowser/sysproc.c' l='9' ll='13' type='int sys_fork()'/>

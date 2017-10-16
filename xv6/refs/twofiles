@@ -1,0 +1,4 @@
+<def f='codebrowser/usertests.c' l='417' ll='477' type='void twofiles()'/>
+<use f='codebrowser/usertests.c' l='1645' u='c' c='main'/>
+<doc f='codebrowser/usertests.c' l='415'>// two processes write two different files at the same
+// time, to test block allocation.</doc>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/spinlock.h' l='6' type='char *'/>
+<offset>32</offset>
+<doc f='codebrowser/spinlock.h' l='5'>// For debugging:</doc>
+<doc f='codebrowser/spinlock.h' l='6'>// Name of lock.</doc>
+<use f='codebrowser/spinlock.c' l='15' u='w' c='initlock'/>

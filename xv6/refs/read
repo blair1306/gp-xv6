@@ -1,0 +1,28 @@
+<dec f='codebrowser/user.h' l='9' type='int read(int , void * , int )'/>
+<use f='codebrowser/cat.c' l='12' u='c' c='cat'/>
+<use f='codebrowser/grep.c' l='17' u='c' c='grep'/>
+<use f='codebrowser/ls.c' l='57' u='c' c='ls'/>
+<dec f='include/unistd.h' l='363' type='ssize_t read(int __fd, void * __buf, size_t __nbytes)'/>
+<use f='codebrowser/mkfs.c' l='137' u='c' c='main'/>
+<use f='codebrowser/mkfs.c' l='208' u='c' c='rsect'/>
+<doc f='include/unistd.h' l='358'>/* Read NBYTES into BUF from FD.  Return the
+   number read, -1 for errors or 0 for EOF.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<use f='codebrowser/stressfs.c' l='43' u='c' c='main'/>
+<use f='codebrowser/ulib.c' l='59' u='c' c='gets'/>
+<use f='codebrowser/usertests.c' l='71' u='c' c='writetest'/>
+<use f='codebrowser/usertests.c' l='118' u='c' c='writetest1'/>
+<use f='codebrowser/usertests.c' l='232' u='c' c='pipe1'/>
+<use f='codebrowser/usertests.c' l='287' u='c' c='preempt'/>
+<use f='codebrowser/usertests.c' l='397' u='c' c='sharedfd'/>
+<use f='codebrowser/usertests.c' l='457' u='c' c='twofiles'/>
+<use f='codebrowser/usertests.c' l='586' u='c' c='unlinkread'/>
+<use f='codebrowser/usertests.c' l='640' u='c' c='linktest'/>
+<use f='codebrowser/usertests.c' l='705' u='c' c='concreate'/>
+<use f='codebrowser/usertests.c' l='880' u='c' c='subdir'/>
+<use f='codebrowser/usertests.c' l='923' u='c' c='subdir'/>
+<use f='codebrowser/usertests.c' l='1078' u='c' c='bigfile'/>
+<use f='codebrowser/usertests.c' l='1429' u='c' c='sbrktest'/>
+<use f='codebrowser/wc.c' l='15' u='c' c='wc'/>

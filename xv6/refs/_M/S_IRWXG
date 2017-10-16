@@ -1,0 +1,2 @@
+<dec f='include/fcntl.h' l='114'/>
+<doc f='include/fcntl.h' l='113'>/* Read, write, and execute by group.  */</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/defs.h' l='130' type='void popcli()'/>
+<use f='codebrowser/spinlock.c' l='63' u='c' c='release'/>
+<def f='codebrowser/spinlock.c' l='107' ll='116' type='void popcli()'/>
+<use f='codebrowser/vm.c' l='176' u='c' c='switchuvm'/>

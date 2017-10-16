@@ -1,0 +1,4 @@
+<dec f='codebrowser/syscall.c' l='90' type='int sys_mkdir()'/>
+<use f='codebrowser/syscall.c' l='122' u='r'/>
+<use f='codebrowser/syscall.c' l='122' u='r'/>
+<def f='codebrowser/sysfile.c' l='321' ll='335' type='int sys_mkdir()'/>

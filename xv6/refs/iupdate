@@ -1,0 +1,12 @@
+<dec f='codebrowser/defs.h' l='46' type='void iupdate(struct inode * )'/>
+<def f='codebrowser/fs.c' l='201' ll='217' type='void iupdate(struct inode * ip)'/>
+<use f='codebrowser/fs.c' l='329' u='c' c='iput'/>
+<use f='codebrowser/fs.c' l='418' u='c' c='itrunc'/>
+<use f='codebrowser/fs.c' l='489' u='c' c='writei'/>
+<doc f='codebrowser/fs.c' l='200'>// Copy a modified in-memory inode to disk.</doc>
+<use f='codebrowser/sysfile.c' l='136' u='c' c='sys_link'/>
+<use f='codebrowser/sysfile.c' l='156' u='c' c='sys_link'/>
+<use f='codebrowser/sysfile.c' l='216' u='c' c='sys_unlink'/>
+<use f='codebrowser/sysfile.c' l='221' u='c' c='sys_unlink'/>
+<use f='codebrowser/sysfile.c' l='261' u='c' c='create'/>
+<use f='codebrowser/sysfile.c' l='265' u='c' c='create'/>

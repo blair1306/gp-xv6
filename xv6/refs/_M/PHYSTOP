@@ -1,0 +1,5 @@
+<dec f='codebrowser/memlayout.h' l='4'/>
+<use f='codebrowser/kalloc.c' l='64' u='c'/>
+<use f='codebrowser/main.c' l='39' u='c'/>
+<use f='codebrowser/vm.c' l='123' u='c'/>
+<use f='codebrowser/vm.c' l='137' u='c'/>

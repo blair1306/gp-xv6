@@ -1,0 +1,4 @@
+<dec f='codebrowser/syscall.c' l='84' type='int sys_exit()'/>
+<use f='codebrowser/syscall.c' l='104' u='r'/>
+<use f='codebrowser/syscall.c' l='104' u='r'/>
+<def f='codebrowser/sysproc.c' l='15' ll='20' type='int sys_exit()'/>

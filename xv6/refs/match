@@ -1,0 +1,3 @@
+<dec f='codebrowser/grep.c' l='8' type='int match(char * , char * )'/>
+<use f='codebrowser/grep.c' l='22' u='c' c='grep'/>
+<def f='codebrowser/grep.c' l='71' ll='81' type='int match(char * re, char * text)'/>

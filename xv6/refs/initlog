@@ -1,0 +1,4 @@
+<dec f='codebrowser/defs.h' l='82' type='void initlog()'/>
+<doc f='codebrowser/defs.h' l='81'>// log.c</doc>
+<def f='codebrowser/log.c' l='53' ll='66' type='void initlog()'/>
+<use f='codebrowser/proc.c' l='334' u='c' c='forkret'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/stat.h' l='9' type='short'/>
+<offset>96</offset>
+<doc f='codebrowser/stat.h' l='9'>// Number of links to file</doc>
+<use f='codebrowser/fs.c' l='428' u='w' c='stati'/>

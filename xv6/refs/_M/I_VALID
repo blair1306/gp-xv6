@@ -1,0 +1,4 @@
+<dec f='codebrowser/file.h' l='27'/>
+<use f='codebrowser/fs.c' l='283' u='c'/>
+<use f='codebrowser/fs.c' l='293' u='c'/>
+<use f='codebrowser/fs.c' l='321' u='c'/>

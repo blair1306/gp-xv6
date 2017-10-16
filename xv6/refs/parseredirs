@@ -1,0 +1,4 @@
+<def f='codebrowser/sh.c' l='375' ll='398' type='struct cmd * parseredirs(struct cmd * cmd, char ** ps, char * es)'/>
+<use f='codebrowser/sh.c' l='412' u='c' c='parseblock'/>
+<use f='codebrowser/sh.c' l='431' u='c' c='parseexec'/>
+<use f='codebrowser/sh.c' l='442' u='c' c='parseexec'/>

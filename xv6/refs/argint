@@ -1,0 +1,16 @@
+<dec f='codebrowser/defs.h' l='142' type='int argint(int , int * )'/>
+<doc f='codebrowser/defs.h' l='141'>// syscall.c</doc>
+<def f='codebrowser/syscall.c' l='45' ll='49' type='int argint(int n, int * ip)'/>
+<use f='codebrowser/syscall.c' l='59' u='c' c='argptr'/>
+<use f='codebrowser/syscall.c' l='75' u='c' c='argstr'/>
+<doc f='codebrowser/syscall.c' l='44'>// Fetch the nth 32-bit system call argument.</doc>
+<use f='codebrowser/sysfile.c' l='25' u='c' c='argfd'/>
+<use f='codebrowser/sysfile.c' l='73' u='c' c='sys_read'/>
+<use f='codebrowser/sysfile.c' l='85' u='c' c='sys_write'/>
+<use f='codebrowser/sysfile.c' l='287' u='c' c='sys_open'/>
+<use f='codebrowser/sysfile.c' l='347' u='c' c='sys_mknod'/>
+<use f='codebrowser/sysfile.c' l='348' u='c' c='sys_mknod'/>
+<use f='codebrowser/sysfile.c' l='384' u='c' c='sys_exec'/>
+<use f='codebrowser/sysproc.c' l='33' u='c' c='sys_kill'/>
+<use f='codebrowser/sysproc.c' l='50' u='c' c='sys_sbrk'/>
+<use f='codebrowser/sysproc.c' l='64' u='c' c='sys_sleep'/>

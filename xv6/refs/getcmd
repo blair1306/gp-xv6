@@ -1,0 +1,2 @@
+<def f='codebrowser/sh.c' l='133' ll='142' type='int getcmd(char * buf, int nbuf)'/>
+<use f='codebrowser/sh.c' l='159' u='c' c='main'/>

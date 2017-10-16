@@ -1,0 +1,23 @@
+<dec f='codebrowser/defs.h' l='19' type='void cprintf(char * )'/>
+<def f='codebrowser/console.c' l='53' ll='103' type='void cprintf(char * fmt)'/>
+<use f='codebrowser/console.c' l='113' u='c' c='panic'/>
+<use f='codebrowser/console.c' l='114' u='c' c='panic'/>
+<use f='codebrowser/console.c' l='115' u='c' c='panic'/>
+<use f='codebrowser/console.c' l='118' u='c' c='panic'/>
+<doc f='codebrowser/console.c' l='50'>//PAGEBREAK: 50
+
+// Print to the console. only understands %d, %x, %p, %s.</doc>
+<use f='codebrowser/ioapic.c' l='60' u='c' c='ioapicinit'/>
+<use f='codebrowser/lapic.c' l='109' u='c' c='cpunum'/>
+<use f='codebrowser/main.c' l='25' u='c' c='main'/>
+<use f='codebrowser/main.c' l='59' u='c' c='mpmain'/>
+<use f='codebrowser/mp.c' l='118' u='c' c='mpinit'/>
+<use f='codebrowser/mp.c' l='138' u='c' c='mpinit'/>
+<use f='codebrowser/proc.c' l='449' u='c' c='procdump'/>
+<use f='codebrowser/proc.c' l='453' u='c' c='procdump'/>
+<use f='codebrowser/proc.c' l='455' u='c' c='procdump'/>
+<use f='codebrowser/syscall.c' l='135' u='c' c='syscall'/>
+<use f='codebrowser/trap.c' l='76' u='c' c='trap'/>
+<use f='codebrowser/trap.c' l='85' u='c' c='trap'/>
+<use f='codebrowser/trap.c' l='90' u='c' c='trap'/>
+<use f='codebrowser/vm.c' l='235' u='c' c='allocuvm'/>

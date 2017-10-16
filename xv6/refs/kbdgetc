@@ -1,0 +1,2 @@
+<def f='codebrowser/kbd.c' l='6' ll='44' type='int kbdgetc()'/>
+<use f='codebrowser/kbd.c' l='49' u='r' c='kbdintr'/>

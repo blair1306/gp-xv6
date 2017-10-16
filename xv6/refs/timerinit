@@ -1,0 +1,4 @@
+<dec f='codebrowser/defs.h' l='150' type='void timerinit()'/>
+<doc f='codebrowser/defs.h' l='149'>// timer.c</doc>
+<use f='codebrowser/main.c' l='37' u='c' c='main'/>
+<def f='codebrowser/timer.c' l='24' ll='32' type='void timerinit()'/>

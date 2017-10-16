@@ -1,0 +1,12 @@
+<dec f='codebrowser/proc.h' l='60' type='volatile int'/>
+<offset>128</offset>
+<doc f='codebrowser/proc.h' l='60'>// Process ID</doc>
+<use f='codebrowser/proc.c' l='49' u='w' c='allocproc'/>
+<use f='codebrowser/proc.c' l='157' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='224' u='r' c='wait'/>
+<use f='codebrowser/proc.c' l='229' u='w' c='wait'/>
+<use f='codebrowser/proc.c' l='409' u='r' c='kill'/>
+<use f='codebrowser/proc.c' l='449' u='r' c='procdump'/>
+<use f='codebrowser/syscall.c' l='136' u='r' c='syscall'/>
+<use f='codebrowser/sysproc.c' l='41' u='r' c='sys_getpid'/>
+<use f='codebrowser/trap.c' l='92' u='r' c='trap'/>

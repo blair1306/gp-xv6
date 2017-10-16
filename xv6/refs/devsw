@@ -1,0 +1,14 @@
+<def f='codebrowser/file.h' l='31' ll='34'/>
+<dec f='codebrowser/file.h' l='36' type='struct devsw []'/>
+<use f='codebrowser/console.c' l='286' u='m' c='consoleinit'/>
+<use f='codebrowser/console.c' l='287' u='m' c='consoleinit'/>
+<size>8</size>
+<doc f='codebrowser/file.h' l='29'>// table mapping major device number to
+// device functions</doc>
+<mbr r='devsw::read' o='0' t='int (*)(struct inode *, char *, int)'/>
+<mbr r='devsw::write' o='32' t='int (*)(struct inode *, char *, int)'/>
+<def f='codebrowser/file.c' l='12' type='struct devsw [10]'/>
+<use f='codebrowser/fs.c' l='441' u='m' c='readi'/>
+<use f='codebrowser/fs.c' l='443' u='m' c='readi'/>
+<use f='codebrowser/fs.c' l='469' u='m' c='writei'/>
+<use f='codebrowser/fs.c' l='471' u='m' c='writei'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/x86.h' l='102' ll='106' type='void loadgs(ushort v)'/>
+<use f='codebrowser/vm.c' l='35' u='c' c='seginit'/>

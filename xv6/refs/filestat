@@ -1,0 +1,4 @@
+<dec f='codebrowser/defs.h' l='32' type='int filestat(struct file * , struct stat * )'/>
+<def f='codebrowser/file.c' l='82' ll='92' type='int filestat(struct file * f, struct stat * st)'/>
+<doc f='codebrowser/file.c' l='81'>// Get metadata about file f.</doc>
+<use f='codebrowser/sysfile.c' l='111' u='c' c='sys_fstat'/>

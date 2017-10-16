@@ -1,0 +1,29 @@
+<dec f='codebrowser/defs.h' l='114' type='void sleep(void * , struct spinlock * )'/>
+<use f='codebrowser/bio.c' l='77' u='c' c='bget'/>
+<dec f='codebrowser/user.h' l='23' type='int sleep(int )'/>
+<use f='codebrowser/console.c' l='243' u='c' c='consoleread'/>
+<use f='codebrowser/fs.c' l='279' u='c' c='ilock'/>
+<use f='codebrowser/ide.c' l='151' u='c' c='iderw'/>
+<use f='codebrowser/log.c' l='129' u='c' c='begin_trans'/>
+<dec f='include/unistd.h' l='447' type='unsigned int sleep(unsigned int __seconds)'/>
+<doc f='include/unistd.h' l='437'>/* Make the process sleep for SECONDS seconds, or until a signal arrives
+   and is not ignored.  The function returns the number of seconds less
+   than SECONDS which it actually slept (thus zero if it slept the full time).
+   If a signal handler does a `longjmp&apos; or modifies the handling of the
+   SIGALRM signal while inside `sleep&apos; call, the handling of the SIGALRM
+   signal afterwards is undefined.  There is no return value to indicate
+   error, but if `sleep&apos; returns SECONDS, it probably didn&apos;t work.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<use f='codebrowser/pipe.c' l='90' u='c' c='pipewrite'/>
+<use f='codebrowser/pipe.c' l='110' u='c' c='piperead'/>
+<use f='codebrowser/proc.c' l='245' u='c' c='wait'/>
+<def f='codebrowser/proc.c' l='342' ll='375' type='void sleep(void * chan, struct spinlock * lk)'/>
+<doc f='codebrowser/proc.c' l='340'>// Atomically release lock and sleep on chan.
+// Reacquires lock when awakened.</doc>
+<use f='codebrowser/sysproc.c' l='73' u='c' c='sys_sleep'/>
+<use f='codebrowser/usertests.c' l='1426' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1479' u='c' c='validatetest'/>
+<use f='codebrowser/usertests.c' l='1480' u='c' c='validatetest'/>
+<use f='codebrowser/zombie.c' l='12' u='c' c='main'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/defs.h' l='125' type='void getcallerpcs(void * , uint * )'/>
+<use f='codebrowser/console.c' l='116' u='c' c='panic'/>
+<use f='codebrowser/proc.c' l='451' u='c' c='procdump'/>
+<use f='codebrowser/spinlock.c' l='39' u='c' c='acquire'/>
+<def f='codebrowser/spinlock.c' l='67' ll='82' type='void getcallerpcs(void * v, uint * pcs)'/>
+<doc f='codebrowser/spinlock.c' l='66'>// Record the current call stack in pcs[] by following the %ebp chain.</doc>

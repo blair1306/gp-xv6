@@ -1,0 +1,9 @@
+<def f='codebrowser/ioapic.c' l='25' type='volatile struct ioapic *'/>
+<def f='codebrowser/ioapic.c' l='28' ll='32'/>
+<use f='codebrowser/ioapic.c' l='37' u='r' c='ioapicread'/>
+<use f='codebrowser/ioapic.c' l='38' u='r' c='ioapicread'/>
+<use f='codebrowser/ioapic.c' l='44' u='r' c='ioapicwrite'/>
+<use f='codebrowser/ioapic.c' l='45' u='r' c='ioapicwrite'/>
+<use f='codebrowser/ioapic.c' l='56' u='w' c='ioapicinit'/>
+<size>20</size>
+<doc f='codebrowser/ioapic.c' l='27'>// IO APIC MMIO structure: write reg, then read or write data.</doc>

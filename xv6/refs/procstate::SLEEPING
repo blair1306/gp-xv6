@@ -1,0 +1,6 @@
+<dec f='codebrowser/proc.h' l='52' type='2'/>
+<use f='codebrowser/proc.c' l='364' u='r' c='sleep'/>
+<use f='codebrowser/proc.c' l='386' u='r' c='wakeup1'/>
+<use f='codebrowser/proc.c' l='412' u='r' c='kill'/>
+<use f='codebrowser/proc.c' l='432' u='r' c='procdump'/>
+<use f='codebrowser/proc.c' l='450' u='r' c='procdump'/>

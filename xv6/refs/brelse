@@ -1,0 +1,22 @@
+<dec f='codebrowser/defs.h' l='14' type='void brelse(struct buf * )'/>
+<def f='codebrowser/bio.c' l='119' ll='138' type='void brelse(struct buf * b)'/>
+<doc f='codebrowser/bio.c' l='117'>// Release a B_BUSY buffer.
+// Move to the head of the MRU list.</doc>
+<use f='codebrowser/fs.c' l='34' u='c' c='readsb'/>
+<use f='codebrowser/fs.c' l='46' u='c' c='bzero'/>
+<use f='codebrowser/fs.c' l='68' u='c' c='balloc'/>
+<use f='codebrowser/fs.c' l='73' u='c' c='balloc'/>
+<use f='codebrowser/fs.c' l='94' u='c' c='bfree'/>
+<use f='codebrowser/fs.c' l='192' u='c' c='ialloc'/>
+<use f='codebrowser/fs.c' l='195' u='c' c='ialloc'/>
+<use f='codebrowser/fs.c' l='216' u='c' c='iupdate'/>
+<use f='codebrowser/fs.c' l='292' u='c' c='ilock'/>
+<use f='codebrowser/fs.c' l='379' u='c' c='bmap'/>
+<use f='codebrowser/fs.c' l='412' u='c' c='itrunc'/>
+<use f='codebrowser/fs.c' l='455' u='c' c='readi'/>
+<use f='codebrowser/fs.c' l='484' u='c' c='writei'/>
+<use f='codebrowser/log.c' l='79' u='c' c='install_trans'/>
+<use f='codebrowser/log.c' l='80' u='c' c='install_trans'/>
+<use f='codebrowser/log.c' l='95' u='c' c='read_head'/>
+<use f='codebrowser/log.c' l='112' u='c' c='write_head'/>
+<use f='codebrowser/log.c' l='177' u='c' c='log_write'/>

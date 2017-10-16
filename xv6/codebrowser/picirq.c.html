@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>picirq.c source code [codebrowser/picirq.c] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/picirq.c'; var root_path = '..'; var data_path = '../../data';</script>
+<script src='../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='./'>codebrowser</a>/<a href='picirq.c.html'>picirq.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// Intel 8259A programmable interrupt controllers.</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#include <a href="types.h.html">"types.h"</a></u></td></tr>
+<tr><th id="4">4</th><td><u>#include <a href="x86.h.html">"x86.h"</a></u></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="traps.h.html">"traps.h"</a></u></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><i>// I/O Addresses of the two programmable interrupt controllers</i></td></tr>
+<tr><th id="8">8</th><td><u>#define <dfn class="macro" id="_M/IO_PIC1" data-ref="_M/IO_PIC1">IO_PIC1</dfn>         0x20    // Master (IRQs 0-7)</u></td></tr>
+<tr><th id="9">9</th><td><u>#define <dfn class="macro" id="_M/IO_PIC2" data-ref="_M/IO_PIC2">IO_PIC2</dfn>         0xA0    // Slave (IRQs 8-15)</u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><u>#define <dfn class="macro" id="_M/IRQ_SLAVE" data-ref="_M/IRQ_SLAVE">IRQ_SLAVE</dfn>       2       // IRQ at which slave connects to master</u></td></tr>
+<tr><th id="12">12</th><td></td></tr>
+<tr><th id="13">13</th><td><i  data-doc="irqmask">// Current IRQ mask.</i></td></tr>
+<tr><th id="14">14</th><td><i  data-doc="irqmask">// Initial IRQ mask has interrupt 2 enabled (for slave 8259A).</i></td></tr>
+<tr><th id="15">15</th><td><em>static</em> <a class="typedef" href="types.h.html#ushort" title='ushort' data-type='unsigned short' data-ref="ushort">ushort</a> <dfn class="tu decl def" id="irqmask" title='irqmask' data-type='ushort' data-ref="irqmask">irqmask</dfn> = <var>0xFFFF</var> &amp; ~(<var>1</var>&lt;&lt;<a class="macro" href="#11" title="2" data-ref="_M/IRQ_SLAVE">IRQ_SLAVE</a>);</td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><em>static</em> <em>void</em></td></tr>
+<tr><th id="18">18</th><td><dfn class="tu decl def" id="picsetmask" title='picsetmask' data-type='void picsetmask(ushort mask)' data-ref="picsetmask">picsetmask</dfn>(<a class="typedef" href="types.h.html#ushort" title='ushort' data-type='unsigned short' data-ref="ushort">ushort</a> <dfn class="local col1 decl" id="1mask" title='mask' data-type='ushort' data-ref="1mask">mask</dfn>)</td></tr>
+<tr><th id="19">19</th><td>{</td></tr>
+<tr><th id="20">20</th><td>  <a class="tu ref" href="#irqmask" title='irqmask' data-use='w' data-ref="irqmask">irqmask</a> = <a class="local col1 ref" href="#1mask" title='mask' data-ref="1mask">mask</a>;</td></tr>
+<tr><th id="21">21</th><td>  <a class="ref" href="x86.h.html#outb" title='outb' data-ref="outb">outb</a>(<a class="macro" href="#8" title="0x20" data-ref="_M/IO_PIC1">IO_PIC1</a>+<var>1</var>, <a class="local col1 ref" href="#1mask" title='mask' data-ref="1mask">mask</a>);</td></tr>
+<tr><th id="22">22</th><td>  <a class="ref" href="x86.h.html#outb" title='outb' data-ref="outb">outb</a>(<a class="macro" href="#9" title="0xA0" data-ref="_M/IO_PIC2">IO_PIC2</a>+<var>1</var>, <a class="local col1 ref" href="#1mask" title='mask' data-ref="1mask">mask</a> &gt;&gt; <var>8</var>);</td></tr>
+<tr><th id="23">23</th><td>}</td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><em>void</em></td></tr>
+<tr><th id="26">26</th><td><dfn class="decl def" id="picenable" title='picenable' data-ref="picenable">picenable</dfn>(<em>int</em> <dfn class="local col2 decl" id="2irq" title='irq' data-type='int' data-ref="2irq">irq</dfn>)</td></tr>
+<tr><th id="27">27</th><td>{</td></tr>
+<tr><th id="28">28</th><td>  <a class="tu ref" href="#picsetmask" title='picsetmask' data-use='c' data-ref="picsetmask">picsetmask</a>(<a class="tu ref" href="#irqmask" title='irqmask' data-use='r' data-ref="irqmask">irqmask</a> &amp; ~(<var>1</var>&lt;&lt;<a class="local col2 ref" href="#2irq" title='irq' data-ref="2irq">irq</a>));</td></tr>
+<tr><th id="29">29</th><td>}</td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><i>// Initialize the 8259A interrupt controllers.</i></td></tr>
+<tr><th id="32">32</th><td><em>void</em></td></tr>
+<tr><th id="33">33</th><td><dfn class="decl def" id="picinit" title='picinit' data-ref="picinit">picinit</dfn>(<em>void</em>)</td></tr>
+<tr><th id="34">34</th><td>{</td></tr>
+<tr><th id="35">35</th><td>  <i>// mask all interrupts</i></td></tr>
+<tr><th id="36">36</th><td>  <a class="ref" href="x86.h.html#outb" title='outb' data-ref="outb">outb</a>(<a class="macro" href="#8" title="0x20" data-ref="_M/IO_PIC1">IO_PIC1</a>+<var>1</var>, <var>0xFF</var>);</td></tr>
+<tr><th id="37">37</th><td>  <a class="ref" href="x86.h.html#outb" title='outb' data-ref="outb">outb</a>(<a class="macro" href="#9" title="0xA0" data-ref="_M/IO_PIC2">IO_PIC2</a>+<var>1</var>, <var>0xFF</var>);</td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td>  <i>// Set up master (8259A-1)</i></td></tr>
+<tr><th id="40">40</th><td><i></i></td></tr>
+<tr><th id="41">41</th><td><i>  // ICW1:  0001g0hi</i></td></tr>
+<tr><th id="42">42</th><td><i>  //    g:  0 = edge triggering, 1 = level triggering</i></td></tr>
+<tr><th id="43">43</th><td><i>  //    h:  0 = cascaded PICs, 1 = master only</i></td></tr>
+<tr><th id="44">44</th><td><i>  //    i:  0 = no ICW4, 1 = ICW4 required</i></td></tr>
+<tr><th id="45">45</th><td>  <a class="ref" href="x86.h.html#outb" title='outb' data-ref="outb">outb</a>(<a class="macro" href="#8" title="0x20" data-ref="_M/IO_PIC1">IO_PIC1</a>, <var>0x11</var>);</td></tr>
+<tr><th id="46">46</th><td></td></tr>
+<tr><th id="47">47</th><td>  <i>// ICW2:  Vector offset</i></td></tr>
+<tr><th id="48">48</th><td>  <a class="ref" href="x86.h.html#outb" title='outb' data-ref="outb">outb</a>(<a class="macro" href="#8" title="0x20" data-ref="_M/IO_PIC1">IO_PIC1</a>+<var>1</var>, <a class="macro" href="traps.h.html#30" title="32" data-ref="_M/T_IRQ0">T_IRQ0</a>);</td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td>  <i>// ICW3:  (master PIC) bit mask of IR lines connected to slaves</i></td></tr>
+<tr><th id="51">51</th><td><i>  //        (slave PIC) 3-bit # of slave's connection to master</i></td></tr>
+<tr><th id="52">52</th><td>  <a class="ref" href="x86.h.html#outb" title='outb' data-ref="outb">outb</a>(<a class="macro" href="#8" title="0x20" data-ref="_M/IO_PIC1">IO_PIC1</a>+<var>1</var>, <var>1</var>&lt;&lt;<a class="macro" href="#11" title="2" data-ref="_M/IRQ_SLAVE">IRQ_SLAVE</a>);</td></tr>
+<tr><th id="53">53</th><td></td></tr>
+<tr><th id="54">54</th><td>  <i>// ICW4:  000nbmap</i></td></tr>
+<tr><th id="55">55</th><td><i>  //    n:  1 = special fully nested mode</i></td></tr>
+<tr><th id="56">56</th><td><i>  //    b:  1 = buffered mode</i></td></tr>
+<tr><th id="57">57</th><td><i>  //    m:  0 = slave PIC, 1 = master PIC</i></td></tr>
+<tr><th id="58">58</th><td><i>  //      (ignored when b is 0, as the master/slave role</i></td></tr>
+<tr><th id="59">59</th><td><i>  //      can be hardwired).</i></td></tr>
+<tr><th id="60">60</th><td><i>  //    a:  1 = Automatic EOI mode</i></td></tr>
+<tr><th id="61">61</th><td><i>  //    p:  0 = MCS-80/85 mode, 1 = intel x86 mode</i></td></tr>
+<tr><th id="62">62</th><td>  <a class="ref" href="x86.h.html#outb" title='outb' data-ref="outb">outb</a>(<a class="macro" href="#8" title="0x20" data-ref="_M/IO_PIC1">IO_PIC1</a>+<var>1</var>, <var>0x3</var>);</td></tr>
+<tr><th id="63">63</th><td></td></tr>
+<tr><th id="64">64</th><td>  <i>// Set up slave (8259A-2)</i></td></tr>
+<tr><th id="65">65</th><td>  <a class="ref" href="x86.h.html#outb" title='outb' data-ref="outb">outb</a>(<a class="macro" href="#9" title="0xA0" data-ref="_M/IO_PIC2">IO_PIC2</a>, <var>0x11</var>);                  <i>// ICW1</i></td></tr>
+<tr><th id="66">66</th><td>  <a class="ref" href="x86.h.html#outb" title='outb' data-ref="outb">outb</a>(<a class="macro" href="#9" title="0xA0" data-ref="_M/IO_PIC2">IO_PIC2</a>+<var>1</var>, <a class="macro" href="traps.h.html#30" title="32" data-ref="_M/T_IRQ0">T_IRQ0</a> + <var>8</var>);      <i>// ICW2</i></td></tr>
+<tr><th id="67">67</th><td>  <a class="ref" href="x86.h.html#outb" title='outb' data-ref="outb">outb</a>(<a class="macro" href="#9" title="0xA0" data-ref="_M/IO_PIC2">IO_PIC2</a>+<var>1</var>, <a class="macro" href="#11" title="2" data-ref="_M/IRQ_SLAVE">IRQ_SLAVE</a>);           <i>// ICW3</i></td></tr>
+<tr><th id="68">68</th><td>  <i>// NB Automatic EOI mode doesn't tend to work on the slave.</i></td></tr>
+<tr><th id="69">69</th><td><i>  // Linux source code says it's "to be investigated".</i></td></tr>
+<tr><th id="70">70</th><td>  <a class="ref" href="x86.h.html#outb" title='outb' data-ref="outb">outb</a>(<a class="macro" href="#9" title="0xA0" data-ref="_M/IO_PIC2">IO_PIC2</a>+<var>1</var>, <var>0x3</var>);                 <i>// ICW4</i></td></tr>
+<tr><th id="71">71</th><td></td></tr>
+<tr><th id="72">72</th><td>  <i>// OCW3:  0ef01prs</i></td></tr>
+<tr><th id="73">73</th><td><i>  //   ef:  0x = NOP, 10 = clear specific mask, 11 = set specific mask</i></td></tr>
+<tr><th id="74">74</th><td><i>  //    p:  0 = no polling, 1 = polling mode</i></td></tr>
+<tr><th id="75">75</th><td><i>  //   rs:  0x = NOP, 10 = read IRR, 11 = read ISR</i></td></tr>
+<tr><th id="76">76</th><td>  <a class="ref" href="x86.h.html#outb" title='outb' data-ref="outb">outb</a>(<a class="macro" href="#8" title="0x20" data-ref="_M/IO_PIC1">IO_PIC1</a>, <var>0x68</var>);             <i>// clear specific mask</i></td></tr>
+<tr><th id="77">77</th><td>  <a class="ref" href="x86.h.html#outb" title='outb' data-ref="outb">outb</a>(<a class="macro" href="#8" title="0x20" data-ref="_M/IO_PIC1">IO_PIC1</a>, <var>0x0a</var>);             <i>// read IRR by default</i></td></tr>
+<tr><th id="78">78</th><td></td></tr>
+<tr><th id="79">79</th><td>  <a class="ref" href="x86.h.html#outb" title='outb' data-ref="outb">outb</a>(<a class="macro" href="#9" title="0xA0" data-ref="_M/IO_PIC2">IO_PIC2</a>, <var>0x68</var>);             <i>// OCW3</i></td></tr>
+<tr><th id="80">80</th><td>  <a class="ref" href="x86.h.html#outb" title='outb' data-ref="outb">outb</a>(<a class="macro" href="#9" title="0xA0" data-ref="_M/IO_PIC2">IO_PIC2</a>, <var>0x0a</var>);             <i>// OCW3</i></td></tr>
+<tr><th id="81">81</th><td></td></tr>
+<tr><th id="82">82</th><td>  <b>if</b>(<a class="tu ref" href="#irqmask" title='irqmask' data-use='r' data-ref="irqmask">irqmask</a> != <var>0xFFFF</var>)</td></tr>
+<tr><th id="83">83</th><td>    <a class="tu ref" href="#picsetmask" title='picsetmask' data-use='c' data-ref="picsetmask">picsetmask</a>(<a class="tu ref" href="#irqmask" title='irqmask' data-use='r' data-ref="irqmask">irqmask</a>);</td></tr>
+<tr><th id="84">84</th><td>}</td></tr>
+<tr><th id="85">85</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Aug-31</em> from project codebrowser revision <em>xv6-rev7</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

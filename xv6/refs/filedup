@@ -1,0 +1,5 @@
+<dec f='codebrowser/defs.h' l='29' type='struct file * filedup(struct file * )'/>
+<def f='codebrowser/file.c' l='43' ll='52' type='struct file * filedup(struct file * f)'/>
+<doc f='codebrowser/file.c' l='42'>// Increment ref count for file f.</doc>
+<use f='codebrowser/proc.c' l='154' u='c' c='fork'/>
+<use f='codebrowser/sysfile.c' l='62' u='c' c='sys_dup'/>

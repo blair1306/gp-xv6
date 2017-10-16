@@ -1,0 +1,5 @@
+<dec f='codebrowser/mmu.h' l='196' type='uint'/>
+<offset>37</offset>
+<doc f='codebrowser/mmu.h' l='196'>// reserved(should be zero I guess)</doc>
+<use f='codebrowser/trap.c' l='23' macro='1' u='w'/>
+<use f='codebrowser/trap.c' l='24' macro='1' u='w'/>

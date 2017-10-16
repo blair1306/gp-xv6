@@ -1,0 +1,11 @@
+<dec f='codebrowser/fs.h' l='52' type='ushort'/>
+<offset>0</offset>
+<use f='codebrowser/fs.c' l='517' u='r' c='dirlookup'/>
+<use f='codebrowser/fs.c' l='523' u='r' c='dirlookup'/>
+<use f='codebrowser/fs.c' l='549' u='r' c='dirlink'/>
+<use f='codebrowser/fs.c' l='554' u='w' c='dirlink'/>
+<use f='codebrowser/ls.c' l='58' u='r' c='ls'/>
+<use f='codebrowser/mkfs.c' l='106' u='w' c='main'/>
+<use f='codebrowser/mkfs.c' l='111' u='w' c='main'/>
+<use f='codebrowser/mkfs.c' l='133' u='w' c='main'/>
+<use f='codebrowser/sysfile.c' l='172' u='r' c='isdirempty'/>

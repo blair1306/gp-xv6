@@ -1,0 +1,23 @@
+<dec f='codebrowser/buf.h' l='8' type='uchar [512]'/>
+<offset>192</offset>
+<use f='codebrowser/fs.c' l='33' u='r' c='readsb'/>
+<use f='codebrowser/fs.c' l='44' u='r' c='bzero'/>
+<use f='codebrowser/fs.c' l='65' u='r' c='balloc'/>
+<use f='codebrowser/fs.c' l='66' u='w' c='balloc'/>
+<use f='codebrowser/fs.c' l='90' u='r' c='bfree'/>
+<use f='codebrowser/fs.c' l='92' u='w' c='bfree'/>
+<use f='codebrowser/fs.c' l='187' u='r' c='ialloc'/>
+<use f='codebrowser/fs.c' l='208' u='r' c='iupdate'/>
+<use f='codebrowser/fs.c' l='285' u='r' c='ilock'/>
+<use f='codebrowser/fs.c' l='374' u='r' c='bmap'/>
+<use f='codebrowser/fs.c' l='407' u='r' c='itrunc'/>
+<use f='codebrowser/fs.c' l='454' u='r' c='readi'/>
+<use f='codebrowser/fs.c' l='482' u='r' c='writei'/>
+<use f='codebrowser/ide.c' l='84' u='r' c='idestart'/>
+<use f='codebrowser/ide.c' l='107' u='r' c='ideintr'/>
+<use f='codebrowser/log.c' l='77' u='r' c='install_trans'/>
+<use f='codebrowser/log.c' l='77' u='r' c='install_trans'/>
+<use f='codebrowser/log.c' l='89' u='r' c='read_head'/>
+<use f='codebrowser/log.c' l='105' u='r' c='write_head'/>
+<use f='codebrowser/log.c' l='175' u='r' c='log_write'/>
+<use f='codebrowser/log.c' l='175' u='r' c='log_write'/>

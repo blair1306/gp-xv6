@@ -1,0 +1,3 @@
+<dec f='codebrowser/defs.h' l='30' type='void fileinit()'/>
+<def f='codebrowser/file.c' l='18' ll='22' type='void fileinit()'/>
+<use f='codebrowser/main.c' l='33' u='c' c='main'/>

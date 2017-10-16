@@ -1,0 +1,7 @@
+<def f='include/x86_64-linux-gnu/bits/fcntl.h' l='35' ll='47'/>
+<size>16</size>
+<mbr r='flock::l_type' o='0' t='short'/>
+<mbr r='flock::l_whence' o='16' t='short'/>
+<mbr r='flock::l_start' o='32' t='__off_t'/>
+<mbr r='flock::l_len' o='64' t='__off_t'/>
+<mbr r='flock::l_pid' o='96' t='__pid_t'/>

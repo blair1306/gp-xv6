@@ -1,0 +1,11 @@
+<dec f='codebrowser/defs.h' l='145' type='int fetchint(uint , int * )'/>
+<def f='codebrowser/syscall.c' l='17' ll='24' type='int fetchint(uint addr, int * ip)'/>
+<use f='codebrowser/syscall.c' l='48' u='c' c='argint'/>
+<doc f='codebrowser/syscall.c' l='10'>// User code makes a system call with INT T_SYSCALL.
+// System call number in %eax.
+// Arguments on the stack, from the user call to the C
+// library system call function. The saved user %esp points
+// to a saved program counter, and then the first argument.
+
+// Fetch the int at addr from the current process.</doc>
+<use f='codebrowser/sysfile.c' l='391' u='c' c='sys_exec'/>

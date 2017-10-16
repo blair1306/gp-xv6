@@ -1,0 +1,6 @@
+<dec f='codebrowser/defs.h' l='139' type='char * strncpy(char * , const char * , int )'/>
+<use f='codebrowser/fs.c' l='553' u='c' c='dirlink'/>
+<dec f='include/string.h' l='128' type='char * strncpy(char *restrict __dest, const char *restrict __src, size_t __n)'/>
+<use f='codebrowser/mkfs.c' l='134' u='c' c='main'/>
+<doc f='include/string.h' l='127'>/* Copy no more than N characters of SRC to DEST.  */</doc>
+<def f='codebrowser/string.c' l='68' ll='79' type='char * strncpy(char * s, const char * t, int n)'/>

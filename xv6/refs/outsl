@@ -1,0 +1,2 @@
+<def f='codebrowser/x86.h' l='33' ll='40' type='void outsl(int port, const void * addr, int cnt)'/>
+<use f='codebrowser/ide.c' l='84' u='c' c='idestart'/>

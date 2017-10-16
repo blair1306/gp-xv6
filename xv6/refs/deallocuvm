@@ -1,0 +1,9 @@
+<dec f='codebrowser/defs.h' l='170' type='int deallocuvm(pde_t * , uint , uint )'/>
+<use f='codebrowser/proc.c' l='117' u='c' c='growproc'/>
+<use f='codebrowser/vm.c' l='236' u='c' c='allocuvm'/>
+<def f='codebrowser/vm.c' l='249' ll='273' type='int deallocuvm(pde_t * pgdir, uint oldsz, uint newsz)'/>
+<use f='codebrowser/vm.c' l='284' u='c' c='freevm'/>
+<doc f='codebrowser/vm.c' l='245'>// Deallocate user pages to bring the process size from oldsz to
+// newsz.  oldsz and newsz need not be page-aligned, nor does newsz
+// need to be less than oldsz.  oldsz can be larger than the actual
+// process size.  Returns the new process size.</doc>

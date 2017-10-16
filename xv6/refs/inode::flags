@@ -1,0 +1,14 @@
+<dec f='codebrowser/file.h' l='17' type='int'/>
+<offset>96</offset>
+<doc f='codebrowser/file.h' l='17'>// I_BUSY, I_VALID</doc>
+<use f='codebrowser/fs.c' l='249' u='w' c='iget'/>
+<use f='codebrowser/fs.c' l='278' u='r' c='ilock'/>
+<use f='codebrowser/fs.c' l='280' u='w' c='ilock'/>
+<use f='codebrowser/fs.c' l='283' u='r' c='ilock'/>
+<use f='codebrowser/fs.c' l='293' u='w' c='ilock'/>
+<use f='codebrowser/fs.c' l='303' u='r' c='iunlock'/>
+<use f='codebrowser/fs.c' l='307' u='w' c='iunlock'/>
+<use f='codebrowser/fs.c' l='321' u='r' c='iput'/>
+<use f='codebrowser/fs.c' l='323' u='r' c='iput'/>
+<use f='codebrowser/fs.c' l='325' u='w' c='iput'/>
+<use f='codebrowser/fs.c' l='331' u='w' c='iput'/>

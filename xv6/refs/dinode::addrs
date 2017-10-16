@@ -1,0 +1,12 @@
+<dec f='codebrowser/fs.h' l='33' type='uint [13]'/>
+<offset>96</offset>
+<doc f='codebrowser/fs.h' l='33'>// Data block addresses</doc>
+<use f='codebrowser/fs.c' l='214' u='r' c='iupdate'/>
+<use f='codebrowser/fs.c' l='291' u='r' c='ilock'/>
+<use f='codebrowser/mkfs.c' l='263' u='r' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='264' u='w' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='267' u='r' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='269' u='r' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='271' u='w' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='275' u='r' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='279' u='r' c='iappend'/>

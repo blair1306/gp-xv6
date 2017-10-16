@@ -1,0 +1,6 @@
+<dec f='codebrowser/x86.h' l='180' type='uint'/>
+<offset>544</offset>
+<doc f='codebrowser/x86.h' l='179'>// below here only when crossing rings, such as from user to kernel</doc>
+<use f='codebrowser/exec.c' l='90' u='w' c='exec'/>
+<use f='codebrowser/proc.c' l='96' u='w' c='userinit'/>
+<use f='codebrowser/syscall.c' l='48' u='r' c='argint'/>

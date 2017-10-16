@@ -1,0 +1,5 @@
+<dec f='codebrowser/fs.h' l='30' type='short'/>
+<offset>32</offset>
+<doc f='codebrowser/fs.h' l='30'>// Minor device number (T_DEV only)</doc>
+<use f='codebrowser/fs.c' l='211' u='w' c='iupdate'/>
+<use f='codebrowser/fs.c' l='288' u='r' c='ilock'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/defs.h' l='66' type='void kfree(char * )'/>
+<use f='codebrowser/kalloc.c' l='51' u='c' c='freerange'/>
+<def f='codebrowser/kalloc.c' l='59' ll='77' type='void kfree(char * v)'/>
+<doc f='codebrowser/kalloc.c' l='54'>//PAGEBREAK: 21
+// Free the page of physical memory pointed at by v,
+// which normally should have been returned by a
+// call to kalloc().  (The exception is when
+// initializing the allocator; see kinit above.)</doc>
+<use f='codebrowser/pipe.c' l='50' u='c' c='pipealloc'/>
+<use f='codebrowser/pipe.c' l='71' u='c' c='pipeclose'/>
+<use f='codebrowser/proc.c' l='140' u='c' c='fork'/>
+<use f='codebrowser/proc.c' l='225' u='c' c='wait'/>
+<use f='codebrowser/vm.c' l='268' u='c' c='deallocuvm'/>
+<use f='codebrowser/vm.c' l='288' u='c' c='freevm'/>
+<use f='codebrowser/vm.c' l='291' u='c' c='freevm'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/proc.h' l='10' type='volatile uint'/>
+<offset>1344</offset>
+<doc f='codebrowser/proc.h' l='10'>// Has the CPU started?</doc>
+<use f='codebrowser/main.c' l='61' u='a' c='mpmain'/>
+<use f='codebrowser/main.c' l='97' u='r' c='startothers'/>

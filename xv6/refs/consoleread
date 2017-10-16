@@ -1,0 +1,2 @@
+<def f='codebrowser/console.c' l='227' ll='263' type='int consoleread(struct inode * ip, char * dst, int n)'/>
+<use f='codebrowser/console.c' l='287' u='r' c='consoleinit'/>

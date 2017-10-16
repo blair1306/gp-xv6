@@ -1,0 +1,6 @@
+<dec f='codebrowser/syscall.c' l='100' type='int sys_uptime()'/>
+<use f='codebrowser/syscall.c' l='116' u='r'/>
+<use f='codebrowser/syscall.c' l='116' u='r'/>
+<def f='codebrowser/sysproc.c' l='81' ll='90' type='int sys_uptime()'/>
+<doc f='codebrowser/sysproc.c' l='79'>// return how many clock tick interrupts have occurred
+// since start.</doc>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/stat.h' l='1'/>
+<use f='codebrowser/fs.c' l='511' u='c'/>
+<use f='codebrowser/fs.c' l='616' u='c'/>
+<use f='codebrowser/ls.c' l='49' u='c'/>
+<use f='codebrowser/mkfs.c' l='102' u='c'/>
+<use f='codebrowser/sysfile.c' l='129' u='c'/>
+<use f='codebrowser/sysfile.c' l='206' u='c'/>
+<use f='codebrowser/sysfile.c' l='214' u='c'/>
+<use f='codebrowser/sysfile.c' l='263' u='c'/>
+<use f='codebrowser/sysfile.c' l='299' u='c'/>
+<use f='codebrowser/sysfile.c' l='328' u='c'/>
+<use f='codebrowser/sysfile.c' l='367' u='c'/>

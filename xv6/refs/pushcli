@@ -1,0 +1,7 @@
+<dec f='codebrowser/defs.h' l='129' type='void pushcli()'/>
+<use f='codebrowser/spinlock.c' l='27' u='c' c='acquire'/>
+<def f='codebrowser/spinlock.c' l='96' ll='105' type='void pushcli()'/>
+<doc f='codebrowser/spinlock.c' l='92'>// Pushcli/popcli are like cli/sti except that they are matched:
+// it takes two popcli to undo two pushcli.  Also, if interrupts
+// are off, then pushcli, popcli leaves them off.</doc>
+<use f='codebrowser/vm.c' l='167' u='c' c='switchuvm'/>

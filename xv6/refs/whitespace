@@ -1,0 +1,7 @@
+<def f='codebrowser/sh.c' l='263' type='char [6]'/>
+<use f='codebrowser/sh.c' l='273' u='r' c='gettoken'/>
+<use f='codebrowser/sh.c' l='298' u='r' c='gettoken'/>
+<use f='codebrowser/sh.c' l='305' u='r' c='gettoken'/>
+<use f='codebrowser/sh.c' l='317' u='r' c='peek'/>
+<doc f='codebrowser/sh.c' l='260'>//PAGEBREAK!
+// Parsing</doc>

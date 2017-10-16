@@ -1,0 +1,4 @@
+<dec f='codebrowser/sh.c' l='324' type='struct cmd * parsepipe(char ** , char * )'/>
+<use f='codebrowser/sh.c' l='350' u='c' c='parseline'/>
+<def f='codebrowser/sh.c' l='362' ll='373' type='struct cmd * parsepipe(char ** ps, char * es)'/>
+<use f='codebrowser/sh.c' l='370' u='c' c='parsepipe'/>

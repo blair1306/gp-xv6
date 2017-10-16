@@ -1,0 +1,2 @@
+<dec f='codebrowser/defs.h' l='89' type='int mpbcpu()'/>
+<def f='codebrowser/mp.c' l='20' ll='24' type='int mpbcpu()'/>

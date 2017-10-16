@@ -1,0 +1,18 @@
+<dec f='codebrowser/defs.h' l='137' type='int strlen(const char * )'/>
+<dec f='codebrowser/user.h' l='34' type='uint strlen(char * )'/>
+<use f='codebrowser/exec.c' l='64' u='c' c='exec'/>
+<use f='codebrowser/exec.c' l='65' u='c' c='exec'/>
+<use f='codebrowser/forktest.c' l='13' u='c' c='printf'/>
+<use f='codebrowser/ls.c' l='13' u='c' c='fmtname'/>
+<use f='codebrowser/ls.c' l='18' u='c' c='fmtname'/>
+<use f='codebrowser/ls.c' l='20' u='c' c='fmtname'/>
+<use f='codebrowser/ls.c' l='21' u='c' c='fmtname'/>
+<use f='codebrowser/ls.c' l='21' u='c' c='fmtname'/>
+<use f='codebrowser/ls.c' l='50' u='c' c='ls'/>
+<use f='codebrowser/ls.c' l='55' u='c' c='ls'/>
+<dec f='include/string.h' l='394' type='unsigned int strlen(const char * __s)'/>
+<doc f='include/string.h' l='393'>/* Return the length of S.  */</doc>
+<use f='codebrowser/sh.c' l='163' u='c' c='main'/>
+<use f='codebrowser/sh.c' l='334' u='c' c='parsecmd'/>
+<def f='codebrowser/string.c' l='96' ll='104' type='int strlen(const char * s)'/>
+<def f='codebrowser/ulib.c' l='26' ll='34' type='uint strlen(char * s)'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/pipe.c' l='15' type='uint'/>
+<use f='codebrowser/pipe.c' l='35' u='w' c='pipealloc'/>
+<use f='codebrowser/pipe.c' l='64' u='a' c='pipeclose'/>
+<use f='codebrowser/pipe.c' l='84' u='r' c='pipewrite'/>
+<use f='codebrowser/pipe.c' l='89' u='a' c='pipewrite'/>
+<use f='codebrowser/pipe.c' l='94' u='a' c='pipewrite'/>
+<use f='codebrowser/pipe.c' l='105' u='r' c='piperead'/>
+<use f='codebrowser/pipe.c' l='110' u='a' c='piperead'/>
+<use f='codebrowser/pipe.c' l='113' u='r' c='piperead'/>
+<use f='codebrowser/pipe.c' l='115' u='w' c='piperead'/>
+<offset>4512</offset>
+<doc f='codebrowser/pipe.c' l='15'>// number of bytes read</doc>

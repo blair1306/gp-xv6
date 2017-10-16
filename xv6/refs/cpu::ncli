@@ -1,0 +1,7 @@
+<dec f='codebrowser/proc.h' l='11' type='int'/>
+<offset>1376</offset>
+<doc f='codebrowser/proc.h' l='11'>// Depth of pushcli nesting.</doc>
+<use f='codebrowser/proc.c' l='299' u='r' c='sched'/>
+<use f='codebrowser/spinlock.c' l='103' u='w' c='pushcli'/>
+<use f='codebrowser/spinlock.c' l='112' u='w' c='popcli'/>
+<use f='codebrowser/spinlock.c' l='114' u='r' c='popcli'/>

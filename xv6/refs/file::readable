@@ -1,0 +1,6 @@
+<dec f='codebrowser/file.h' l='4' type='char'/>
+<offset>64</offset>
+<use f='codebrowser/file.c' l='100' u='r' c='fileread'/>
+<use f='codebrowser/pipe.c' l='38' u='w' c='pipealloc'/>
+<use f='codebrowser/pipe.c' l='42' u='w' c='pipealloc'/>
+<use f='codebrowser/sysfile.c' l='316' u='w' c='sys_open'/>

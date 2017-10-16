@@ -1,0 +1,5 @@
+<dec f='codebrowser/defs.h' l='178' type='void clearpteu(pde_t * pgdir, char * uva)'/>
+<use f='codebrowser/exec.c' l='57' u='c' c='exec'/>
+<def f='codebrowser/vm.c' l='296' ll='305' type='void clearpteu(pde_t * pgdir, char * uva)'/>
+<doc f='codebrowser/vm.c' l='294'>// Clear PTE_U on a page. Used to create an inaccessible
+// page beneath the user stack.</doc>

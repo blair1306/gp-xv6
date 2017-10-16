@@ -1,0 +1,3 @@
+<def f='codebrowser/usertests.c' l='1245' ll='1276' type='void iref()'/>
+<use f='codebrowser/usertests.c' l='1648' u='c' c='main'/>
+<doc f='codebrowser/usertests.c' l='1244'>// test that iput() is called at the end of _namei()</doc>

@@ -1,0 +1,4 @@
+<def f='codebrowser/sh.c' l='35' ll='39'/>
+<def f='codebrowser/sh.c' l='223' ll='234' type='struct cmd * pipecmd(struct cmd * left, struct cmd * right)'/>
+<use f='codebrowser/sh.c' l='370' u='c' c='parsepipe'/>
+<size>12</size>

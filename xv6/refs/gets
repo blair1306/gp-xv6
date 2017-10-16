@@ -1,0 +1,3 @@
+<dec f='codebrowser/user.h' l='33' type='char * gets(char * , int max)'/>
+<use f='codebrowser/sh.c' l='138' u='c' c='getcmd'/>
+<def f='codebrowser/ulib.c' l='52' ll='68' type='char * gets(char * buf, int max)'/>

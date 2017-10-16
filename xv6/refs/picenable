@@ -1,0 +1,7 @@
+<dec f='codebrowser/defs.h' l='94' type='void picenable(int )'/>
+<doc f='codebrowser/defs.h' l='93'>// picirq.c</doc>
+<use f='codebrowser/console.c' l='290' u='c' c='consoleinit'/>
+<use f='codebrowser/ide.c' l='51' u='c' c='ideinit'/>
+<def f='codebrowser/picirq.c' l='25' ll='29' type='void picenable(int irq)'/>
+<use f='codebrowser/timer.c' l='31' u='c' c='timerinit'/>
+<use f='codebrowser/uart.c' l='43' u='c' c='uartinit'/>

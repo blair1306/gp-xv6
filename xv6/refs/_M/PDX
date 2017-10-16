@@ -1,0 +1,11 @@
+<dec f='codebrowser/mmu.h' l='112'/>
+<doc f='codebrowser/mmu.h' l='103'>// A virtual address &apos;la&apos; has a three-part structure as follows:
+//
+// +--------10------+-------10-------+---------12----------+
+// | Page Directory |   Page Table   | Offset within Page  |
+// |      Index     |      Index     |                     |
+// +----------------+----------------+---------------------+
+//  \--- PDX(va) --/ \--- PTX(va) --/ 
+
+// page directory index</doc>
+<use f='codebrowser/vm.c' l='51' u='c'/>

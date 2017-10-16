@@ -1,0 +1,5 @@
+<dec f='codebrowser/mmu.h' l='129'/>
+<use f='codebrowser/exec.c' l='54' u='c'/>
+<use f='codebrowser/kalloc.c' l='49' u='c'/>
+<use f='codebrowser/vm.c' l='231' u='c'/>
+<use f='codebrowser/vm.c' l='258' u='c'/>

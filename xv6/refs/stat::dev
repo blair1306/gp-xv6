@@ -1,0 +1,4 @@
+<dec f='codebrowser/stat.h' l='7' type='int'/>
+<offset>32</offset>
+<doc f='codebrowser/stat.h' l='7'>// File system&apos;s disk device</doc>
+<use f='codebrowser/fs.c' l='425' u='w' c='stati'/>

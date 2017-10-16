@@ -1,0 +1,8 @@
+<dec f='codebrowser/defs.h' l='38' type='struct inode * dirlookup(struct inode * , char * , uint * )'/>
+<def f='codebrowser/fs.c' l='505' ll='529' type='struct inode * dirlookup(struct inode * dp, char * name, uint * poff)'/>
+<use f='codebrowser/fs.c' l='540' u='c' c='dirlink'/>
+<use f='codebrowser/fs.c' l='625' u='c' c='namex'/>
+<doc f='codebrowser/fs.c' l='503'>// Look for a directory entry in a directory.
+// If found, set *poff to byte offset of entry.</doc>
+<use f='codebrowser/sysfile.c' l='200' u='c' c='sys_unlink'/>
+<use f='codebrowser/sysfile.c' l='245' u='c' c='create'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/defs.h' l='159' type='void uartinit()'/>
+<doc f='codebrowser/defs.h' l='158'>// uart.c</doc>
+<use f='codebrowser/main.c' l='29' u='c' c='main'/>
+<def f='codebrowser/uart.c' l='18' ll='49' type='void uartinit()'/>

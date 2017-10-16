@@ -1,0 +1,18 @@
+<dec f='codebrowser/user.h' l='7' type='int pipe(int * )'/>
+<dec f='include/unistd.h' l='420' type='int pipe(int * __pipedes)'/>
+<doc f='include/unistd.h' l='416'>/* Create a one-way communication channel (pipe).
+   If successful, two file descriptors are stored in PIPEDES;
+   bytes written on PIPEDES[1] can be read from PIPEDES[0].
+   Returns 0 if successful, -1 if not.  */</doc>
+<def f='codebrowser/pipe.c' l='12' ll='19'/>
+<size>580</size>
+<mbr r='pipe::lock' o='0' t='struct spinlock'/>
+<mbr r='pipe::data' o='416' t='char [512]'/>
+<mbr r='pipe::nread' o='4512' t='uint'/>
+<mbr r='pipe::nwrite' o='4544' t='uint'/>
+<mbr r='pipe::readopen' o='4576' t='int'/>
+<mbr r='pipe::writeopen' o='4608' t='int'/>
+<use f='codebrowser/sh.c' l='102' u='c' c='runcmd'/>
+<use f='codebrowser/usertests.c' l='211' u='c' c='pipe1'/>
+<use f='codebrowser/usertests.c' l='275' u='c' c='preempt'/>
+<use f='codebrowser/usertests.c' l='1416' u='c' c='sbrktest'/>

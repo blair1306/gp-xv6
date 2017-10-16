@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/pthreadtypes.h' l='212' type='unsigned char'/>
+<offset>192</offset>
+<doc f='include/x86_64-linux-gnu/bits/pthreadtypes.h' l='210'>/* FLAGS must stay at this position in the structure to maintain
+       binary compatibility.  */</doc>

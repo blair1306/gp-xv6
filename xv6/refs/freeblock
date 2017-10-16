@@ -1,0 +1,6 @@
+<def f='codebrowser/mkfs.c' l='22' type='uint'/>
+<use f='codebrowser/mkfs.c' l='88' u='w' c='main'/>
+<use f='codebrowser/mkfs.c' l='91' u='r' c='main'/>
+<use f='codebrowser/mkfs.c' l='264' u='w' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='271' u='w' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='277' u='w' c='iappend'/>

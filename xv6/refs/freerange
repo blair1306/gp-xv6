@@ -1,0 +1,4 @@
+<dec f='codebrowser/kalloc.c' l='12' type='void freerange(void * vstart, void * vend)'/>
+<use f='codebrowser/kalloc.c' l='35' u='c' c='kinit1'/>
+<use f='codebrowser/kalloc.c' l='41' u='c' c='kinit2'/>
+<def f='codebrowser/kalloc.c' l='45' ll='52' type='void freerange(void * vstart, void * vend)'/>

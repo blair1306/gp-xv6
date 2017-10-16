@@ -1,0 +1,3 @@
+<dec f='codebrowser/mp.h' l='18' type='uchar'/>
+<offset>56</offset>
+<doc f='codebrowser/mp.h' l='18'>// all bytes must add up to 0</doc>

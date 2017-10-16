@@ -1,0 +1,43 @@
+<dec f='codebrowser/defs.h' l='124' type='void acquire(struct spinlock * )'/>
+<use f='codebrowser/bio.c' l='66' u='c' c='bget'/>
+<use f='codebrowser/bio.c' l='125' u='c' c='brelse'/>
+<doc f='codebrowser/defs.h' l='123'>// spinlock.c</doc>
+<use f='codebrowser/console.c' l='62' u='c' c='cprintf'/>
+<use f='codebrowser/console.c' l='192' u='c' c='consoleintr'/>
+<use f='codebrowser/console.c' l='235' u='c' c='consoleread'/>
+<use f='codebrowser/console.c' l='271' u='c' c='consolewrite'/>
+<use f='codebrowser/file.c' l='30' u='c' c='filealloc'/>
+<use f='codebrowser/file.c' l='46' u='c' c='filedup'/>
+<use f='codebrowser/file.c' l='60' u='c' c='fileclose'/>
+<use f='codebrowser/fs.c' l='227' u='c' c='iget'/>
+<use f='codebrowser/fs.c' l='260' u='c' c='idup'/>
+<use f='codebrowser/fs.c' l='277' u='c' c='ilock'/>
+<use f='codebrowser/fs.c' l='306' u='c' c='iunlock'/>
+<use f='codebrowser/fs.c' l='320' u='c' c='iput'/>
+<use f='codebrowser/fs.c' l='330' u='c' c='iput'/>
+<use f='codebrowser/ide.c' l='97' u='c' c='ideintr'/>
+<use f='codebrowser/ide.c' l='137' u='c' c='iderw'/>
+<use f='codebrowser/kalloc.c' l='71' u='c' c='kfree'/>
+<use f='codebrowser/kalloc.c' l='88' u='c' c='kalloc'/>
+<use f='codebrowser/log.c' l='127' u='c' c='begin_trans'/>
+<use f='codebrowser/log.c' l='145' u='c' c='commit_trans'/>
+<use f='codebrowser/pipe.c' l='61' u='c' c='pipeclose'/>
+<use f='codebrowser/pipe.c' l='82' u='c' c='pipewrite'/>
+<use f='codebrowser/pipe.c' l='104' u='c' c='piperead'/>
+<use f='codebrowser/proc.c' l='40' u='c' c='allocproc'/>
+<use f='codebrowser/proc.c' l='186' u='c' c='exit'/>
+<use f='codebrowser/proc.c' l='214' u='c' c='wait'/>
+<use f='codebrowser/proc.c' l='267' u='c' c='scheduler'/>
+<use f='codebrowser/proc.c' l='314' u='c' c='yield'/>
+<use f='codebrowser/proc.c' l='358' u='c' c='sleep'/>
+<use f='codebrowser/proc.c' l='373' u='c' c='sleep'/>
+<use f='codebrowser/proc.c' l='394' u='c' c='wakeup'/>
+<use f='codebrowser/proc.c' l='407' u='c' c='kill'/>
+<def f='codebrowser/spinlock.c' l='24' ll='40' type='void acquire(struct spinlock * lk)'/>
+<doc f='codebrowser/spinlock.c' l='20'>// Acquire the lock.
+// Loops (spins) until the lock is acquired.
+// Holding a lock for a long time may cause
+// other CPUs to waste time spinning to acquire it.</doc>
+<use f='codebrowser/sysproc.c' l='66' u='c' c='sys_sleep'/>
+<use f='codebrowser/sysproc.c' l='86' u='c' c='sys_uptime'/>
+<use f='codebrowser/trap.c' l='52' u='c' c='trap'/>

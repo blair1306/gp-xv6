@@ -1,0 +1,2 @@
+<dec f='include/x86_64-linux-gnu/bits/environments.h' l='75'/>
+<doc f='include/x86_64-linux-gnu/bits/environments.h' l='74'>/* -m32 has 32-bit wide `off_t&apos;.  */</doc>

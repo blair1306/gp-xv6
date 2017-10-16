@@ -1,0 +1,4 @@
+<dec f='codebrowser/grep.c' l='69' type='int matchstar(int , char * , char * )'/>
+<use f='codebrowser/grep.c' l='89' u='c' c='matchhere'/>
+<def f='codebrowser/grep.c' l='98' ll='105' type='int matchstar(int c, char * re, char * text)'/>
+<doc f='codebrowser/grep.c' l='97'>// matchstar: search for c*re at beginning of text</doc>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/file.h' l='21' type='short'/>
+<offset>160</offset>
+<use f='codebrowser/fs.c' l='211' u='r' c='iupdate'/>
+<use f='codebrowser/fs.c' l='288' u='w' c='ilock'/>
+<use f='codebrowser/sysfile.c' l='259' u='w' c='create'/>

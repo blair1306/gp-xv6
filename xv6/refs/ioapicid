@@ -1,0 +1,5 @@
+<dec f='codebrowser/defs.h' l='61' type='uchar'/>
+<use f='codebrowser/ioapic.c' l='59' u='r' c='ioapicinit'/>
+<def f='codebrowser/mp.c' l='18' type='uchar'/>
+<use f='codebrowser/mp.c' l='129' u='w' c='mpinit'/>
+<use f='codebrowser/mp.c' l='146' u='w' c='mpinit'/>

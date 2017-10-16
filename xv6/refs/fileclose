@@ -1,0 +1,10 @@
+<dec f='codebrowser/defs.h' l='28' type='void fileclose(struct file * )'/>
+<def f='codebrowser/file.c' l='55' ll='79' type='void fileclose(struct file * f)'/>
+<doc f='codebrowser/file.c' l='54'>// Close file f.  (Decrement ref count, close when reaches 0.)</doc>
+<use f='codebrowser/pipe.c' l='52' u='c' c='pipealloc'/>
+<use f='codebrowser/pipe.c' l='54' u='c' c='pipealloc'/>
+<use f='codebrowser/proc.c' l='178' u='c' c='exit'/>
+<use f='codebrowser/sysfile.c' l='99' u='c' c='sys_close'/>
+<use f='codebrowser/sysfile.c' l='307' u='c' c='sys_open'/>
+<use f='codebrowser/sysfile.c' l='418' u='c' c='sys_pipe'/>
+<use f='codebrowser/sysfile.c' l='419' u='c' c='sys_pipe'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/defs.h' l='84' type='void begin_trans()'/>
+<use f='codebrowser/file.c' l='75' u='c' c='fileclose'/>
+<use f='codebrowser/file.c' l='139' u='c' c='filewrite'/>
+<def f='codebrowser/log.c' l='124' ll='133' type='void begin_trans()'/>
+<use f='codebrowser/sysfile.c' l='126' u='c' c='sys_link'/>
+<use f='codebrowser/sysfile.c' l='192' u='c' c='sys_unlink'/>
+<use f='codebrowser/sysfile.c' l='290' u='c' c='sys_open'/>
+<use f='codebrowser/sysfile.c' l='327' u='c' c='sys_mkdir'/>
+<use f='codebrowser/sysfile.c' l='345' u='c' c='sys_mknod'/>

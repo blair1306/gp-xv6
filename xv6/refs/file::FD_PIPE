@@ -1,0 +1,6 @@
+<dec f='codebrowser/file.h' l='2' type='1'/>
+<use f='codebrowser/file.c' l='72' u='r' c='fileclose'/>
+<use f='codebrowser/file.c' l='102' u='r' c='fileread'/>
+<use f='codebrowser/file.c' l='123' u='r' c='filewrite'/>
+<use f='codebrowser/pipe.c' l='37' u='r' c='pipealloc'/>
+<use f='codebrowser/pipe.c' l='41' u='r' c='pipealloc'/>

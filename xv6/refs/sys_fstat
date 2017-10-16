@@ -1,0 +1,4 @@
+<dec f='codebrowser/syscall.c' l='86' type='int sys_fstat()'/>
+<use f='codebrowser/syscall.c' l='110' u='r'/>
+<use f='codebrowser/syscall.c' l='110' u='r'/>
+<def f='codebrowser/sysfile.c' l='103' ll='112' type='int sys_fstat()'/>

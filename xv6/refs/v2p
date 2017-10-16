@@ -1,0 +1,10 @@
+<def f='codebrowser/memlayout.h' l='13' type='uint v2p(void * a)'/>
+<use f='codebrowser/kalloc.c' l='64' u='c' c='kfree'/>
+<use f='codebrowser/main.c' l='92' u='c' c='startothers'/>
+<use f='codebrowser/main.c' l='94' u='c' c='startothers'/>
+<use f='codebrowser/vm.c' l='62' u='c' c='walkpgdir'/>
+<use f='codebrowser/vm.c' l='160' u='c' c='switchkvm'/>
+<use f='codebrowser/vm.c' l='175' u='c' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='190' u='c' c='inituvm'/>
+<use f='codebrowser/vm.c' l='240' u='c' c='allocuvm'/>
+<use f='codebrowser/vm.c' l='328' u='c' c='copyuvm'/>

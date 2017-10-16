@@ -1,0 +1,3 @@
+<dec f='codebrowser/proc.h' l='16' type='struct proc *'/>
+<offset>1472</offset>
+<doc f='codebrowser/proc.h' l='16'>// The currently-running process.</doc>

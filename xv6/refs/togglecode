@@ -1,0 +1,2 @@
+<def f='codebrowser/kbd.h' l='44' ll='49' type='uchar [256]'/>
+<use f='codebrowser/kbd.c' l='35' u='r' c='kbdgetc'/>

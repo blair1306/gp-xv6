@@ -1,0 +1,3 @@
+<dec f='codebrowser/traps.h' l='37'/>
+<use f='codebrowser/lapic.c' l='59' u='c'/>
+<use f='codebrowser/trap.c' l='75' u='c'/>

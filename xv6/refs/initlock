@@ -1,0 +1,13 @@
+<dec f='codebrowser/defs.h' l='127' type='void initlock(struct spinlock * , char * )'/>
+<use f='codebrowser/bio.c' l='43' u='c' c='binit'/>
+<use f='codebrowser/console.c' l='283' u='c' c='consoleinit'/>
+<use f='codebrowser/console.c' l='284' u='c' c='consoleinit'/>
+<use f='codebrowser/file.c' l='21' u='c' c='fileinit'/>
+<use f='codebrowser/fs.c' l='167' u='c' c='iinit'/>
+<use f='codebrowser/ide.c' l='50' u='c' c='ideinit'/>
+<use f='codebrowser/kalloc.c' l='33' u='c' c='kinit1'/>
+<use f='codebrowser/log.c' l='60' u='c' c='initlog'/>
+<use f='codebrowser/pipe.c' l='36' u='c' c='pipealloc'/>
+<use f='codebrowser/proc.c' l='26' u='c' c='pinit'/>
+<def f='codebrowser/spinlock.c' l='12' ll='18' type='void initlock(struct spinlock * lk, char * name)'/>
+<use f='codebrowser/trap.c' l='26' u='c' c='tvinit'/>

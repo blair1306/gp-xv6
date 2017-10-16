@@ -1,0 +1,9 @@
+<dec f='include/assert.h' l='69' type='void __assert_fail(const char * __assertion, const char * __file, unsigned int __line, const char * __function)'/>
+<use f='codebrowser/mkfs.c' l='72' macro='1' u='c'/>
+<use f='codebrowser/mkfs.c' l='73' macro='1' u='c'/>
+<use f='codebrowser/mkfs.c' l='93' macro='1' u='c'/>
+<use f='codebrowser/mkfs.c' l='103' macro='1' u='c'/>
+<use f='codebrowser/mkfs.c' l='116' macro='1' u='c'/>
+<use f='codebrowser/mkfs.c' l='235' macro='1' u='c'/>
+<use f='codebrowser/mkfs.c' l='261' macro='1' u='c'/>
+<doc f='include/assert.h' l='68'>/* This prints an &quot;Assertion failed&quot; message and aborts.  */</doc>

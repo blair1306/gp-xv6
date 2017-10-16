@@ -1,0 +1,6 @@
+<dec f='codebrowser/stat.h' l='8' type='uint'/>
+<offset>64</offset>
+<doc f='codebrowser/stat.h' l='8'>// Inode number</doc>
+<use f='codebrowser/fs.c' l='426' u='w' c='stati'/>
+<use f='codebrowser/ls.c' l='46' u='r' c='ls'/>
+<use f='codebrowser/ls.c' l='66' u='r' c='ls'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/defs.h' l='49' type='struct inode * nameiparent(char * , char * )'/>
+<def f='codebrowser/fs.c' l='646' ll='650' type='struct inode * nameiparent(char * path, char * name)'/>
+<use f='codebrowser/sysfile.c' l='139' u='c' c='sys_link'/>
+<use f='codebrowser/sysfile.c' l='189' u='c' c='sys_unlink'/>
+<use f='codebrowser/sysfile.c' l='241' u='c' c='create'/>

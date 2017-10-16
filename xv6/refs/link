@@ -1,0 +1,19 @@
+<dec f='codebrowser/user.h' l='17' type='int link(char * , char * )'/>
+<use f='codebrowser/ln.c' l='12' u='c' c='main'/>
+<dec f='include/unistd.h' l='793' type='int link(const char * __from, const char * __to)'/>
+<doc f='include/unistd.h' l='792'>/* Make a link to FROM named TO.  */</doc>
+<use f='codebrowser/usertests.c' l='624' u='c' c='linktest'/>
+<use f='codebrowser/usertests.c' l='646' u='c' c='linktest'/>
+<use f='codebrowser/usertests.c' l='652' u='c' c='linktest'/>
+<use f='codebrowser/usertests.c' l='657' u='c' c='linktest'/>
+<use f='codebrowser/usertests.c' l='685' u='c' c='concreate'/>
+<use f='codebrowser/usertests.c' l='687' u='c' c='concreate'/>
+<use f='codebrowser/usertests.c' l='779' u='c' c='linkunlink'/>
+<use f='codebrowser/usertests.c' l='815' u='c' c='bigdir'/>
+<use f='codebrowser/usertests.c' l='887' u='c' c='subdir'/>
+<use f='codebrowser/usertests.c' l='954' u='c' c='subdir'/>
+<use f='codebrowser/usertests.c' l='958' u='c' c='subdir'/>
+<use f='codebrowser/usertests.c' l='962' u='c' c='subdir'/>
+<use f='codebrowser/usertests.c' l='1220' u='c' c='dirfile'/>
+<use f='codebrowser/usertests.c' l='1264' u='c' c='iref'/>
+<use f='codebrowser/usertests.c' l='1485' u='c' c='validatetest'/>

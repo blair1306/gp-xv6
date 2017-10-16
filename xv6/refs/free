@@ -1,0 +1,7 @@
+<dec f='codebrowser/user.h' l='37' type='void free(void * )'/>
+<dec f='include/stdlib.h' l='483' type='void free(void * __ptr)'/>
+<doc f='include/stdlib.h' l='482'>/* Free a block allocated by `malloc&apos;, `realloc&apos; or `calloc&apos;.  */</doc>
+<def f='codebrowser/umalloc.c' l='24' ll='44' type='void free(void * ap)'/>
+<use f='codebrowser/umalloc.c' l='59' u='c' c='morecore'/>
+<use f='codebrowser/usertests.c' l='343' u='c' c='mem'/>
+<use f='codebrowser/usertests.c' l='352' u='c' c='mem'/>

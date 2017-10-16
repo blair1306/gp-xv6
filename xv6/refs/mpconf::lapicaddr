@@ -1,0 +1,4 @@
+<dec f='codebrowser/mp.h' l='23' type='uint *'/>
+<use f='codebrowser/mp.c' l='112' u='r' c='mpinit'/>
+<offset>288</offset>
+<doc f='codebrowser/mp.h' l='23'>// address of local APIC</doc>

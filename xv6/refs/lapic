@@ -1,0 +1,13 @@
+<dec f='codebrowser/defs.h' l='75' type='volatile uint *'/>
+<def f='codebrowser/lapic.c' l='42' type='volatile uint *'/>
+<use f='codebrowser/lapic.c' l='47' u='r' c='lapicw'/>
+<use f='codebrowser/lapic.c' l='48' u='r' c='lapicw'/>
+<use f='codebrowser/lapic.c' l='55' u='r' c='lapicinit'/>
+<use f='codebrowser/lapic.c' l='75' u='r' c='lapicinit'/>
+<use f='codebrowser/lapic.c' l='91' u='r' c='lapicinit'/>
+<use f='codebrowser/lapic.c' l='113' u='r' c='cpunum'/>
+<use f='codebrowser/lapic.c' l='114' u='r' c='cpunum'/>
+<use f='codebrowser/lapic.c' l='122' u='r' c='lapiceoi'/>
+<doc f='codebrowser/lapic.c' l='42'>// Initialized in mp.c</doc>
+<use f='codebrowser/mp.c' l='112' u='w' c='mpinit'/>
+<use f='codebrowser/mp.c' l='145' u='w' c='mpinit'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/defs.h' l='31' type='int fileread(struct file * , char * , int n)'/>
+<def f='codebrowser/file.c' l='95' ll='112' type='int fileread(struct file * f, char * addr, int n)'/>
+<doc f='codebrowser/file.c' l='94'>// Read from file f.</doc>
+<use f='codebrowser/sysfile.c' l='75' u='c' c='sys_read'/>

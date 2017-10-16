@@ -1,0 +1,11 @@
+<dec f='codebrowser/proc.h' l='67' type='struct inode *'/>
+<offset>832</offset>
+<doc f='codebrowser/proc.h' l='67'>// Current directory</doc>
+<use f='codebrowser/fs.c' l='612' u='r' c='namex'/>
+<use f='codebrowser/proc.c' l='100' u='w' c='userinit'/>
+<use f='codebrowser/proc.c' l='155' u='w' c='fork'/>
+<use f='codebrowser/proc.c' l='155' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='183' u='r' c='exit'/>
+<use f='codebrowser/proc.c' l='184' u='w' c='exit'/>
+<use f='codebrowser/sysfile.c' l='372' u='r' c='sys_chdir'/>
+<use f='codebrowser/sysfile.c' l='373' u='w' c='sys_chdir'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/proc.h' l='68' type='char [16]'/>
+<offset>864</offset>
+<doc f='codebrowser/proc.h' l='68'>// Process name (debugging)</doc>
+<use f='codebrowser/exec.c' l='83' u='r' c='exec'/>
+<use f='codebrowser/exec.c' l='83' u='r' c='exec'/>
+<use f='codebrowser/proc.c' l='99' u='r' c='userinit'/>
+<use f='codebrowser/proc.c' l='99' u='r' c='userinit'/>
+<use f='codebrowser/proc.c' l='159' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='159' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='159' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='231' u='w' c='wait'/>
+<use f='codebrowser/proc.c' l='449' c='procdump'/>
+<use f='codebrowser/syscall.c' l='136' c='syscall'/>
+<use f='codebrowser/trap.c' l='92' c='trap'/>

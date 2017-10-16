@@ -1,0 +1,4 @@
+<dec f='codebrowser/mp.h' l='42' type='uchar'/>
+<use f='codebrowser/mp.c' l='129' u='r' c='mpinit'/>
+<offset>8</offset>
+<doc f='codebrowser/mp.h' l='42'>// I/O APIC id</doc>

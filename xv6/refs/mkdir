@@ -1,0 +1,16 @@
+<dec f='codebrowser/user.h' l='18' type='int mkdir(char * )'/>
+<use f='codebrowser/mkdir.c' l='16' u='c' c='main'/>
+<use f='codebrowser/usertests.c' l='171' u='c' c='dirtest'/>
+<use f='codebrowser/usertests.c' l='844' u='c' c='subdir'/>
+<use f='codebrowser/usertests.c' l='862' u='c' c='subdir'/>
+<use f='codebrowser/usertests.c' l='966' u='c' c='subdir'/>
+<use f='codebrowser/usertests.c' l='970' u='c' c='subdir'/>
+<use f='codebrowser/usertests.c' l='974' u='c' c='subdir'/>
+<use f='codebrowser/usertests.c' l='1113' u='c' c='fourteen'/>
+<use f='codebrowser/usertests.c' l='1117' u='c' c='fourteen'/>
+<use f='codebrowser/usertests.c' l='1134' u='c' c='fourteen'/>
+<use f='codebrowser/usertests.c' l='1138' u='c' c='fourteen'/>
+<use f='codebrowser/usertests.c' l='1150' u='c' c='rmdot'/>
+<use f='codebrowser/usertests.c' l='1212' u='c' c='dirfile'/>
+<use f='codebrowser/usertests.c' l='1254' u='c' c='iref'/>
+<use f='codebrowser/usertests.c' l='1263' u='c' c='iref'/>

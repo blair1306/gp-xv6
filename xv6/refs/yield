@@ -1,0 +1,4 @@
+<dec f='codebrowser/defs.h' l='118' type='void yield()'/>
+<def f='codebrowser/proc.c' l='311' ll='318' type='void yield()'/>
+<doc f='codebrowser/proc.c' l='310'>// Give up the CPU for one scheduling round.</doc>
+<use f='codebrowser/trap.c' l='106' u='c' c='trap'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/mmu.h' l='152' type='uint'/>
+<offset>32</offset>
+<doc f='codebrowser/mmu.h' l='152'>// Stack pointers and segment selectors</doc>
+<use f='codebrowser/vm.c' l='171' u='w' c='switchuvm'/>

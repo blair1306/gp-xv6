@@ -1,0 +1,4 @@
+<dec f='codebrowser/syscall.c' l='82' type='int sys_dup()'/>
+<use f='codebrowser/syscall.c' l='112' u='r'/>
+<use f='codebrowser/syscall.c' l='112' u='r'/>
+<def f='codebrowser/sysfile.c' l='52' ll='64' type='int sys_dup()'/>

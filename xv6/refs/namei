@@ -1,0 +1,7 @@
+<dec f='codebrowser/defs.h' l='48' type='struct inode * namei(char * )'/>
+<use f='codebrowser/exec.c' l='21' u='c' c='exec'/>
+<def f='codebrowser/fs.c' l='639' ll='644' type='struct inode * namei(char * path)'/>
+<use f='codebrowser/proc.c' l='100' u='c' c='userinit'/>
+<use f='codebrowser/sysfile.c' l='123' u='c' c='sys_link'/>
+<use f='codebrowser/sysfile.c' l='296' u='c' c='sys_open'/>
+<use f='codebrowser/sysfile.c' l='364' u='c' c='sys_chdir'/>

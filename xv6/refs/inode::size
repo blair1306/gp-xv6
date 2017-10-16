@@ -1,0 +1,15 @@
+<dec f='codebrowser/file.h' l='23' type='uint'/>
+<offset>192</offset>
+<use f='codebrowser/fs.c' l='213' u='r' c='iupdate'/>
+<use f='codebrowser/fs.c' l='290' u='w' c='ilock'/>
+<use f='codebrowser/fs.c' l='417' u='w' c='itrunc'/>
+<use f='codebrowser/fs.c' l='429' u='r' c='stati'/>
+<use f='codebrowser/fs.c' l='446' u='r' c='readi'/>
+<use f='codebrowser/fs.c' l='448' u='r' c='readi'/>
+<use f='codebrowser/fs.c' l='449' u='r' c='readi'/>
+<use f='codebrowser/fs.c' l='474' u='r' c='writei'/>
+<use f='codebrowser/fs.c' l='487' u='r' c='writei'/>
+<use f='codebrowser/fs.c' l='488' u='w' c='writei'/>
+<use f='codebrowser/fs.c' l='514' u='r' c='dirlookup'/>
+<use f='codebrowser/fs.c' l='546' u='r' c='dirlink'/>
+<use f='codebrowser/sysfile.c' l='169' u='r' c='isdirempty'/>

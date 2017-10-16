@@ -1,0 +1,4 @@
+<dec f='codebrowser/traps.h' l='4'/>
+<doc f='codebrowser/traps.h' l='1'>// x86 trap and interrupt constants.
+
+// Processor-defined:</doc>

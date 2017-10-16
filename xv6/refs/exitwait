@@ -1,0 +1,3 @@
+<def f='codebrowser/usertests.c' l='304' ll='325' type='void exitwait()'/>
+<use f='codebrowser/usertests.c' l='1634' u='c' c='main'/>
+<doc f='codebrowser/usertests.c' l='303'>// try to find any races between exit and wait</doc>

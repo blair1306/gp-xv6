@@ -1,0 +1,9 @@
+<dec f='codebrowser/proc.h' l='61' type='struct proc *'/>
+<offset>160</offset>
+<doc f='codebrowser/proc.h' l='61'>// Parent process</doc>
+<use f='codebrowser/proc.c' l='146' u='w' c='fork'/>
+<use f='codebrowser/proc.c' l='189' u='r' c='exit'/>
+<use f='codebrowser/proc.c' l='193' u='r' c='exit'/>
+<use f='codebrowser/proc.c' l='194' u='w' c='exit'/>
+<use f='codebrowser/proc.c' l='219' u='r' c='wait'/>
+<use f='codebrowser/proc.c' l='230' u='w' c='wait'/>

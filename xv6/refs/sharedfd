@@ -1,0 +1,6 @@
+<def f='codebrowser/usertests.c' l='364' ll='413' type='void sharedfd()'/>
+<use f='codebrowser/usertests.c' l='1646' u='c' c='main'/>
+<doc f='codebrowser/usertests.c' l='360'>// More file system tests
+
+// two processes write to the same file descriptor
+// is the offset shared? does inode locking work?</doc>

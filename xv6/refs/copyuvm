@@ -1,0 +1,5 @@
+<dec f='codebrowser/defs.h' l='174' type='pde_t * copyuvm(pde_t * , uint )'/>
+<use f='codebrowser/proc.c' l='139' u='c' c='fork'/>
+<def f='codebrowser/vm.c' l='309' ll='336' type='pde_t * copyuvm(pde_t * pgdir, uint sz)'/>
+<doc f='codebrowser/vm.c' l='307'>// Given a parent process&apos;s page table, create a copy
+// of it for a child.</doc>

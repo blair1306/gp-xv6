@@ -1,0 +1,4 @@
+<dec f='codebrowser/proc.h' l='2'/>
+<use f='codebrowser/proc.h' l='9' u='c'/>
+<doc f='codebrowser/proc.h' l='1'>// Segments in proc-&gt;gdt.</doc>
+<use f='codebrowser/vm.c' l='12' u='c'/>

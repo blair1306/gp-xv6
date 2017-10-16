@@ -1,0 +1,13 @@
+<dec f='codebrowser/file.h' l='22' type='short'/>
+<offset>176</offset>
+<use f='codebrowser/fs.c' l='212' u='r' c='iupdate'/>
+<use f='codebrowser/fs.c' l='289' u='w' c='ilock'/>
+<use f='codebrowser/fs.c' l='321' u='r' c='iput'/>
+<use f='codebrowser/fs.c' l='428' u='r' c='stati'/>
+<use f='codebrowser/sysfile.c' l='135' u='w' c='sys_link'/>
+<use f='codebrowser/sysfile.c' l='155' u='w' c='sys_link'/>
+<use f='codebrowser/sysfile.c' l='204' u='r' c='sys_unlink'/>
+<use f='codebrowser/sysfile.c' l='215' u='w' c='sys_unlink'/>
+<use f='codebrowser/sysfile.c' l='220' u='w' c='sys_unlink'/>
+<use f='codebrowser/sysfile.c' l='260' u='w' c='create'/>
+<use f='codebrowser/sysfile.c' l='264' u='w' c='create'/>

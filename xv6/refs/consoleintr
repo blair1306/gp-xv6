@@ -1,0 +1,4 @@
+<dec f='codebrowser/defs.h' l='20' type='void consoleintr(int (*)(void) )'/>
+<def f='codebrowser/console.c' l='187' ll='225' type='void consoleintr(int (*)(void) getc)'/>
+<use f='codebrowser/kbd.c' l='49' u='c' c='kbdintr'/>
+<use f='codebrowser/uart.c' l='76' u='c' c='uartintr'/>

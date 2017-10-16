@@ -1,0 +1,4 @@
+<dec f='codebrowser/mmu.h' l='121'/>
+<doc f='codebrowser/mmu.h' l='120'>// Page directory and page table constants.</doc>
+<use f='codebrowser/main.c' l='107' u='c'/>
+<use f='codebrowser/vm.c' l='285' u='c'/>

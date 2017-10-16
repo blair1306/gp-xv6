@@ -1,0 +1,5 @@
+<dec f='codebrowser/defs.h' l='115' type='void userinit()'/>
+<use f='codebrowser/main.c' l='40' u='c' c='main'/>
+<def f='codebrowser/proc.c' l='78' ll='103' type='void userinit()'/>
+<doc f='codebrowser/proc.c' l='76'>//PAGEBREAK: 32
+// Set up first user process.</doc>

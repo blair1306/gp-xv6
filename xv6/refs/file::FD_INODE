@@ -1,0 +1,6 @@
+<dec f='codebrowser/file.h' l='2' type='2'/>
+<use f='codebrowser/file.c' l='74' u='r' c='fileclose'/>
+<use f='codebrowser/file.c' l='85' u='r' c='filestat'/>
+<use f='codebrowser/file.c' l='104' u='r' c='fileread'/>
+<use f='codebrowser/file.c' l='125' u='r' c='filewrite'/>
+<use f='codebrowser/sysfile.c' l='313' u='r' c='sys_open'/>

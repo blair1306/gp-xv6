@@ -1,0 +1,5 @@
+<dec f='codebrowser/defs.h' l='33' type='int filewrite(struct file * , char * , int n)'/>
+<def f='codebrowser/file.c' l='116' ll='155' type='int filewrite(struct file * f, char * addr, int n)'/>
+<doc f='codebrowser/file.c' l='114'>//PAGEBREAK!
+// Write to file f.</doc>
+<use f='codebrowser/sysfile.c' l='87' u='c' c='sys_write'/>

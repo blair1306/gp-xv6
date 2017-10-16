@@ -1,0 +1,6 @@
+<dec f='codebrowser/defs.h' l='126' type='int holding(struct spinlock * )'/>
+<use f='codebrowser/proc.c' l='297' u='c' c='sched'/>
+<use f='codebrowser/spinlock.c' l='28' u='c' c='acquire'/>
+<use f='codebrowser/spinlock.c' l='46' u='c' c='release'/>
+<def f='codebrowser/spinlock.c' l='85' ll='89' type='int holding(struct spinlock * lock)'/>
+<doc f='codebrowser/spinlock.c' l='84'>// Check whether this cpu is holding the lock.</doc>

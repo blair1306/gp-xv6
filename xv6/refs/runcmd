@@ -1,0 +1,9 @@
+<def f='codebrowser/sh.c' l='57' ll='131' type='void runcmd(struct cmd * cmd)'/>
+<use f='codebrowser/sh.c' l='89' u='c' c='runcmd'/>
+<use f='codebrowser/sh.c' l='95' u='c' c='runcmd'/>
+<use f='codebrowser/sh.c' l='97' u='c' c='runcmd'/>
+<use f='codebrowser/sh.c' l='109' u='c' c='runcmd'/>
+<use f='codebrowser/sh.c' l='116' u='c' c='runcmd'/>
+<use f='codebrowser/sh.c' l='127' u='c' c='runcmd'/>
+<use f='codebrowser/sh.c' l='169' u='c' c='main'/>
+<doc f='codebrowser/sh.c' l='56'>// Execute cmd.  Never returns.</doc>

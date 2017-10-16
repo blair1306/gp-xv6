@@ -1,0 +1,8 @@
+<def f='codebrowser/main.c' l='65' type='pde_t []'/>
+<use f='codebrowser/main.c' l='92' u='r' c='startothers'/>
+<def f='codebrowser/main.c' l='106' ll='112' type='pde_t [1024]'/>
+<doc f='codebrowser/main.c' l='65'>// For entry.S</doc>
+<doc f='codebrowser/main.c' l='102'>// Boot page table used in entry.S and entryother.S.
+// Page directories (and page tables), must start on a page boundary,
+// hence the &quot;__aligned__&quot; attribute.  
+// Use PTE_PS in page directory entry to enable 4Mbyte pages.</doc>

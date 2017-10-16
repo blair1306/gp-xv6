@@ -1,0 +1,5 @@
+<dec f='codebrowser/user.h' l='38' type='int atoi(const char * )'/>
+<use f='codebrowser/kill.c' l='15' u='c' c='main'/>
+<dec f='include/stdlib.h' l='147' type='int atoi(const char * __nptr)'/>
+<doc f='include/stdlib.h' l='146'>/* Convert a string to an integer.  */</doc>
+<def f='codebrowser/ulib.c' l='84' ll='93' type='int atoi(const char * s)'/>

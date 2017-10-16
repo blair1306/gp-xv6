@@ -1,0 +1,4 @@
+<dec f='codebrowser/syscall.c' l='88' type='int sys_kill()'/>
+<use f='codebrowser/syscall.c' l='108' u='r'/>
+<use f='codebrowser/syscall.c' l='108' u='r'/>
+<def f='codebrowser/sysproc.c' l='28' ll='36' type='int sys_kill()'/>

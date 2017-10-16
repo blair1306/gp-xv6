@@ -1,0 +1,12 @@
+<def f='codebrowser/file.c' l='13' ll='16' type='struct (anonymous struct at /home/jon/workspace/xv6-public/file.c:13:1)'/>
+<use f='codebrowser/file.c' l='21' u='m' c='fileinit'/>
+<use f='codebrowser/file.c' l='30' u='m' c='filealloc'/>
+<use f='codebrowser/file.c' l='31' u='m' c='filealloc'/>
+<use f='codebrowser/file.c' l='31' u='m' c='filealloc'/>
+<use f='codebrowser/file.c' l='34' u='m' c='filealloc'/>
+<use f='codebrowser/file.c' l='38' u='m' c='filealloc'/>
+<use f='codebrowser/file.c' l='46' u='m' c='filedup'/>
+<use f='codebrowser/file.c' l='50' u='m' c='filedup'/>
+<use f='codebrowser/file.c' l='60' u='m' c='fileclose'/>
+<use f='codebrowser/file.c' l='64' u='m' c='fileclose'/>
+<use f='codebrowser/file.c' l='70' u='m' c='fileclose'/>

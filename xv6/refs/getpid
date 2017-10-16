@@ -1,0 +1,5 @@
+<dec f='codebrowser/user.h' l='21' type='int getpid()'/>
+<dec f='include/unistd.h' l='631' type='__pid_t getpid()'/>
+<doc f='include/unistd.h' l='630'>/* Get the process ID of the calling process.  */</doc>
+<use f='codebrowser/usertests.c' l='334' u='c' c='mem'/>
+<use f='codebrowser/usertests.c' l='1400' u='c' c='sbrktest'/>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/file.h' l='7' type='struct inode *'/>
+<offset>128</offset>
+<use f='codebrowser/file.c' l='76' u='r' c='fileclose'/>
+<use f='codebrowser/file.c' l='86' u='r' c='filestat'/>
+<use f='codebrowser/file.c' l='87' u='r' c='filestat'/>
+<use f='codebrowser/file.c' l='88' u='r' c='filestat'/>
+<use f='codebrowser/file.c' l='105' u='r' c='fileread'/>
+<use f='codebrowser/file.c' l='106' u='r' c='fileread'/>
+<use f='codebrowser/file.c' l='108' u='r' c='fileread'/>
+<use f='codebrowser/file.c' l='140' u='r' c='filewrite'/>
+<use f='codebrowser/file.c' l='141' u='r' c='filewrite'/>
+<use f='codebrowser/file.c' l='143' u='r' c='filewrite'/>
+<use f='codebrowser/sysfile.c' l='314' u='w' c='sys_open'/>

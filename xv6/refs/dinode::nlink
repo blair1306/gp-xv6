@@ -1,0 +1,6 @@
+<dec f='codebrowser/fs.h' l='31' type='short'/>
+<offset>48</offset>
+<doc f='codebrowser/fs.h' l='31'>// Number of links to inode in file system</doc>
+<use f='codebrowser/fs.c' l='212' u='w' c='iupdate'/>
+<use f='codebrowser/fs.c' l='289' u='r' c='ilock'/>
+<use f='codebrowser/mkfs.c' l='222' u='w' c='ialloc'/>

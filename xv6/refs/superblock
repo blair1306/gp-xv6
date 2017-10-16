@@ -1,0 +1,7 @@
+<def f='codebrowser/fs.h' l='15' ll='20'/>
+<size>16</size>
+<doc f='codebrowser/fs.h' l='14'>// File system super block</doc>
+<mbr r='superblock::size' o='0' t='uint'/>
+<mbr r='superblock::nblocks' o='32' t='uint'/>
+<mbr r='superblock::ninodes' o='64' t='uint'/>
+<mbr r='superblock::nlog' o='96' t='uint'/>

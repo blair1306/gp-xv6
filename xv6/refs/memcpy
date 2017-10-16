@@ -1,0 +1,4 @@
+<dec f='include/string.h' l='42' type='void * memcpy(void *restrict __dest, const void *restrict __src, size_t __n)'/>
+<doc f='include/string.h' l='41'>/* Copy N bytes of SRC to DEST.  */</doc>
+<def f='codebrowser/string.c' l='52' ll='56' type='void * memcpy(void * dst, const void * src, uint n)'/>
+<doc f='codebrowser/string.c' l='51'>// memcpy exists to placate GCC.  Use memmove.</doc>

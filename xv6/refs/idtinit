@@ -1,0 +1,4 @@
+<dec f='codebrowser/defs.h' l='153' type='void idtinit()'/>
+<doc f='codebrowser/defs.h' l='152'>// trap.c</doc>
+<use f='codebrowser/main.c' l='60' u='c' c='mpmain'/>
+<def f='codebrowser/trap.c' l='29' ll='33' type='void idtinit()'/>

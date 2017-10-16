@@ -1,0 +1,6 @@
+<dec f='codebrowser/defs.h' l='181'/>
+<doc f='codebrowser/defs.h' l='180'>// number of elements in fixed-size array</doc>
+<use f='codebrowser/proc.c' l='445' u='c'/>
+<use f='codebrowser/syscall.c' l='132' u='c'/>
+<use f='codebrowser/sysfile.c' l='389' u='c'/>
+<use f='codebrowser/vm.c' l='139' u='c'/>

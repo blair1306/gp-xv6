@@ -1,0 +1,5 @@
+<dec f='codebrowser/fs.h' l='40'/>
+<doc f='codebrowser/fs.h' l='39'>// Block containing inode i</doc>
+<use f='codebrowser/fs.c' l='186' u='c'/>
+<use f='codebrowser/fs.c' l='207' u='c'/>
+<use f='codebrowser/fs.c' l='284' u='c'/>

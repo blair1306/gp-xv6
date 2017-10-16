@@ -1,0 +1,4 @@
+<dec f='codebrowser/defs.h' l='95' type='void picinit()'/>
+<use f='codebrowser/main.c' l='26' u='c' c='main'/>
+<def f='codebrowser/picirq.c' l='32' ll='84' type='void picinit()'/>
+<doc f='codebrowser/picirq.c' l='31'>// Initialize the 8259A interrupt controllers.</doc>

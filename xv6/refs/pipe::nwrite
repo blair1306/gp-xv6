@@ -1,0 +1,11 @@
+<dec f='codebrowser/pipe.c' l='16' type='uint'/>
+<use f='codebrowser/pipe.c' l='34' u='w' c='pipealloc'/>
+<use f='codebrowser/pipe.c' l='67' u='a' c='pipeclose'/>
+<use f='codebrowser/pipe.c' l='84' u='r' c='pipewrite'/>
+<use f='codebrowser/pipe.c' l='90' u='a' c='pipewrite'/>
+<use f='codebrowser/pipe.c' l='92' u='w' c='pipewrite'/>
+<use f='codebrowser/pipe.c' l='105' u='r' c='piperead'/>
+<use f='codebrowser/pipe.c' l='113' u='r' c='piperead'/>
+<use f='codebrowser/pipe.c' l='117' u='a' c='piperead'/>
+<offset>4544</offset>
+<doc f='codebrowser/pipe.c' l='16'>// number of bytes written</doc>

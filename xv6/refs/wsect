@@ -1,0 +1,8 @@
+<dec f='codebrowser/mkfs.c' l='28' type='void wsect(uint , void * )'/>
+<use f='codebrowser/mkfs.c' l='96' u='c' c='main'/>
+<use f='codebrowser/mkfs.c' l='100' u='c' c='main'/>
+<def f='codebrowser/mkfs.c' l='155' ll='166' type='void wsect(uint sec, void * buf)'/>
+<use f='codebrowser/mkfs.c' l='185' u='c' c='winode'/>
+<use f='codebrowser/mkfs.c' l='241' u='c' c='balloc'/>
+<use f='codebrowser/mkfs.c' l='279' u='c' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='286' u='c' c='iappend'/>

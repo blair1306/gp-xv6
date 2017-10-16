@@ -1,0 +1,6 @@
+<dec f='codebrowser/defs.h' l='175' type='void switchuvm(struct proc * )'/>
+<use f='codebrowser/exec.c' l='91' u='c' c='exec'/>
+<use f='codebrowser/proc.c' l='121' u='c' c='growproc'/>
+<use f='codebrowser/proc.c' l='276' u='c' c='scheduler'/>
+<def f='codebrowser/vm.c' l='164' ll='177' type='void switchuvm(struct proc * p)'/>
+<doc f='codebrowser/vm.c' l='163'>// Switch TSS and h/w page table to correspond to process p.</doc>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/defs.h' l='43' type='void iput(struct inode * )'/>
+<use f='codebrowser/file.c' l='76' u='c' c='fileclose'/>
+<def f='codebrowser/fs.c' l='317' ll='336' type='void iput(struct inode * ip)'/>
+<use f='codebrowser/fs.c' l='343' u='c' c='iunlockput'/>
+<use f='codebrowser/fs.c' l='541' u='c' c='dirlink'/>
+<use f='codebrowser/fs.c' l='633' u='c' c='namex'/>
+<doc f='codebrowser/fs.c' l='312'>// Drop a reference to an in-memory inode.
+// If that was the last reference, the inode cache entry can
+// be recycled.
+// If that was the last reference and the inode has no links
+// to it, free the inode (and its content) on disk.</doc>
+<use f='codebrowser/proc.c' l='183' u='c' c='exit'/>
+<use f='codebrowser/sysfile.c' l='147' u='c' c='sys_link'/>
+<use f='codebrowser/sysfile.c' l='372' u='c' c='sys_chdir'/>

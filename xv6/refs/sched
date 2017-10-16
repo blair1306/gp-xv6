@@ -1,0 +1,7 @@
+<dec f='codebrowser/defs.h' l='113' type='void sched()'/>
+<use f='codebrowser/proc.c' l='202' u='c' c='exit'/>
+<def f='codebrowser/proc.c' l='292' ll='308' type='void sched()'/>
+<use f='codebrowser/proc.c' l='316' u='c' c='yield'/>
+<use f='codebrowser/proc.c' l='365' u='c' c='sleep'/>
+<doc f='codebrowser/proc.c' l='290'>// Enter scheduler.  Must hold only ptable.lock
+// and have changed proc-&gt;state.</doc>

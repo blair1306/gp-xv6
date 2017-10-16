@@ -1,0 +1,4 @@
+<def f='codebrowser/x86.h' l='42' ll='49' type='void stosb(void * addr, int data, int cnt)'/>
+<use f='codebrowser/bootmain.c' l='41' u='c' c='bootmain'/>
+<use f='codebrowser/string.c' l='11' u='c' c='memset'/>
+<use f='codebrowser/ulib.c' l='39' u='c' c='memset'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/usertests.c' l='1495' type='char [10000]'/>
+<use f='codebrowser/usertests.c' l='1502' u='r' c='bsstest'/>
+<use f='codebrowser/usertests.c' l='1503' u='r' c='bsstest'/>
+<doc f='codebrowser/usertests.c' l='1494'>// does unintialized data start out zero?</doc>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/mp.h' l='45' type='uint *'/>
+<offset>32</offset>
+<doc f='codebrowser/mp.h' l='45'>// I/O APIC address</doc>

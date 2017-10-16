@@ -1,0 +1,7 @@
+<dec f='codebrowser/user.h' l='28' type='char * strcpy(char * , char * )'/>
+<use f='codebrowser/ls.c' l='54' u='c' c='ls'/>
+<dec f='include/string.h' l='125' type='char * strcpy(char *restrict __dest, const char *restrict __src)'/>
+<use f='codebrowser/mkfs.c' l='107' u='c' c='main'/>
+<use f='codebrowser/mkfs.c' l='112' u='c' c='main'/>
+<doc f='include/string.h' l='124'>/* Copy SRC to DEST.  */</doc>
+<def f='codebrowser/ulib.c' l='7' ll='16' type='char * strcpy(char * s, char * t)'/>

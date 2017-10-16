@@ -1,0 +1,12 @@
+<dec f='codebrowser/fs.h' l='37'/>
+<doc f='codebrowser/fs.h' l='36'>// Inodes per block.</doc>
+<use f='codebrowser/fs.c' l='187' u='c'/>
+<use f='codebrowser/fs.c' l='208' u='c'/>
+<use f='codebrowser/fs.c' l='285' u='c'/>
+<use f='codebrowser/mkfs.c' l='87' u='c'/>
+<use f='codebrowser/mkfs.c' l='91' u='c'/>
+<use f='codebrowser/mkfs.c' l='171' u='c'/>
+<use f='codebrowser/mkfs.c' l='183' u='c'/>
+<use f='codebrowser/mkfs.c' l='197' u='c'/>
+<use f='codebrowser/mkfs.c' l='240' u='c'/>
+<use f='codebrowser/mkfs.c' l='241' u='c'/>

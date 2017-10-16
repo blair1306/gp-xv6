@@ -1,0 +1,29 @@
+<dec f='codebrowser/user.h' l='22' type='char * sbrk(int )'/>
+<dec f='include/unistd.h' l='1046' type='void * sbrk(intptr_t __delta)'/>
+<doc f='include/unistd.h' l='1042'>/* Increase or decrease the end of accessible data space by DELTA bytes.
+   If successful, returns the address the previous end of data space
+   (i.e. the beginning of the new space, if DELTA &gt; 0);
+   returns (void *) -1 for errors (with errno set).  */</doc>
+<use f='codebrowser/umalloc.c' l='54' u='c' c='morecore'/>
+<use f='codebrowser/usertests.c' l='1324' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1327' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1330' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1343' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1344' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1355' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1357' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1366' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1367' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1372' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1379' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1380' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1381' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1391' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1392' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1392' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1423' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1423' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1433' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1445' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1446' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1446' u='c' c='sbrktest'/>

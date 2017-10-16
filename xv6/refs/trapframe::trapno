@@ -1,0 +1,7 @@
+<dec f='codebrowser/x86.h' l='170' type='uint'/>
+<offset>384</offset>
+<use f='codebrowser/trap.c' l='39' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='49' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='86' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='92' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='105' u='r' c='trap'/>

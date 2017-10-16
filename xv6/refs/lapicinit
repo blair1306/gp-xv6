@@ -1,0 +1,5 @@
+<dec f='codebrowser/defs.h' l='77' type='void lapicinit()'/>
+<def f='codebrowser/lapic.c' l='52' ll='96' type='void lapicinit()'/>
+<doc f='codebrowser/lapic.c' l='50'>//PAGEBREAK!</doc>
+<use f='codebrowser/main.c' l='23' u='c' c='main'/>
+<use f='codebrowser/main.c' l='51' u='c' c='mpenter'/>

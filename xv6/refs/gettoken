@@ -1,0 +1,9 @@
+<def f='codebrowser/sh.c' l='266' ll='309' type='int gettoken(char ** ps, char * es, char ** q, char ** eq)'/>
+<use f='codebrowser/sh.c' l='352' u='c' c='parseline'/>
+<use f='codebrowser/sh.c' l='356' u='c' c='parseline'/>
+<use f='codebrowser/sh.c' l='369' u='c' c='parsepipe'/>
+<use f='codebrowser/sh.c' l='382' u='c' c='parseredirs'/>
+<use f='codebrowser/sh.c' l='383' u='c' c='parseredirs'/>
+<use f='codebrowser/sh.c' l='407' u='c' c='parseblock'/>
+<use f='codebrowser/sh.c' l='411' u='c' c='parseblock'/>
+<use f='codebrowser/sh.c' l='433' u='c' c='parseexec'/>

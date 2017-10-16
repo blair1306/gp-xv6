@@ -1,0 +1,2 @@
+<def f='codebrowser/x86.h' l='88' ll='92' type='void ltr(ushort sel)'/>
+<use f='codebrowser/vm.c' l='172' u='c' c='switchuvm'/>

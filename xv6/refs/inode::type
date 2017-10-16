@@ -1,0 +1,18 @@
+<dec f='codebrowser/file.h' l='19' type='short'/>
+<offset>128</offset>
+<doc f='codebrowser/file.h' l='19'>// copy of disk inode</doc>
+<use f='codebrowser/fs.c' l='209' u='r' c='iupdate'/>
+<use f='codebrowser/fs.c' l='286' u='w' c='ilock'/>
+<use f='codebrowser/fs.c' l='294' u='r' c='ilock'/>
+<use f='codebrowser/fs.c' l='328' u='w' c='iput'/>
+<use f='codebrowser/fs.c' l='427' u='r' c='stati'/>
+<use f='codebrowser/fs.c' l='440' u='r' c='readi'/>
+<use f='codebrowser/fs.c' l='468' u='r' c='writei'/>
+<use f='codebrowser/fs.c' l='511' u='r' c='dirlookup'/>
+<use f='codebrowser/fs.c' l='616' u='r' c='namex'/>
+<use f='codebrowser/sysfile.c' l='129' u='r' c='sys_link'/>
+<use f='codebrowser/sysfile.c' l='206' u='r' c='sys_unlink'/>
+<use f='codebrowser/sysfile.c' l='214' u='r' c='sys_unlink'/>
+<use f='codebrowser/sysfile.c' l='248' u='r' c='create'/>
+<use f='codebrowser/sysfile.c' l='299' u='r' c='sys_open'/>
+<use f='codebrowser/sysfile.c' l='367' u='r' c='sys_chdir'/>

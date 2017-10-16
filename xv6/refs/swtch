@@ -1,0 +1,4 @@
+<dec f='codebrowser/defs.h' l='121' type='void swtch(struct context ** , struct context * )'/>
+<doc f='codebrowser/defs.h' l='120'>// swtch.S</doc>
+<use f='codebrowser/proc.c' l='278' u='c' c='scheduler'/>
+<use f='codebrowser/proc.c' l='306' u='c' c='sched'/>

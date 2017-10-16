@@ -1,0 +1,14 @@
+<dec f='codebrowser/vm.c' l='10' type='char []'/>
+<use f='codebrowser/vm.c' l='122' u='r'/>
+<use f='codebrowser/vm.c' l='122' u='r'/>
+<use f='codebrowser/vm.c' l='123' u='r'/>
+<use f='codebrowser/vm.c' l='123' u='r'/>
+<use f='codebrowser/vm.c' l='123' u='r'/>
+<use f='codebrowser/vm.c' l='123' u='r'/>
+<use f='codebrowser/vm.c' l='122' u='r'/>
+<use f='codebrowser/vm.c' l='122' u='r'/>
+<use f='codebrowser/vm.c' l='123' u='r'/>
+<use f='codebrowser/vm.c' l='123' u='r'/>
+<use f='codebrowser/vm.c' l='123' u='r'/>
+<use f='codebrowser/vm.c' l='123' u='r'/>
+<doc f='codebrowser/vm.c' l='10'>// defined by kernel.ld</doc>

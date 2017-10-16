@@ -1,0 +1,14 @@
+<dec f='codebrowser/defs.h' l='144' type='int argstr(int , char ** )'/>
+<def f='codebrowser/syscall.c' l='71' ll='78' type='int argstr(int n, char ** pp)'/>
+<doc f='codebrowser/syscall.c' l='67'>// Fetch the nth word-sized system call argument as a string pointer.
+// Check that the pointer is valid and the string is nul-terminated.
+// (There is no shared writable memory, so the string can&apos;t change
+// between this check and being used by the kernel.)</doc>
+<use f='codebrowser/sysfile.c' l='121' u='c' c='sys_link'/>
+<use f='codebrowser/sysfile.c' l='121' u='c' c='sys_link'/>
+<use f='codebrowser/sysfile.c' l='187' u='c' c='sys_unlink'/>
+<use f='codebrowser/sysfile.c' l='287' u='c' c='sys_open'/>
+<use f='codebrowser/sysfile.c' l='328' u='c' c='sys_mkdir'/>
+<use f='codebrowser/sysfile.c' l='346' u='c' c='sys_mknod'/>
+<use f='codebrowser/sysfile.c' l='364' u='c' c='sys_chdir'/>
+<use f='codebrowser/sysfile.c' l='384' u='c' c='sys_exec'/>

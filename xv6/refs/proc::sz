@@ -1,0 +1,17 @@
+<dec f='codebrowser/proc.h' l='56' type='uint'/>
+<offset>0</offset>
+<doc f='codebrowser/proc.h' l='56'>// Size of process memory (bytes)</doc>
+<use f='codebrowser/exec.c' l='88' u='w' c='exec'/>
+<use f='codebrowser/proc.c' l='89' u='w' c='userinit'/>
+<use f='codebrowser/proc.c' l='112' u='r' c='growproc'/>
+<use f='codebrowser/proc.c' l='120' u='w' c='growproc'/>
+<use f='codebrowser/proc.c' l='139' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='145' u='w' c='fork'/>
+<use f='codebrowser/proc.c' l='145' u='r' c='fork'/>
+<use f='codebrowser/syscall.c' l='20' u='r' c='fetchint'/>
+<use f='codebrowser/syscall.c' l='20' u='r' c='fetchint'/>
+<use f='codebrowser/syscall.c' l='34' u='r' c='fetchstr'/>
+<use f='codebrowser/syscall.c' l='37' u='r' c='fetchstr'/>
+<use f='codebrowser/syscall.c' l='61' u='r' c='argptr'/>
+<use f='codebrowser/syscall.c' l='61' u='r' c='argptr'/>
+<use f='codebrowser/sysproc.c' l='52' u='r' c='sys_sbrk'/>

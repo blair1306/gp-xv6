@@ -1,0 +1,5 @@
+<dec f='codebrowser/defs.h' l='172' type='void inituvm(pde_t * , char * , uint )'/>
+<use f='codebrowser/proc.c' l='88' u='c' c='userinit'/>
+<def f='codebrowser/vm.c' l='181' ll='192' type='void inituvm(pde_t * pgdir, char * init, uint sz)'/>
+<doc f='codebrowser/vm.c' l='179'>// Load the initcode into address 0 of pgdir.
+// sz must be less than a page.</doc>

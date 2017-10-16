@@ -1,0 +1,15 @@
+<dec f='codebrowser/proc.h' l='8' type='struct taskstate'/>
+<offset>64</offset>
+<doc f='codebrowser/proc.h' l='8'>// Used by x86 to find stack for interrupt</doc>
+<use f='codebrowser/vm.c' l='168' u='r' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='168' u='a' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='168' u='a' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='168' u='r' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='168' u='a' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='168' u='r' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='168' u='a' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='168' u='a' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='168' u='r' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='168' u='a' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='170' u='m' c='switchuvm'/>
+<use f='codebrowser/vm.c' l='171' u='m' c='switchuvm'/>

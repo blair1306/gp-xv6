@@ -1,0 +1,4 @@
+<dec f='codebrowser/mp.h' l='33' type='uchar'/>
+<use f='codebrowser/mp.c' l='121' u='r' c='mpinit'/>
+<offset>24</offset>
+<doc f='codebrowser/mp.h' l='33'>// CPU flags</doc>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/memlayout.h' l='8'/>
+<use f='codebrowser/memlayout.h' l='13' u='c'/>
+<use f='codebrowser/memlayout.h' l='14' u='c'/>
+<doc f='codebrowser/memlayout.h' l='7'>// Key addresses for address space layout (see kmap in vm.c for layout)</doc>
+<use f='codebrowser/main.c' l='111' u='c'/>
+<use f='codebrowser/spinlock.c' l='75' u='c'/>
+<use f='codebrowser/usertests.c' l='1399' u='c'/>
+<use f='codebrowser/usertests.c' l='1399' u='c'/>
+<use f='codebrowser/vm.c' l='121' u='c'/>
+<use f='codebrowser/vm.c' l='226' u='c'/>
+<use f='codebrowser/vm.c' l='284' u='c'/>

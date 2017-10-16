@@ -1,0 +1,13 @@
+<dec f='codebrowser/file.h' l='2' type='enum (anonymous enum at /home/jon/workspace/xv6-public/file.h:2:3)'/>
+<offset>0</offset>
+<use f='codebrowser/file.c' l='69' u='w' c='fileclose'/>
+<use f='codebrowser/file.c' l='72' u='r' c='fileclose'/>
+<use f='codebrowser/file.c' l='74' u='r' c='fileclose'/>
+<use f='codebrowser/file.c' l='85' u='r' c='filestat'/>
+<use f='codebrowser/file.c' l='102' u='r' c='fileread'/>
+<use f='codebrowser/file.c' l='104' u='r' c='fileread'/>
+<use f='codebrowser/file.c' l='123' u='r' c='filewrite'/>
+<use f='codebrowser/file.c' l='125' u='r' c='filewrite'/>
+<use f='codebrowser/pipe.c' l='37' u='w' c='pipealloc'/>
+<use f='codebrowser/pipe.c' l='41' u='w' c='pipealloc'/>
+<use f='codebrowser/sysfile.c' l='313' u='w' c='sys_open'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/proc.h' l='58' type='char *'/>
+<offset>64</offset>
+<doc f='codebrowser/proc.h' l='58'>// Bottom of kernel stack for this process</doc>
+<use f='codebrowser/proc.c' l='53' u='w' c='allocproc'/>
+<use f='codebrowser/proc.c' l='57' u='r' c='allocproc'/>
+<use f='codebrowser/proc.c' l='140' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='141' u='w' c='fork'/>
+<use f='codebrowser/proc.c' l='225' u='r' c='wait'/>
+<use f='codebrowser/proc.c' l='226' u='w' c='wait'/>
+<use f='codebrowser/vm.c' l='171' u='r' c='switchuvm'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/defs.h' l='109' type='int kill(int )'/>
+<dec f='codebrowser/user.h' l='11' type='int kill(int )'/>
+<use f='codebrowser/kill.c' l='15' u='c' c='main'/>
+<def f='codebrowser/proc.c' l='402' ll='420' type='int kill(int pid)'/>
+<doc f='codebrowser/proc.c' l='399'>// Kill the process with the given pid.
+// Process won&apos;t exit until it returns
+// to user space (see trap in trap.c).</doc>
+<use f='codebrowser/sysproc.c' l='35' u='c' c='sys_kill'/>
+<use f='codebrowser/usertests.c' l='293' u='c' c='preempt'/>
+<use f='codebrowser/usertests.c' l='294' u='c' c='preempt'/>
+<use f='codebrowser/usertests.c' l='295' u='c' c='preempt'/>
+<use f='codebrowser/usertests.c' l='349' u='c' c='mem'/>
+<use f='codebrowser/usertests.c' l='1408' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1437' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1481' u='c' c='validatetest'/>

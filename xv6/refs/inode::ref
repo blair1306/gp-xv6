@@ -1,0 +1,12 @@
+<dec f='codebrowser/file.h' l='16' type='int'/>
+<offset>64</offset>
+<doc f='codebrowser/file.h' l='16'>// Reference count</doc>
+<use f='codebrowser/fs.c' l='232' u='r' c='iget'/>
+<use f='codebrowser/fs.c' l='233' u='w' c='iget'/>
+<use f='codebrowser/fs.c' l='237' u='r' c='iget'/>
+<use f='codebrowser/fs.c' l='248' u='w' c='iget'/>
+<use f='codebrowser/fs.c' l='261' u='w' c='idup'/>
+<use f='codebrowser/fs.c' l='274' u='r' c='ilock'/>
+<use f='codebrowser/fs.c' l='303' u='r' c='iunlock'/>
+<use f='codebrowser/fs.c' l='321' u='r' c='iput'/>
+<use f='codebrowser/fs.c' l='334' u='w' c='iput'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/defs.h' l='15' type='void bwrite(struct buf * )'/>
+<def f='codebrowser/bio.c' l='108' ll='115' type='void bwrite(struct buf * b)'/>
+<doc f='codebrowser/bio.c' l='107'>// Write b&apos;s contents to disk.  Must be B_BUSY.</doc>
+<use f='codebrowser/log.c' l='78' u='c' c='install_trans'/>
+<use f='codebrowser/log.c' l='111' u='c' c='write_head'/>
+<use f='codebrowser/log.c' l='176' u='c' c='log_write'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/proc.h' l='6' type='uchar'/>
+<use f='codebrowser/console.c' l='113' u='r' c='panic'/>
+<offset>0</offset>
+<doc f='codebrowser/proc.h' l='6'>// Local APIC ID; index into cpus[] below</doc>
+<use f='codebrowser/main.c' l='25' u='r' c='main'/>
+<use f='codebrowser/main.c' l='59' u='r' c='mpmain'/>
+<use f='codebrowser/main.c' l='94' u='r' c='startothers'/>
+<use f='codebrowser/mp.c' l='123' u='w' c='mpinit'/>
+<use f='codebrowser/trap.c' l='51' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='77' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='86' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='92' u='r' c='trap'/>

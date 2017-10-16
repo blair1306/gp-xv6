@@ -1,0 +1,4 @@
+<dec f='codebrowser/syscall.c' l='81' type='int sys_close()'/>
+<use f='codebrowser/syscall.c' l='123' u='r'/>
+<use f='codebrowser/syscall.c' l='123' u='r'/>
+<def f='codebrowser/sysfile.c' l='90' ll='101' type='int sys_close()'/>

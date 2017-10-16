@@ -1,0 +1,104 @@
+<dec f='codebrowser/proc.h' l='31' type='struct proc *'/>
+<def f='codebrowser/proc.h' l='55' ll='69'/>
+<use f='codebrowser/console.c' l='238' u='r' c='consoleread'/>
+<size>124</size>
+<doc f='codebrowser/proc.h' l='31'>// cpus[cpunum()].proc</doc>
+<doc f='codebrowser/proc.h' l='54'>// Per-process state</doc>
+<mbr r='proc::sz' o='0' t='uint'/>
+<mbr r='proc::pgdir' o='32' t='pde_t *'/>
+<mbr r='proc::kstack' o='64' t='char *'/>
+<mbr r='proc::state' o='96' t='enum procstate'/>
+<mbr r='proc::pid' o='128' t='volatile int'/>
+<mbr r='proc::parent' o='160' t='struct proc *'/>
+<mbr r='proc::tf' o='192' t='struct trapframe *'/>
+<mbr r='proc::context' o='224' t='struct context *'/>
+<mbr r='proc::chan' o='256' t='void *'/>
+<mbr r='proc::killed' o='288' t='int'/>
+<mbr r='proc::ofile' o='320' t='struct file *[16]'/>
+<mbr r='proc::cwd' o='832' t='struct inode *'/>
+<mbr r='proc::name' o='864' t='char [16]'/>
+<use f='codebrowser/exec.c' l='83' u='r' c='exec'/>
+<use f='codebrowser/exec.c' l='83' u='r' c='exec'/>
+<use f='codebrowser/exec.c' l='86' u='r' c='exec'/>
+<use f='codebrowser/exec.c' l='87' u='r' c='exec'/>
+<use f='codebrowser/exec.c' l='88' u='r' c='exec'/>
+<use f='codebrowser/exec.c' l='89' u='r' c='exec'/>
+<use f='codebrowser/exec.c' l='90' u='r' c='exec'/>
+<use f='codebrowser/exec.c' l='91' u='r' c='exec'/>
+<use f='codebrowser/fs.c' l='612' u='r' c='namex'/>
+<use f='codebrowser/pipe.c' l='85' u='r' c='pipewrite'/>
+<use f='codebrowser/pipe.c' l='106' u='r' c='piperead'/>
+<use f='codebrowser/proc.c' l='112' u='r' c='growproc'/>
+<use f='codebrowser/proc.c' l='114' u='r' c='growproc'/>
+<use f='codebrowser/proc.c' l='117' u='r' c='growproc'/>
+<use f='codebrowser/proc.c' l='120' u='r' c='growproc'/>
+<use f='codebrowser/proc.c' l='121' u='r' c='growproc'/>
+<use f='codebrowser/proc.c' l='139' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='139' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='145' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='146' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='147' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='153' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='154' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='155' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='159' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='159' u='r' c='fork'/>
+<use f='codebrowser/proc.c' l='172' u='r' c='exit'/>
+<use f='codebrowser/proc.c' l='177' u='r' c='exit'/>
+<use f='codebrowser/proc.c' l='178' u='r' c='exit'/>
+<use f='codebrowser/proc.c' l='179' u='r' c='exit'/>
+<use f='codebrowser/proc.c' l='183' u='r' c='exit'/>
+<use f='codebrowser/proc.c' l='184' u='r' c='exit'/>
+<use f='codebrowser/proc.c' l='189' u='r' c='exit'/>
+<use f='codebrowser/proc.c' l='193' u='r' c='exit'/>
+<use f='codebrowser/proc.c' l='201' u='r' c='exit'/>
+<use f='codebrowser/proc.c' l='219' u='r' c='wait'/>
+<use f='codebrowser/proc.c' l='239' u='r' c='wait'/>
+<use f='codebrowser/proc.c' l='245' u='r' c='wait'/>
+<use f='codebrowser/proc.c' l='275' u='w' c='scheduler'/>
+<use f='codebrowser/proc.c' l='278' u='r' c='scheduler'/>
+<use f='codebrowser/proc.c' l='283' u='w' c='scheduler'/>
+<use f='codebrowser/proc.c' l='301' u='r' c='sched'/>
+<use f='codebrowser/proc.c' l='306' u='r' c='sched'/>
+<use f='codebrowser/proc.c' l='315' u='r' c='yield'/>
+<use f='codebrowser/proc.c' l='345' u='r' c='sleep'/>
+<use f='codebrowser/proc.c' l='363' u='r' c='sleep'/>
+<use f='codebrowser/proc.c' l='364' u='r' c='sleep'/>
+<use f='codebrowser/proc.c' l='368' u='r' c='sleep'/>
+<use f='codebrowser/syscall.c' l='20' u='r' c='fetchint'/>
+<use f='codebrowser/syscall.c' l='20' u='r' c='fetchint'/>
+<use f='codebrowser/syscall.c' l='34' u='r' c='fetchstr'/>
+<use f='codebrowser/syscall.c' l='37' u='r' c='fetchstr'/>
+<use f='codebrowser/syscall.c' l='48' u='r' c='argint'/>
+<use f='codebrowser/syscall.c' l='61' u='r' c='argptr'/>
+<use f='codebrowser/syscall.c' l='61' u='r' c='argptr'/>
+<use f='codebrowser/syscall.c' l='131' u='r' c='syscall'/>
+<use f='codebrowser/syscall.c' l='133' u='r' c='syscall'/>
+<use f='codebrowser/syscall.c' l='136' u='r' c='syscall'/>
+<use f='codebrowser/syscall.c' l='136' u='r' c='syscall'/>
+<use f='codebrowser/syscall.c' l='137' u='r' c='syscall'/>
+<use f='codebrowser/sysfile.c' l='27' u='r' c='argfd'/>
+<use f='codebrowser/sysfile.c' l='44' u='r' c='fdalloc'/>
+<use f='codebrowser/sysfile.c' l='45' u='r' c='fdalloc'/>
+<use f='codebrowser/sysfile.c' l='98' u='r' c='sys_close'/>
+<use f='codebrowser/sysfile.c' l='372' u='r' c='sys_chdir'/>
+<use f='codebrowser/sysfile.c' l='373' u='r' c='sys_chdir'/>
+<use f='codebrowser/sysfile.c' l='417' u='r' c='sys_pipe'/>
+<use f='codebrowser/sysproc.c' l='41' u='r' c='sys_getpid'/>
+<use f='codebrowser/sysproc.c' l='52' u='r' c='sys_sbrk'/>
+<use f='codebrowser/sysproc.c' l='69' u='r' c='sys_sleep'/>
+<use f='codebrowser/trap.c' l='40' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='42' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='44' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='83' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='92' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='92' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='94' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='100' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='100' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='105' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='105' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='109' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='109' u='r' c='trap'/>
+<use f='codebrowser/vm.c' l='39' u='w' c='seginit'/>
+<use f='codebrowser/vm.c' l='171' u='r' c='switchuvm'/>

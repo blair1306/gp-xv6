@@ -1,0 +1,4 @@
+<dec f='codebrowser/defs.h' l='18' type='void consoleinit()'/>
+<doc f='codebrowser/defs.h' l='17'>// console.c</doc>
+<def f='codebrowser/console.c' l='280' ll='292' type='void consoleinit()'/>
+<use f='codebrowser/main.c' l='28' u='c' c='main'/>

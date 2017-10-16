@@ -1,0 +1,17 @@
+<dec f='codebrowser/file.h' l='24' type='uint [13]'/>
+<offset>224</offset>
+<use f='codebrowser/fs.c' l='214' u='r' c='iupdate'/>
+<use f='codebrowser/fs.c' l='214' u='r' c='iupdate'/>
+<use f='codebrowser/fs.c' l='291' u='r' c='ilock'/>
+<use f='codebrowser/fs.c' l='291' u='r' c='ilock'/>
+<use f='codebrowser/fs.c' l='363' u='r' c='bmap'/>
+<use f='codebrowser/fs.c' l='364' u='w' c='bmap'/>
+<use f='codebrowser/fs.c' l='371' u='r' c='bmap'/>
+<use f='codebrowser/fs.c' l='372' u='w' c='bmap'/>
+<use f='codebrowser/fs.c' l='399' u='r' c='itrunc'/>
+<use f='codebrowser/fs.c' l='400' u='r' c='itrunc'/>
+<use f='codebrowser/fs.c' l='401' u='w' c='itrunc'/>
+<use f='codebrowser/fs.c' l='405' u='r' c='itrunc'/>
+<use f='codebrowser/fs.c' l='406' u='r' c='itrunc'/>
+<use f='codebrowser/fs.c' l='413' u='r' c='itrunc'/>
+<use f='codebrowser/fs.c' l='414' u='w' c='itrunc'/>

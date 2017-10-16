@@ -1,0 +1,10 @@
+<dec f='codebrowser/fs.h' l='32' type='uint'/>
+<offset>64</offset>
+<doc f='codebrowser/fs.h' l='32'>// Size of file (bytes)</doc>
+<use f='codebrowser/fs.c' l='213' u='w' c='iupdate'/>
+<use f='codebrowser/fs.c' l='290' u='r' c='ilock'/>
+<use f='codebrowser/mkfs.c' l='145' u='r' c='main'/>
+<use f='codebrowser/mkfs.c' l='147' u='w' c='main'/>
+<use f='codebrowser/mkfs.c' l='223' u='w' c='ialloc'/>
+<use f='codebrowser/mkfs.c' l='258' u='r' c='iappend'/>
+<use f='codebrowser/mkfs.c' l='291' u='w' c='iappend'/>

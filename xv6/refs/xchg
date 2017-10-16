@@ -1,0 +1,4 @@
+<def f='codebrowser/x86.h' l='120' ll='131' type='uint xchg(volatile uint * addr, uint newval)'/>
+<use f='codebrowser/main.c' l='61' u='c' c='mpmain'/>
+<use f='codebrowser/spinlock.c' l='34' u='c' c='acquire'/>
+<use f='codebrowser/spinlock.c' l='61' u='c' c='release'/>

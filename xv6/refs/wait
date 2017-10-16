@@ -1,0 +1,38 @@
+<dec f='codebrowser/defs.h' l='116' type='int wait()'/>
+<dec f='codebrowser/user.h' l='6' type='int wait()'/>
+<use f='codebrowser/forktest.c' l='37' u='c' c='forktest'/>
+<use f='codebrowser/forktest.c' l='43' u='c' c='forktest'/>
+<use f='codebrowser/init.c' l='34' u='c' c='main'/>
+<def f='include/x86_64-linux-gnu/bits/waitstatus.h' l='66' ll='97'/>
+<size>4</size>
+<mbr r='wait::w_status' o='0' t='int'/>
+<mbr r='wait::__wait_terminated' o='0' t='struct (anonymous struct at /usr/include/bits/waitstatus.h:69:5)'/>
+<mbr r='wait::__wait_stopped' o='0' t='struct (anonymous struct at /usr/include/bits/waitstatus.h:84:5)'/>
+<def f='codebrowser/proc.c' l='208' ll='247' type='int wait()'/>
+<doc f='codebrowser/proc.c' l='206'>// Wait for a child process to exit and return its pid.
+// Return -1 if this process has no children.</doc>
+<use f='codebrowser/sh.c' l='96' u='c' c='runcmd'/>
+<use f='codebrowser/sh.c' l='120' u='c' c='runcmd'/>
+<use f='codebrowser/sh.c' l='121' u='c' c='runcmd'/>
+<use f='codebrowser/sh.c' l='170' u='c' c='main'/>
+<use f='codebrowser/stressfs.c' l='46' u='c' c='main'/>
+<use f='codebrowser/sysproc.c' l='25' u='c' c='sys_wait'/>
+<use f='codebrowser/usertests.c' l='249' u='c' c='pipe1'/>
+<use f='codebrowser/usertests.c' l='297' u='c' c='preempt'/>
+<use f='codebrowser/usertests.c' l='298' u='c' c='preempt'/>
+<use f='codebrowser/usertests.c' l='299' u='c' c='preempt'/>
+<use f='codebrowser/usertests.c' l='316' u='c' c='exitwait'/>
+<use f='codebrowser/usertests.c' l='356' u='c' c='mem'/>
+<use f='codebrowser/usertests.c' l='389' u='c' c='sharedfd'/>
+<use f='codebrowser/usertests.c' l='450' u='c' c='twofiles'/>
+<use f='codebrowser/usertests.c' l='516' u='c' c='createdelete'/>
+<use f='codebrowser/usertests.c' l='699' u='c' c='concreate'/>
+<use f='codebrowser/usertests.c' l='751' u='c' c='concreate'/>
+<use f='codebrowser/usertests.c' l='786' u='c' c='linkunlink'/>
+<use f='codebrowser/usertests.c' l='1302' u='c' c='forktest'/>
+<use f='codebrowser/usertests.c' l='1308' u='c' c='forktest'/>
+<use f='codebrowser/usertests.c' l='1351' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1411' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1438' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1482' u='c' c='validatetest'/>
+<use f='codebrowser/usertests.c' l='1537' u='c' c='bigargtest'/>

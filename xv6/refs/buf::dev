@@ -1,0 +1,8 @@
+<dec f='codebrowser/buf.h' l='3' type='uint'/>
+<use f='codebrowser/bio.c' l='52' u='w' c='binit'/>
+<use f='codebrowser/bio.c' l='71' u='r' c='bget'/>
+<use f='codebrowser/bio.c' l='85' u='w' c='bget'/>
+<offset>32</offset>
+<use f='codebrowser/ide.c' l='81' u='r' c='idestart'/>
+<use f='codebrowser/ide.c' l='134' u='r' c='iderw'/>
+<use f='codebrowser/log.c' l='174' u='r' c='log_write'/>

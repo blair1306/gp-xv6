@@ -1,0 +1,4 @@
+<dec f='codebrowser/defs.h' l='51' type='void stati(struct inode * , struct stat * )'/>
+<use f='codebrowser/file.c' l='87' u='c' c='filestat'/>
+<def f='codebrowser/fs.c' l='422' ll='430' type='void stati(struct inode * ip, struct stat * st)'/>
+<doc f='codebrowser/fs.c' l='421'>// Copy stat information from inode.</doc>

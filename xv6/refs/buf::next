@@ -1,0 +1,16 @@
+<dec f='codebrowser/buf.h' l='6' type='struct buf *'/>
+<use f='codebrowser/bio.c' l='48' u='w' c='binit'/>
+<use f='codebrowser/bio.c' l='50' u='w' c='binit'/>
+<use f='codebrowser/bio.c' l='50' u='r' c='binit'/>
+<use f='codebrowser/bio.c' l='53' u='r' c='binit'/>
+<use f='codebrowser/bio.c' l='54' u='w' c='binit'/>
+<use f='codebrowser/bio.c' l='70' u='r' c='bget'/>
+<use f='codebrowser/bio.c' l='70' u='r' c='bget'/>
+<use f='codebrowser/bio.c' l='127' u='r' c='brelse'/>
+<use f='codebrowser/bio.c' l='128' u='w' c='brelse'/>
+<use f='codebrowser/bio.c' l='128' u='r' c='brelse'/>
+<use f='codebrowser/bio.c' l='129' u='w' c='brelse'/>
+<use f='codebrowser/bio.c' l='129' u='r' c='brelse'/>
+<use f='codebrowser/bio.c' l='131' u='r' c='brelse'/>
+<use f='codebrowser/bio.c' l='132' u='w' c='brelse'/>
+<offset>128</offset>

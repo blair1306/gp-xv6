@@ -1,0 +1,8 @@
+<dec f='codebrowser/defs.h' l='171' type='void freevm(pde_t * )'/>
+<use f='codebrowser/exec.c' l='92' u='c' c='exec'/>
+<use f='codebrowser/exec.c' l='97' u='c' c='exec'/>
+<use f='codebrowser/proc.c' l='227' u='c' c='wait'/>
+<def f='codebrowser/vm.c' l='277' ll='292' type='void freevm(pde_t * pgdir)'/>
+<use f='codebrowser/vm.c' l='334' u='c' c='copyuvm'/>
+<doc f='codebrowser/vm.c' l='275'>// Free a page table and all the physical memory pages
+// in the user part.</doc>

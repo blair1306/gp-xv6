@@ -1,0 +1,4 @@
+<dec f='codebrowser/syscall.c' l='93' type='int sys_pipe()'/>
+<use f='codebrowser/syscall.c' l='106' u='r'/>
+<use f='codebrowser/syscall.c' l='106' u='r'/>
+<def f='codebrowser/sysfile.c' l='403' ll='425' type='int sys_pipe()'/>

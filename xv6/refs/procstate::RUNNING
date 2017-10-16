@@ -1,0 +1,5 @@
+<dec f='codebrowser/proc.h' l='52' type='4'/>
+<use f='codebrowser/proc.c' l='277' u='r' c='scheduler'/>
+<use f='codebrowser/proc.c' l='301' u='r' c='sched'/>
+<use f='codebrowser/proc.c' l='434' u='r' c='procdump'/>
+<use f='codebrowser/trap.c' l='105' u='r' c='trap'/>

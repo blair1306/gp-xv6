@@ -1,0 +1,7 @@
+<dec f='codebrowser/mmu.h' l='69'/>
+<doc f='codebrowser/mmu.h' l='68'>// Normal segment</doc>
+<use f='codebrowser/vm.c' l='26' u='c'/>
+<use f='codebrowser/vm.c' l='27' u='c'/>
+<use f='codebrowser/vm.c' l='28' u='c'/>
+<use f='codebrowser/vm.c' l='29' u='c'/>
+<use f='codebrowser/vm.c' l='32' u='c'/>

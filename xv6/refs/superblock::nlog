@@ -1,0 +1,6 @@
+<dec f='codebrowser/fs.h' l='19' type='uint'/>
+<offset>96</offset>
+<doc f='codebrowser/fs.h' l='19'>// Number of log blocks</doc>
+<use f='codebrowser/log.c' l='62' u='r' c='initlog'/>
+<use f='codebrowser/log.c' l='63' u='r' c='initlog'/>
+<use f='codebrowser/mkfs.c' l='84' u='w' c='main'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/x86.h' l='159' type='uint'/>
+<offset>224</offset>
+<use f='codebrowser/proc.c' l='150' u='w' c='fork'/>
+<use f='codebrowser/syscall.c' l='131' u='r' c='syscall'/>
+<use f='codebrowser/syscall.c' l='133' u='w' c='syscall'/>
+<use f='codebrowser/syscall.c' l='137' u='w' c='syscall'/>

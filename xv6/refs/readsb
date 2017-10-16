@@ -1,0 +1,8 @@
+<dec f='codebrowser/defs.h' l='36' type='void readsb(int dev, struct superblock * sb)'/>
+<doc f='codebrowser/defs.h' l='35'>// fs.c</doc>
+<def f='codebrowser/fs.c' l='27' ll='35' type='void readsb(int dev, struct superblock * sb)'/>
+<use f='codebrowser/fs.c' l='60' u='c' c='balloc'/>
+<use f='codebrowser/fs.c' l='86' u='c' c='bfree'/>
+<use f='codebrowser/fs.c' l='183' u='c' c='ialloc'/>
+<doc f='codebrowser/fs.c' l='26'>// Read the super block.</doc>
+<use f='codebrowser/log.c' l='61' u='c' c='initlog'/>

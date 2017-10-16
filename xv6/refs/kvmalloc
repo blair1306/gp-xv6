@@ -1,0 +1,5 @@
+<dec f='codebrowser/defs.h' l='165' type='void kvmalloc()'/>
+<use f='codebrowser/main.c' l='21' u='c' c='main'/>
+<def f='codebrowser/vm.c' l='148' ll='153' type='void kvmalloc()'/>
+<doc f='codebrowser/vm.c' l='146'>// Allocate one page table for the machine for the kernel address
+// space for scheduler processes.</doc>

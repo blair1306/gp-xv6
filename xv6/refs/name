@@ -1,0 +1,9 @@
+<def f='codebrowser/usertests.c' l='12' type='char [3]'/>
+<use f='codebrowser/usertests.c' l='151' u='w' c='createtest'/>
+<use f='codebrowser/usertests.c' l='152' u='w' c='createtest'/>
+<use f='codebrowser/usertests.c' l='154' u='w' c='createtest'/>
+<use f='codebrowser/usertests.c' l='155' u='r' c='createtest'/>
+<use f='codebrowser/usertests.c' l='158' u='w' c='createtest'/>
+<use f='codebrowser/usertests.c' l='159' u='w' c='createtest'/>
+<use f='codebrowser/usertests.c' l='161' u='w' c='createtest'/>
+<use f='codebrowser/usertests.c' l='162' u='r' c='createtest'/>

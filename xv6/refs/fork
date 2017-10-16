@@ -1,0 +1,35 @@
+<dec f='codebrowser/defs.h' l='107' type='int fork()'/>
+<dec f='codebrowser/user.h' l='4' type='int fork()'/>
+<doc f='codebrowser/user.h' l='3'>// system calls</doc>
+<use f='codebrowser/forktest.c' l='24' u='c' c='forktest'/>
+<use f='codebrowser/init.c' l='24' u='c' c='main'/>
+<dec f='include/unistd.h' l='759' type='__pid_t fork()'/>
+<doc f='include/unistd.h' l='756'>/* Clone the calling process, creating an exact copy.
+   Return -1 for errors, 0 to the new process,
+   and the process ID of the new process to the old process.  */</doc>
+<def f='codebrowser/proc.c' l='128' ll='161' type='int fork()'/>
+<doc f='codebrowser/proc.c' l='125'>// Create a new process copying p as the parent.
+// Sets up stack to return as if from system call.
+// Caller must set state of returned proc to RUNNABLE.</doc>
+<use f='codebrowser/sh.c' l='187' u='c' c='fork1'/>
+<use f='codebrowser/stressfs.c' l='27' u='c' c='main'/>
+<use f='codebrowser/sysproc.c' l='12' u='c' c='sys_fork'/>
+<use f='codebrowser/usertests.c' l='215' u='c' c='pipe1'/>
+<use f='codebrowser/usertests.c' l='265' u='c' c='preempt'/>
+<use f='codebrowser/usertests.c' l='270' u='c' c='preempt'/>
+<use f='codebrowser/usertests.c' l='276' u='c' c='preempt'/>
+<use f='codebrowser/usertests.c' l='310' u='c' c='exitwait'/>
+<use f='codebrowser/usertests.c' l='335' u='c' c='mem'/>
+<use f='codebrowser/usertests.c' l='378' u='c' c='sharedfd'/>
+<use f='codebrowser/usertests.c' l='428' u='c' c='twofiles'/>
+<use f='codebrowser/usertests.c' l='488' u='c' c='createdelete'/>
+<use f='codebrowser/usertests.c' l='683' u='c' c='concreate'/>
+<use f='codebrowser/usertests.c' l='731' u='c' c='concreate'/>
+<use f='codebrowser/usertests.c' l='767' u='c' c='linkunlink'/>
+<use f='codebrowser/usertests.c' l='1289' u='c' c='forktest'/>
+<use f='codebrowser/usertests.c' l='1338' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1401' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1421' u='c' c='sbrktest'/>
+<use f='codebrowser/usertests.c' l='1474' u='c' c='validatetest'/>
+<use f='codebrowser/usertests.c' l='1520' u='c' c='bigargtest'/>
+<use f='codebrowser/zombie.c' l='11' u='c' c='main'/>

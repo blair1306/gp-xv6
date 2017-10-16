@@ -1,0 +1,26 @@
+<def f='codebrowser/bio.c' l='29' ll='36' type='struct (anonymous struct at /home/jon/workspace/xv6-public/bio.c:29:1)'/>
+<use f='codebrowser/bio.c' l='43' u='m' c='binit'/>
+<use f='codebrowser/bio.c' l='47' u='m' c='binit'/>
+<use f='codebrowser/bio.c' l='47' u='m' c='binit'/>
+<use f='codebrowser/bio.c' l='48' u='m' c='binit'/>
+<use f='codebrowser/bio.c' l='48' u='m' c='binit'/>
+<use f='codebrowser/bio.c' l='49' u='m' c='binit'/>
+<use f='codebrowser/bio.c' l='49' u='m' c='binit'/>
+<use f='codebrowser/bio.c' l='50' u='m' c='binit'/>
+<use f='codebrowser/bio.c' l='51' u='m' c='binit'/>
+<use f='codebrowser/bio.c' l='53' u='m' c='binit'/>
+<use f='codebrowser/bio.c' l='54' u='m' c='binit'/>
+<use f='codebrowser/bio.c' l='66' u='m' c='bget'/>
+<use f='codebrowser/bio.c' l='70' u='m' c='bget'/>
+<use f='codebrowser/bio.c' l='70' u='m' c='bget'/>
+<use f='codebrowser/bio.c' l='74' u='m' c='bget'/>
+<use f='codebrowser/bio.c' l='77' u='m' c='bget'/>
+<use f='codebrowser/bio.c' l='83' u='m' c='bget'/>
+<use f='codebrowser/bio.c' l='83' u='m' c='bget'/>
+<use f='codebrowser/bio.c' l='88' u='m' c='bget'/>
+<use f='codebrowser/bio.c' l='125' u='m' c='brelse'/>
+<use f='codebrowser/bio.c' l='129' u='m' c='brelse'/>
+<use f='codebrowser/bio.c' l='130' u='m' c='brelse'/>
+<use f='codebrowser/bio.c' l='131' u='m' c='brelse'/>
+<use f='codebrowser/bio.c' l='132' u='m' c='brelse'/>
+<use f='codebrowser/bio.c' l='137' u='m' c='brelse'/>

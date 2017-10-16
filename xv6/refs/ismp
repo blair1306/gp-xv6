@@ -1,0 +1,10 @@
+<dec f='codebrowser/defs.h' l='88' type='int'/>
+<doc f='codebrowser/defs.h' l='87'>// mp.c</doc>
+<use f='codebrowser/ioapic.c' l='53' u='r' c='ioapicinit'/>
+<use f='codebrowser/ioapic.c' l='73' u='r' c='ioapicenable'/>
+<use f='codebrowser/main.c' l='36' u='r' c='main'/>
+<def f='codebrowser/mp.c' l='16' type='int'/>
+<use f='codebrowser/mp.c' l='111' u='w' c='mpinit'/>
+<use f='codebrowser/mp.c' l='119' u='w' c='mpinit'/>
+<use f='codebrowser/mp.c' l='139' u='w' c='mpinit'/>
+<use f='codebrowser/mp.c' l='142' u='r' c='mpinit'/>

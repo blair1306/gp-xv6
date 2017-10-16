@@ -1,0 +1,4 @@
+<dec f='codebrowser/defs.h' l='12' type='void binit()'/>
+<def f='codebrowser/bio.c' l='38' ll='56' type='void binit()'/>
+<doc f='codebrowser/defs.h' l='11'>// bio.c</doc>
+<use f='codebrowser/main.c' l='32' u='c' c='main'/>

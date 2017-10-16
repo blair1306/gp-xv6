@@ -1,0 +1,10 @@
+<dec f='codebrowser/file.h' l='3' type='int'/>
+<offset>32</offset>
+<doc f='codebrowser/file.h' l='3'>// reference count</doc>
+<use f='codebrowser/file.c' l='32' u='r' c='filealloc'/>
+<use f='codebrowser/file.c' l='33' u='w' c='filealloc'/>
+<use f='codebrowser/file.c' l='47' u='r' c='filedup'/>
+<use f='codebrowser/file.c' l='49' u='w' c='filedup'/>
+<use f='codebrowser/file.c' l='61' u='r' c='fileclose'/>
+<use f='codebrowser/file.c' l='63' u='w' c='fileclose'/>
+<use f='codebrowser/file.c' l='68' u='w' c='fileclose'/>

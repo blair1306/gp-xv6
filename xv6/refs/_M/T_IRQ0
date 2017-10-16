@@ -1,0 +1,16 @@
+<dec f='codebrowser/traps.h' l='30'/>
+<use f='codebrowser/ioapic.c' l='65' u='c'/>
+<use f='codebrowser/ioapic.c' l='79' u='c'/>
+<use f='codebrowser/lapic.c' l='59' u='c'/>
+<use f='codebrowser/lapic.c' l='66' u='c'/>
+<use f='codebrowser/lapic.c' l='79' u='c'/>
+<use f='codebrowser/picirq.c' l='48' u='c'/>
+<use f='codebrowser/picirq.c' l='66' u='c'/>
+<use f='codebrowser/trap.c' l='50' u='c'/>
+<use f='codebrowser/trap.c' l='59' u='c'/>
+<use f='codebrowser/trap.c' l='63' u='c'/>
+<use f='codebrowser/trap.c' l='66' u='c'/>
+<use f='codebrowser/trap.c' l='70' u='c'/>
+<use f='codebrowser/trap.c' l='74' u='c'/>
+<use f='codebrowser/trap.c' l='75' u='c'/>
+<use f='codebrowser/trap.c' l='105' u='c'/>

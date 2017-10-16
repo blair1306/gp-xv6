@@ -1,0 +1,11 @@
+<dec f='codebrowser/user.h' l='30' type='char * strchr(const char * , char c)'/>
+<use f='codebrowser/grep.c' l='20' u='c' c='grep'/>
+<dec f='include/string.h' l='231' type='char * strchr(const char * __s, int __c)'/>
+<use f='codebrowser/sh.c' l='273' u='c' c='gettoken'/>
+<use f='codebrowser/sh.c' l='298' u='c' c='gettoken'/>
+<use f='codebrowser/sh.c' l='298' u='c' c='gettoken'/>
+<use f='codebrowser/sh.c' l='305' u='c' c='gettoken'/>
+<use f='codebrowser/sh.c' l='317' u='c' c='peek'/>
+<use f='codebrowser/sh.c' l='320' u='c' c='peek'/>
+<def f='codebrowser/ulib.c' l='43' ll='50' type='char * strchr(const char * s, char c)'/>
+<use f='codebrowser/wc.c' l='20' u='c' c='wc'/>

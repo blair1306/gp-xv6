@@ -1,0 +1,6 @@
+<dec f='codebrowser/buf.h' l='7' type='struct buf *'/>
+<offset>160</offset>
+<doc f='codebrowser/buf.h' l='7'>// disk queue</doc>
+<use f='codebrowser/ide.c' l='103' u='r' c='ideintr'/>
+<use f='codebrowser/ide.c' l='140' u='w' c='iderw'/>
+<use f='codebrowser/ide.c' l='141' u='a' c='iderw'/>

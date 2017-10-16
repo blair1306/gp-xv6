@@ -1,0 +1,18 @@
+<dec f='codebrowser/fs.h' l='49'/>
+<use f='codebrowser/fs.h' l='53' u='c'/>
+<doc f='codebrowser/fs.h' l='48'>// Directory is a file containing a sequence of dirent structures.</doc>
+<use f='codebrowser/fs.c' l='500' u='c'/>
+<use f='codebrowser/fs.c' l='553' u='c'/>
+<use f='codebrowser/fs.c' l='590' u='c'/>
+<use f='codebrowser/fs.c' l='591' u='c'/>
+<use f='codebrowser/fs.c' l='642' u='c'/>
+<use f='codebrowser/ls.c' l='9' u='c'/>
+<use f='codebrowser/ls.c' l='18' u='c'/>
+<use f='codebrowser/ls.c' l='21' u='c'/>
+<use f='codebrowser/ls.c' l='50' u='c'/>
+<use f='codebrowser/ls.c' l='60' u='c'/>
+<use f='codebrowser/ls.c' l='61' u='c'/>
+<use f='codebrowser/mkfs.c' l='134' u='c'/>
+<use f='codebrowser/sysfile.c' l='118' u='c'/>
+<use f='codebrowser/sysfile.c' l='184' u='c'/>
+<use f='codebrowser/sysfile.c' l='239' u='c'/>

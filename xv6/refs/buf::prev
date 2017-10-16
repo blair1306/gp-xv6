@@ -1,0 +1,13 @@
+<dec f='codebrowser/buf.h' l='5' type='struct buf *'/>
+<use f='codebrowser/bio.c' l='47' u='w' c='binit'/>
+<use f='codebrowser/bio.c' l='51' u='w' c='binit'/>
+<use f='codebrowser/bio.c' l='53' u='w' c='binit'/>
+<use f='codebrowser/bio.c' l='83' u='r' c='bget'/>
+<use f='codebrowser/bio.c' l='83' u='r' c='bget'/>
+<use f='codebrowser/bio.c' l='127' u='w' c='brelse'/>
+<use f='codebrowser/bio.c' l='127' u='r' c='brelse'/>
+<use f='codebrowser/bio.c' l='128' u='r' c='brelse'/>
+<use f='codebrowser/bio.c' l='130' u='w' c='brelse'/>
+<use f='codebrowser/bio.c' l='131' u='w' c='brelse'/>
+<offset>96</offset>
+<doc f='codebrowser/buf.h' l='5'>// LRU cache list</doc>

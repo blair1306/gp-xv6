@@ -1,0 +1,5 @@
+<dec f='codebrowser/syscall.c' l='97' type='int sys_unlink()'/>
+<use f='codebrowser/syscall.c' l='120' u='r'/>
+<use f='codebrowser/syscall.c' l='120' u='r'/>
+<def f='codebrowser/sysfile.c' l='179' ll='232' type='int sys_unlink()'/>
+<doc f='codebrowser/sysfile.c' l='178'>//PAGEBREAK!</doc>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/fs.h' l='53' type='char [14]'/>
+<offset>16</offset>
+<use f='codebrowser/fs.c' l='519' u='r' c='dirlookup'/>
+<use f='codebrowser/fs.c' l='553' u='r' c='dirlink'/>
+<use f='codebrowser/ls.c' l='60' u='r' c='ls'/>
+<use f='codebrowser/mkfs.c' l='107' u='r' c='main'/>
+<use f='codebrowser/mkfs.c' l='112' u='r' c='main'/>
+<use f='codebrowser/mkfs.c' l='134' u='r' c='main'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/elf.h' l='12' type='uint'/>
+<use f='codebrowser/bootmain.c' l='46' u='r' c='bootmain'/>
+<offset>192</offset>
+<use f='codebrowser/exec.c' l='89' u='r' c='exec'/>

@@ -1,0 +1,3 @@
+<def f='codebrowser/x86.h' l='141' ll='145' type='void lcr3(uint val)'/>
+<use f='codebrowser/vm.c' l='160' u='c' c='switchkvm'/>
+<use f='codebrowser/vm.c' l='175' u='c' c='switchuvm'/>

@@ -1,0 +1,3 @@
+<dec f='include/x86_64-linux-gnu/bits/environments.h' l='69'/>
+<doc f='include/x86_64-linux-gnu/bits/environments.h' l='67'>/* We have 32-bit wide `int&apos;, `long int&apos; and pointers and all platforms
+   support LFS.  -mx32 has 64-bit wide `off_t&apos;.  */</doc>

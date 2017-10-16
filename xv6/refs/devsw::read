@@ -1,0 +1,5 @@
+<dec f='codebrowser/file.h' l='32' type='int (*)(struct inode *, char *, int)'/>
+<use f='codebrowser/console.c' l='287' u='w' c='consoleinit'/>
+<offset>0</offset>
+<use f='codebrowser/fs.c' l='441' u='r' c='readi'/>
+<use f='codebrowser/fs.c' l='443' u='r' c='readi'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/usertests.c' l='1451' ll='1462' type='void validateint(int * p)'/>
+<use f='codebrowser/usertests.c' l='1476' u='c' c='validatetest'/>

@@ -1,0 +1,7 @@
+<def f='codebrowser/mkfs.c' l='36' ll='44' type='ushort xshort(ushort x)'/>
+<use f='codebrowser/mkfs.c' l='106' u='c' c='main'/>
+<use f='codebrowser/mkfs.c' l='111' u='c' c='main'/>
+<use f='codebrowser/mkfs.c' l='133' u='c' c='main'/>
+<use f='codebrowser/mkfs.c' l='221' u='c' c='ialloc'/>
+<use f='codebrowser/mkfs.c' l='222' u='c' c='ialloc'/>
+<doc f='codebrowser/mkfs.c' l='35'>// convert to intel byte order</doc>

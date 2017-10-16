@@ -1,0 +1,4 @@
+<dec f='codebrowser/defs.h' l='101' type='int pipewrite(struct pipe * , char * , int )'/>
+<use f='codebrowser/file.c' l='124' u='c' c='filewrite'/>
+<def f='codebrowser/pipe.c' l='77' ll='97' type='int pipewrite(struct pipe * p, char * addr, int n)'/>
+<doc f='codebrowser/pipe.c' l='76'>//PAGEBREAK: 40</doc>

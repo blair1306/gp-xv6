@@ -1,0 +1,4 @@
+<dec f='codebrowser/syscall.c' l='80' type='int sys_chdir()'/>
+<use f='codebrowser/syscall.c' l='111' u='r'/>
+<use f='codebrowser/syscall.c' l='111' u='r'/>
+<def f='codebrowser/sysfile.c' l='358' ll='375' type='int sys_chdir()'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/defs.h' l='41' type='void iinit()'/>
+<def f='codebrowser/fs.c' l='164' ll='168' type='void iinit()'/>
+<use f='codebrowser/main.c' l='34' u='c' c='main'/>

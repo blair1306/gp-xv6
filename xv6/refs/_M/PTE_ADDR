@@ -1,0 +1,8 @@
+<dec f='codebrowser/mmu.h' l='144'/>
+<doc f='codebrowser/mmu.h' l='143'>// Address in page table or page directory entry</doc>
+<use f='codebrowser/vm.c' l='53' u='c'/>
+<use f='codebrowser/vm.c' l='207' u='c'/>
+<use f='codebrowser/vm.c' l='264' u='c'/>
+<use f='codebrowser/vm.c' l='287' u='c'/>
+<use f='codebrowser/vm.c' l='324' u='c'/>
+<use f='codebrowser/vm.c' l='350' u='c'/>

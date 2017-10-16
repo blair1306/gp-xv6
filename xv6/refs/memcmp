@@ -1,0 +1,7 @@
+<dec f='codebrowser/defs.h' l='133' type='int memcmp(const void * , const void * , uint )'/>
+<doc f='codebrowser/defs.h' l='132'>// string.c</doc>
+<dec f='include/string.h' l='65' type='int memcmp(const void * __s1, const void * __s2, size_t __n)'/>
+<doc f='include/string.h' l='64'>/* Compare N bytes of S1 and S2.  */</doc>
+<use f='codebrowser/mp.c' l='46' u='c' c='mpsearch1'/>
+<use f='codebrowser/mp.c' l='89' u='c' c='mpconfig'/>
+<def f='codebrowser/string.c' l='15' ll='29' type='int memcmp(const void * v1, const void * v2, uint n)'/>

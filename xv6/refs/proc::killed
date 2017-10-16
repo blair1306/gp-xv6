@@ -1,0 +1,15 @@
+<dec f='codebrowser/proc.h' l='65' type='int'/>
+<use f='codebrowser/console.c' l='238' u='r' c='consoleread'/>
+<offset>288</offset>
+<doc f='codebrowser/proc.h' l='65'>// If non-zero, have been killed</doc>
+<use f='codebrowser/pipe.c' l='85' u='r' c='pipewrite'/>
+<use f='codebrowser/pipe.c' l='106' u='r' c='piperead'/>
+<use f='codebrowser/proc.c' l='232' u='w' c='wait'/>
+<use f='codebrowser/proc.c' l='239' u='r' c='wait'/>
+<use f='codebrowser/proc.c' l='410' u='w' c='kill'/>
+<use f='codebrowser/sysproc.c' l='69' u='r' c='sys_sleep'/>
+<use f='codebrowser/trap.c' l='40' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='44' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='94' u='w' c='trap'/>
+<use f='codebrowser/trap.c' l='100' u='r' c='trap'/>
+<use f='codebrowser/trap.c' l='109' u='r' c='trap'/>

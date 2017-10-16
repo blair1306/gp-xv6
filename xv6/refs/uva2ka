@@ -1,0 +1,5 @@
+<dec f='codebrowser/defs.h' l='168' type='char * uva2ka(pde_t * , char * )'/>
+<def f='codebrowser/vm.c' l='340' ll='351' type='char * uva2ka(pde_t * pgdir, char * uva)'/>
+<use f='codebrowser/vm.c' l='365' u='c' c='copyout'/>
+<doc f='codebrowser/vm.c' l='338'>//PAGEBREAK!
+// Map user virtual address to kernel address.</doc>
